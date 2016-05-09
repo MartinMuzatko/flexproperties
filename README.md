@@ -2,11 +2,14 @@
 :construction: Reviving the once pouplar angular material grid property system
 
 As demonstrated on their [official website](https://material.angularjs.org/latest/layout/children).
-Since flexbox, this is the greatest grid system that I have found so far. Every other grid system lacks very fundamental usage features.
+Since flexbox, this is the greatest grid systems that I have found so far. Every other grid system lacks very fundamental usage features.
 
 ## Why forking it?
 
-It is part of angular,
+The standalone flexgrid [was part of angular](https://github.com/angular/material/issues/7660#issuecomment-199440833), but was migrated to [bower-material](https://github.com/angular/bower-material/), which contains a [standalone build](https://github.com/angular/material/blob/master/src/core/style/layout.scss) now, which is not actively maintained unfortunately. Hence it contains lots of variables and functions not required for the grid.
+
+To continue providing a great flexgrid that can be used in any project, I created this repo 
+
 
 ## Current Flaws
 
