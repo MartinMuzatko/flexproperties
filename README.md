@@ -13,7 +13,7 @@ To continue providing a great flexgrid that can be used in any project, I create
 
 ## Current Flaws
 
- * [ ] No configurable breakpoints (amount and size
+ * [ ] No configurable breakpoints (amount and size)
  * [ ] Too much code output - selectors can be arranged more smartly
  * [ ] VendorPrefixes in the source code - this should be handled via build system
  * [ ] No configurable amount of flex steps ( 5-100 is the default, including 66 and 33)
