@@ -1,0 +1,24 @@
+{
+  "name": "flexproperties",
+  "version": "1.0.0",
+  "description": "Reviving the once pouplar angular material grid property system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinMuzatko/flexproperties.git"
+  },
+  "keywords": [
+    "flex",
+    "grid",
+    "css"
+  ],
+  "author": "MartinMuzatko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinMuzatko/flexproperties/issues"
+  },
+  "homepage": "https://github.com/MartinMuzatko/flexproperties#readme"
+}
