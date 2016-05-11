@@ -12,12 +12,12 @@ To continue providing a great flexgrid that can be used in any project but still
 
 ## Current Flaws
 
- * [ ] No configurable breakpoints (amount and size)
- * [ ] Too much code output - selectors can be arranged more smartly
- * [ ] VendorPrefixes in the source code - this should be handled via build system
+ * [ ] No configurable breakpoints (amount, less breakpoints -> less code)
+ * [ ] Too much code output - smarter way to arrange layout-aligns 
+ * [ ] VendorPrefixes in the source code - this should be handled via build system (autoprefixer)
  * [ ] No configurable amount of flex steps ( 5-100 is the default, including 66 and 33)
  * [ ] No configurable orders (-20 to 20 is the current default)
- * [ ] No build setup
+ * [ ] No build setup - we want to generate css that can be prefixed and minimized
 
 I'll fix these issues. For now, you can grab the cleaned up [flex-grid.sass file here](https://github.com/MartinMuzatko/flexproperties/blob/master/src/flex-grid.sass).
 
