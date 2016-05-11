@@ -1,8 +1,8 @@
 # flexproperties
-:construction: Reviving the once pouplar angular material grid property system
+:construction: Reviving the once pouplar angular material grid property framework.
 
 As demonstrated on their [official website](https://material.angularjs.org/latest/layout/children).
-Since flexbox, this is the greatest grid systems that I have found so far. Every other grid system lacks very fundamental usage features.
+Since flexbox, this is the greatest grid framework/library that I have found so far. Every other flexbox grid framework lacks very fundamental usage features.
 
 ## Why forking it?
 
