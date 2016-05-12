@@ -5,9 +5,8 @@ As demonstrated on their [official website](https://material.angularjs.org/lates
 Since flexbox, this is the greatest grid framework/library that I have found so far. Every other flexbox grid framework lacks very fundamental usage features.
 
 Currently, I'm looking to improve on the code output (smart selectors)
-I made a codepen to showcase all different layout-align scenarios.
+I made a codepen to showcase all different layout-align scenarios with the reduced code.
 * [Default Style](http://codepen.io/MartinMuzatko/full/BKbgOQ/)
-* [Reduced with $ and ^ Properties (less code)](http://codepen.io/MartinMuzatko/full/BKbgPQ/)
 
 
 ## Why forking it?
