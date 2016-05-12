@@ -211,59 +211,41 @@ $flex-steps: (100 / $flex-step);
         $name: 'layout-align-#{$suffix}';
     }
 
-    [#{$name}],
-    [#{$name}="start stretch"] // defaults
+    // Default
+    [#{$name}]
     {
         justify-content :flex-start;
         align-content : stretch;
         align-items: stretch;
+        box-sizing: border-box;
     }
+    
     // Main Axis Center
-    [#{$name}="start"],
-    [#{$name}="start start"],
-    [#{$name}="start center"],
-    [#{$name}="start end"],
-    [#{$name}="start stretch"]
+    [#{$name}^="start"]
     {
         justify-content: flex-start;
     }
 
     // Main Axis Center
-    [#{$name}="center"],
-    [#{$name}="center start"],
-    [#{$name}="center center"],
-    [#{$name}="center end"],
-    [#{$name}="center stretch"]
+    [#{$name}^="center"]
     {
         justify-content: center;
     }
 
     // Main Axis End
-    [#{$name}="end"], //stretch
-    [#{$name}="end center"],
-    [#{$name}="end start"],
-    [#{$name}="end end"],
-    [#{$name}="end stretch"]
+    [#{$name}^="end"]
     {
         justify-content: flex-end;
     }
 
     // Main Axis Space Around
-    [#{$name}="space-around"], //stretch
-    [#{$name}="space-around center"],
-    [#{$name}="space-around start"],
-    [#{$name}="space-around end"],
-    [#{$name}="space-around stretch"]
+    [#{$name}^="space-around"]
     {
         justify-content: space-around;
     }
 
     // Main Axis Space Between
-    [#{$name}="space-between"], //stretch
-    [#{$name}="space-between center"],
-    [#{$name}="space-between start"],
-    [#{$name}="space-between end"],
-    [#{$name}="space-between stretch"]
+    [#{$name}^="space-between"]
     {
         justify-content: space-between;
     }
@@ -275,22 +257,14 @@ $flex-steps: (100 / $flex-step);
     // ------------------------------
 
     // Cross Axis Start
-    [#{$name}="start start"],
-    [#{$name}="center start"],
-    [#{$name}="end start"],
-    [#{$name}="space-between start"],
-    [#{$name}="space-around start"]
+    [#{$name}$="start"]
     {
         align-items: flex-start;
         align-content: flex-start;
     }
 
     // Cross Axis Center
-    [#{$name}="start center"],
-    [#{$name}="center center"],
-    [#{$name}="end center"],
-    [#{$name}="space-between center"],
-    [#{$name}="space-around center"]
+    [#{$name}$="center"],
     {
         align-items: center;
         align-content: center;
@@ -298,35 +272,26 @@ $flex-steps: (100 / $flex-step);
     }
 
     // Cross Axis Center IE overflow fix
-    [#{$name}="start center"] > *,
-    [#{$name}="center center"] > *,
-    [#{$name}="end center"] > *,
-    [#{$name}="space-between center"] > *,
-    [#{$name}="space-around center"] > *
+    [#{$name}$="center"] > *
     {
         max-width: 100%;
     }
 
     // Cross Axis End
-    [#{$name}="start end"],
-    [#{$name}="center end"],
-    [#{$name}="end end"],
-    [#{$name}="space-between end"],
-    [#{$name}="space-around end"]
+    [#{$name}$="end"]
     {
         align-items: flex-end;
         align-content: flex-end;
     }
 
-    // Cross Axis  stretch
-    [#{$name}="start stretch"],
-    [#{$name}="center stretch"],
-    [#{$name}="end stretch"],
-    [#{$name}="space-between stretch"],
-    [#{$name}="space-around stretch"]
+    [#{$name}="start"],
+    [#{$name}="end"],
+    [#{$name}="center"],
+    [#{$name}="space-around"],
+    [#{$name}="space-between"]
     {
         align-items: stretch;
-        align-content: stretch;
+        align-content : stretch;
     }
 }
 
@@ -408,6 +373,7 @@ $flex-steps: (100 / $flex-step);
             display: none;
         }
     }
+
     [hide-sm]:not([show-gt-xs]):not([show-sm]):not([show]) {
         display: none;
     }
