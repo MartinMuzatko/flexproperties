@@ -19,7 +19,7 @@ To continue providing a great flexgrid that can be used in any project but still
 ## Current Flaws
 
  * [ ] No configurable breakpoints (amount, less breakpoints -> less code)
- * [ ] Too much code output - smarter way to arrange layout-aligns 
+ * [x] Too much code output - smarter way to arrange layout-aligns 
  * [ ] VendorPrefixes in the source code - this should be handled via build system (autoprefixer)
  * [ ] No configurable amount of flex steps ( 5-100 is the default, including 66 and 33)
  * [ ] No configurable orders (-20 to 20 is the current default)
