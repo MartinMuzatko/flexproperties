@@ -99,6 +99,8 @@ $flex-steps: (100 / $flex-step);
 
     [layout#{$name}] {
         display: flex;
+    }
+    [layout#{$name}] > * {
         box-sizing: border-box;
     }
     [layout#{$name}="column"] {  flex-direction: column;  }
@@ -133,11 +135,11 @@ $flex-steps: (100 / $flex-step);
 
     [#{$flexName}-start]       { margin-bottom: auto; }
     [#{$flexName}-end]         { margin-top: auto; }
-    [#{$flexName}-none]        { flex: 0 0 auto;  box-sizing: border-box; }
-    [#{$flexName}-initial]     { flex: 0 1 auto;  box-sizing: border-box; }
-    [#{$flexName}-noshrink]    { flex: 1 0 auto;  box-sizing: border-box; }
-    [#{$flexName}-auto]        { flex: 1 1 auto;  box-sizing: border-box; }
-    [#{$flexName}-grow]        { flex: 1 1 100%;  box-sizing: border-box; }
+    [#{$flexName}-none]        { flex: 0 0 auto; }
+    [#{$flexName}-initial]     { flex: 0 1 auto; }
+    [#{$flexName}-noshrink]    { flex: 1 0 auto; }
+    [#{$flexName}-auto]        { flex: 1 1 auto; }
+    [#{$flexName}-grow]        { flex: 1 1 100%; }
 
     // (1-20) * $flex-step = 0-100%
 
@@ -217,9 +219,8 @@ $flex-steps: (100 / $flex-step);
         justify-content :flex-start;
         align-content : stretch;
         align-items: stretch;
-        box-sizing: border-box;
     }
-    
+
     // Main Axis Center
     [#{$name}^="start"]
     {
