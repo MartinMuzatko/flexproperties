@@ -5,17 +5,15 @@ As demonstrated on their [official website](https://material.angularjs.org/lates
 Since flexbox, this is the greatest grid framework/library that I have found so far. Every other flexbox grid framework lacks very fundamental usage features.
 
 Currently, I'm looking to improve on the code output (smart selectors)
-I made a codepen to showcase all different layout-align scenarios with the reduced code.
-* [Default Style](http://codepen.io/MartinMuzatko/full/BKbgOQ/)
-
+I created a [codepen](http://codepen.io/MartinMuzatko/full/BKbgOQ/) to showcase all different layout-align scenarios with the reduced code.
 
 ## Why forking it?
 
 The standalone flexgrid [was part of angular](https://github.com/angular/material/issues/7660#issuecomment-199440833), but was migrated to [bower-material](https://github.com/angular/bower-material/), which contains a [standalone build](https://github.com/angular/material/blob/master/src/core/style/layout.scss). The grid is not actively maintained unfortunately - at least they [don't](https://github.com/angular/bower-material/pull/33#issuecomment-174316983) [allow](https://github.com/angular/bower-material/pull/34#issuecomment-218363943) [PRs](https://github.com/angular/bower-material/pulls?q=is%3Apr+is%3Aclosed) from the community to improve the source. Hence it contains lots of variables and functions not required for the grid.
 
-To continue providing a great flexgrid that can be used in any project but still be adaptable to **your** needs, I created this repository.
+To continue providing a great flexgrid that can be used in any project but still be adaptable to **your** needs, I created this repository. Since the improvements I propose are out of the scope of the original project, I decided to improve it on my own.
 
-## Current Flaws
+## Current Flaws - What has been fixed so far
 
  * [ ] No configurable breakpoints (amount, less breakpoints -> less code)
  * [x] Too much code output - smarter way to arrange layout-aligns 
