@@ -17,7 +17,7 @@ To continue providing a great flexgrid that can be used in any project but still
 
  * [ ] No configurable breakpoints (amount, less breakpoints -> less code)
  * [x] Too much code output - smarter way to arrange layout-aligns 
- * [ ] VendorPrefixes in the source code - this should be handled via build system (autoprefixer)
+ * [x] VendorPrefixes in the source code - this should be handled via build system (autoprefixer)
  * [ ] No configurable amount of flex steps ( 5-100 is the default, including 66 and 33)
  * [ ] No configurable orders (-20 to 20 is the current default)
  * [ ] No build setup - we want to generate css that can be prefixed and minimized
