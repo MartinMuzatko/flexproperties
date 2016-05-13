@@ -19,10 +19,13 @@ To continue providing a great flexgrid that can be used in any project but still
  * [x] Too much code output - smarter way to arrange layout-aligns 
  * [x] VendorPrefixes in the source code - this should be handled via build system (autoprefixer)
  * [ ] No configurable amount of flex steps ( 5-100 is the default, including 66 and 33)
- * [ ] No configurable orders (-20 to 20 is the current default)
+ * [x] No configurable orders (-20 to 20 is the current default)
  * [ ] No build setup - we want to generate css that can be prefixed and minimized
+ * [ ] Breakpoints in mixin `layout-padding-margin` are manually created
 
 I'll fix these issues. For now, you can grab the cleaned up [flex-grid.sass file here](https://github.com/MartinMuzatko/flexproperties/blob/master/src/flex-grid.sass).
+
+So far, I reduced 80 lines from the original source but still keep the original behavior
 
 ## Disclaimer
 
