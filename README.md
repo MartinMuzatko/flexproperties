@@ -27,6 +27,49 @@ I'll fix these issues. For now, you can grab the cleaned up [flex-grid.sass file
 
 So far, I reduced 80 lines from the original source but still keep the original behavior
 
+## Currently WIP: Breakpoints mixin
+
+Currently, media queries are added manually for each breakpoint.
+I want it to be more configurable.
+
+```sass
+$breakpoints: (
+    (sm, 600px)
+    (md, 960px)
+    (lg, 1200px)
+);
+
+@each $label, $value in $breakpoints {
+    $first: nth($breakpoints, 1);
+    $last: nth($breakpoints, length($breakpoints));
+    $index: index($breakpoints, ($label, $value));
+    /* #{$label} - I: #{$index} */
+        
+    @if $label == nth($first, 1) {
+        @media (max-width: $value - 1) {
+            body {
+                content: $label;
+            }
+        }
+
+    } @else {
+          @media (min-width: nth(nth($breakpoints, $index - 1), 2) ) and (max-width: $value - 1) {
+            body {
+                content: $label;
+            }
+        }
+    }
+
+        @media (min-width: $value) {
+          body {
+            content: "gt-#{$label}";
+          }
+        }
+}
+
+
+```
+
 ## Disclaimer
 
 The original Source Code belongs to [Angular](https://github.com/angular) licensed as [MIT](https://github.com/angular/bower-material/blob/master/LICENSE)
