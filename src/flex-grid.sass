@@ -159,13 +159,9 @@ $flex-steps: (100 / $flex-step);
     @for $i from 1 through 20 {
         $value : #{$i * $flex-step + '%'};
 
-        [#{$flexName}="#{$i * $flex-step}"] {
-            flex: 1 1 #{$value};
-            max-width: #{$value};
-        }
-
         [layout="row"] > [#{$flexName}="#{$i * $flex-step}"],
-        [layout#{$name}="row"] > [#{$flexName}="#{$i * $flex-step}"] {
+        [layout#{$name}="row"] > [#{$flexName}="#{$i * $flex-step}"],
+        [#{$flexName}="#{$i * $flex-step}"] {
             flex: 1 1 #{$value};
             max-width: #{$value};
         }
