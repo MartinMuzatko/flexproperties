@@ -41,9 +41,6 @@ Comparing the output of the cleaned standalone version of angular material again
 | Lines - Total | 6644 | 4043 |
 | Lines - Per Breakpoint (sm, gt-sm) | ~1645  | 1150 |
 
-**Original**: https://gist.github.com/MartinMuzatko/5b9f675d41e72f56f3446935d3a8ca86
-**Updated**:
-
 ## Currently WIP: Breakpoints mixin
 
 Currently, media queries are added manually for each breakpoint.
