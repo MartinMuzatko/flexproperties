@@ -27,10 +27,11 @@ To continue providing a great flexgrid that can be used in any project but still
 
 I'll fix these issues. For now, you can grab the cleaned up [flex-grid.sass file here](https://github.com/MartinMuzatko/flexproperties/blob/master/src/flex-grid.sass).
 
-## Performance - Smaller size
+## Performance - Comparison
 
-Comparing my changes with the original framework, I saw that many rules can be merged or reduced. Vendor Prefixes can be added through further build steps.
+Looking at the original framework, I saw that many rules can be merged or reduced. 
 
+Comparison Rules
 The comparison is made with 3 breakpoints instead of 5 with the same amount of offsets, flex steps etc.
 
 Comparing the output of the cleaned standalone version of angular material against my version (with the same behavior):
@@ -40,49 +41,8 @@ Comparing the output of the cleaned standalone version of angular material again
 | Url | [Gist](https://gist.github.com/MartinMuzatko/5b9f675d41e72f56f3446935d3a8ca86) | [Gist](https://gist.github.com/MartinMuzatko/ed9877462232d65b366a598394da453c) |
 | Lines - Total | 6644 | 4043 |
 | Lines - Per Breakpoint (sm, gt-sm) | ~1645  | 1150 |
+| Filesize (minified) | 90.7kb | 55.1kb |
 
-## Currently WIP: Breakpoints mixin
-
-Currently, media queries are added manually for each breakpoint.
-I want it to be more configurable.
-
-```sass
-$breakpoints: (
-    (sm, 600px)
-    (md, 960px)
-    (lg, 1200px)
-);
-
-@each $label, $value in $breakpoints {
-    $first: nth($breakpoints, 1);
-    $last: nth($breakpoints, length($breakpoints));
-    $index: index($breakpoints, ($label, $value));
-    /* #{$label} - I: #{$index} */
-        
-    @if $label == nth($first, 1) {
-        @media (max-width: $value - 1) {
-            body {
-                content: $label;
-            }
-        }
-
-    } @else {
-          @media (min-width: nth(nth($breakpoints, $index - 1), 2) ) and (max-width: $value - 1) {
-            body {
-                content: $label;
-            }
-        }
-    }
-
-        @media (min-width: $value) {
-          body {
-            content: "gt-#{$label}";
-          }
-        }
-}
-
-
-```
 
 ## Disclaimer
 
