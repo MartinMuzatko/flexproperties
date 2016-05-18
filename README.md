@@ -31,10 +31,14 @@ I'll fix these issues. For now, you can grab the cleaned up [flex-grid.sass file
 
 Looking at the original framework, I saw that many rules can be merged or reduced. 
 
-Comparison Rules
-The comparison is made with 3 breakpoints instead of 5 with the same amount of offsets, flex steps etc.
+**Comparison Rules**
+The comparison is made with 
+* 3 breakpoints instead of 5 
+* Same amount of offsets, flex steps etc.
+* No vendor prefixes
+* same end result in terms of behavior
 
-Comparing the output of the cleaned standalone version of angular material against my version (with the same behavior):
+Comparing the CSS output of the cleaned standalone version of angular material against my version:
 
 | Comparison | Original | Updated |
 | --- | --- | --- |
