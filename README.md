@@ -15,17 +15,34 @@ To continue providing a great flexgrid that can be used in any project but still
 
 ## Current Flaws - What has been fixed so far
 
- * [ ] No configurable breakpoints (amount, less breakpoints -> less code)
+ * [x] No configurable breakpoints (amount, less breakpoints -> less code)
  * [x] Too much code output - smarter way to arrange layout-aligns 
  * [x] VendorPrefixes in the source code - this should be handled via build system (autoprefixer)
- * [ ] No configurable amount of flex steps ( 5-100 is the default, including 66 and 33)
+ * [x] No configurable amount of flex steps ( 5-100 is the default, including 66 and 33)
  * [x] No configurable orders (-20 to 20 is the current default)
  * [ ] No build setup - we want to generate css that can be prefixed and minimized
- * [ ] Breakpoints in mixin `layout-padding-margin` are manually created
+ * [ ] mixin `layout-padding-margin` uses properties that do not exist ([flex-lt-md] e.g.)
+ * [ ] hide/show for breakpoints is manually written
+ * [x] Too much output - Many CSS rules can be reduced or merged
 
 I'll fix these issues. For now, you can grab the cleaned up [flex-grid.sass file here](https://github.com/MartinMuzatko/flexproperties/blob/master/src/flex-grid.sass).
 
-So far, I reduced 80 lines from the original source but still keep the original behavior
+## Performance - Smaller size
+
+Comparing my changes with the original framework, I saw that many rules can be merged or reduced. Vendor Prefixes can be added through further build steps.
+
+The comparison is made with 3 breakpoints instead of 5 with the same amount of offsets, flex steps etc.
+
+Comparing the output of the cleaned standalone version of angular material against my version (with the same behavior):
+
+| Comparison | Original | Updated |
+| --- | --- | --- |
+| Url | [Gist](https://gist.github.com/MartinMuzatko/5b9f675d41e72f56f3446935d3a8ca86) | [Gist](https://gist.github.com/MartinMuzatko/ed9877462232d65b366a598394da453c) |
+| Lines - Total | 6644 | 4043 |
+| Lines - Per Breakpoint (sm, gt-sm) | ~1645  | 1150 |
+
+**Original**: https://gist.github.com/MartinMuzatko/5b9f675d41e72f56f3446935d3a8ca86
+**Updated**:
 
 ## Currently WIP: Breakpoints mixin
 
