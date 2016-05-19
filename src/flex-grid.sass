@@ -1,22 +1,22 @@
-$layout-gutter-width:      1em;
-$layout-breakpoint-sm:     600px;
-$layout-breakpoint-md:     960px;
-$layout-breakpoint-lg:     1200px;
+$breakpoints: (
+    (sm, 600px)
+    (md, 960px)
+    (lg, 1200px)
+);
+
+$layout-gutter-width: 1em;
 
 $flex-step: 5;
 $flex-steps: (100 / $flex-step);
 
-/*
- *  Responsive attributes
- *
- *  References:
- *  1) https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties#flex
- *  2) https://css-tricks.com/almanac/properties/f/flex/
- *  3) https://css-tricks.com/snippets/css/a-guide-to-flexbox/
- *  4) https://github.com/philipwalton/flexbugs#3-min-height-on-a-flex-container-wont-apply-to-its-flex-items
- *  5) http://godban.com.ua/projects/flexgrid
- *
- */
+//  Responsive attributes
+//
+//  References:
+//  1) https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties#flex
+//  2) https://css-tricks.com/almanac/properties/f/flex/
+//  3) https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+//  4) https://github.com/philipwalton/flexbugs#3-min-height-on-a-flex-container-wont-apply-to-its-flex-items
+//  5) http://godban.com.ua/projects/flexgrid
 
 @mixin flex-order-for-name($sizes:null) {
     @if $sizes == null {
@@ -193,7 +193,6 @@ $flex-steps: (100 / $flex-step);
             max-height: 66.66%;
         }
     }
-
 }
 
 @mixin layout-align-for-name($suffix: null) {
@@ -337,7 +336,7 @@ $flex-steps: (100 / $flex-step);
     }
 }
 
-@mixin layouts_for_breakpoint($name:null) {
+@mixin layouts-for-breakpoint($name:null) {
     @include offset-for-name($name);
     @include layout-align-for-name($name);
     @include flex-order-for-name($name);
@@ -346,83 +345,31 @@ $flex-steps: (100 / $flex-step);
     @include layout-for-name($name);
 }
 
-/*
- *  Apply Mixins to create Layout/Flexbox styles
- *
- */
+@mixin media-layouts() {
+    @each $label, $value in $breakpoints {
+        $first: nth($breakpoints, 1);
+        $index: index($breakpoints, ($label, $value));
+        /* #{$label} */
+
+        @if $label == nth($first, 1) {
+            @media (max-width: $value - 1) {
+                @include layouts_for_breakpoint($label);
+            }
+
+        } @else {
+            @media (min-width: nth(nth($breakpoints, $index - 1), 2) ) and (max-width: $value - 1) {
+                @include layouts_for_breakpoint($label);
+            }
+        }
+
+        @media (min-width: $value) {
+            @include layouts_for_breakpoint("gt-#{$label}");
+        }
+    }
+}
 
 @include layout-padding-margin-wrap();
-@include layouts_for_breakpoint();
-
-
-/**
- * `hide-gt-sm show-gt-lg` should hide from 600px to 1200px
- * `show-md hide-gt-sm` should show from 0px to 960px and hide at >960px
- * `hide-gt-md show-gt-sm` should show everywhere (show overrides hide)`
- *  hide means hide everywhere
- */
-
-
-@media (max-width: $layout-breakpoint-sm - 1) {
-    // SMALL SCREEN
-    [hide], [hide-gt-xs] {
-        &:not([show-gt-xs]):not([show-sm]):not([show]) {
-            display: none;
-        }
-    }
-
-    [hide-sm]:not([show-gt-xs]):not([show-sm]):not([show]) {
-        display: none;
-    }
-    @include layouts_for_breakpoint(sm);
-}
-
-@media (min-width: $layout-breakpoint-sm) {
-    // BIGGER THAN SMALL SCREEN
-    @include layouts_for_breakpoint(gt-sm);
-
-}
-
-@media (min-width: $layout-breakpoint-sm) and (max-width: $layout-breakpoint-md - 1) {
-    // MEDIUM SCREEN
-    [hide], [hide-gt-xs], [hide-gt-sm] {
-        &:not([show-gt-xs]):not([show-gt-sm]):not([show-md]):not([show]) {
-            display: none;
-        }
-    }
-    [hide-md]:not([show-md]):not([show]) {
-        display: none;
-    }
-    @include layouts_for_breakpoint(md);
-}
-
-@media (min-width: $layout-breakpoint-md) {
-    // BIGGER THAN MEDIUM SCREEN
-    @include layouts_for_breakpoint(gt-md);
-}
-
-@media (min-width: $layout-breakpoint-md) and (max-width: $layout-breakpoint-lg - 1) {
-    // LARGE SCREEN
-    [hide],[hide-gt-xs], [hide-gt-sm], [hide-gt-md] {
-        &:not([show-gt-xs]):not([show-gt-sm]):not([show-gt-md]):not([show-lg]):not([show]) {
-            display: none;
-        }
-    }
-    [hide-lg]:not([show-lg]):not([show]) {
-        display: none;
-    }
-
-    @include layouts_for_breakpoint(lg);
-}
-
-@media (min-width: $layout-breakpoint-lg) {
-    // BIGGER THAN LARGE SCREEN
-    @include layouts_for_breakpoint(gt-lg);
-
-    // BIGGER THAN LARGE SCREEN
-    [hide], [hide-gt-xs], [hide-gt-sm], [hide-gt-md], [hide-gt-lg] {
-        &:not([show-gt-xs]):not([show-gt-sm]):not([show-gt-md]):not([show-gt-lg]):not([show]) {
-            display: none;
-        }
-    }
-}
+/* GENERIC LAYOUTS */
+@include layouts-for-breakpoint();
+/* RESPONSIVE LAYOUTS */
+@include media-layouts();
