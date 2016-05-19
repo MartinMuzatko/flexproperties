@@ -33,8 +33,8 @@ Looking at the original framework, I saw that many rules can be merged or reduce
 
 **Comparison Rules**
 The comparison is made with 
-* 3 breakpoints instead of 5 
-* Same amount of offsets, flex steps etc.
+* 3 breakpoints
+* Same amount of offsets (20), flex steps (20) etc.
 * No vendor prefixes
 * same end result in terms of behavior
 
@@ -46,7 +46,6 @@ Comparing the CSS output of the cleaned standalone version of angular material a
 | Lines - Total | 6644 | 4043 |
 | Lines - Per Breakpoint (sm, gt-sm) | ~1645  | 1150 |
 | Filesize (minified) | 90.7kb | 55.1kb |
-
 
 ## Disclaimer
 
