@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/MartinMuzatko/flexproperties/issues"
   },
-  "homepage": "https://github.com/MartinMuzatko/flexproperties#readme"
+  "homepage": "https://github.com/MartinMuzatko/flexproperties#readme",
+  "devDependencies": {
+    "node-sass": "^3.7.0",
+    "postcss-loader": "^0.9.1",
+    "sass-loader": "^3.2.0",
+    "webpack": "^1.13.1",
+    "webpack-init": "0.0.4"
+  }
 }
