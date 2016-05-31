@@ -18,7 +18,7 @@ $flex-steps: (100 / $flex-step);
 //  4) https://github.com/philipwalton/flexbugs#3-min-height-on-a-flex-container-wont-apply-to-its-flex-items
 //  5) http://godban.com.ua/projects/flexgrid
 
-@mixin flex-order-for-name($sizes:null) {
+@mixin order-for-name($sizes:null) {
     @if $sizes == null {
         $sizes : '';
 
@@ -107,7 +107,7 @@ $flex-steps: (100 / $flex-step);
     [layout#{$name}="row"]    {  flex-direction: row;     }
 }
 
-@mixin flex-properties-for-name($name: null) {
+@mixin flex-for-name($name: null) {
     $flexName: 'flex';
     @if $name != null {
         $flexName: 'flex-#{$name}';
@@ -337,12 +337,16 @@ $flex-steps: (100 / $flex-step);
 }
 
 @mixin layouts-for-breakpoint($name:null) {
+    // flex-offset="50"
     @include offset-for-name($name);
-    @include layout-align-for-name($name);
-    @include flex-order-for-name($name);
-
-    @include flex-properties-for-name($name);
+    // flex-order="2"
+    @include order-for-name($name);
+    // layout="row"
     @include layout-for-name($name);
+    // layout-align="center center"
+    @include layout-align-for-name($name);
+    // flex="50"
+    @include flex-for-name($name);
 }
 
 @mixin media-layouts() {
