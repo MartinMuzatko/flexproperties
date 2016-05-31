@@ -373,7 +373,11 @@ $flex-steps: (100 / $flex-step);
 }
 
 @include layout-padding-margin-wrap();
+
 /* GENERIC LAYOUTS */
 @include layouts-for-breakpoint();
-/* RESPONSIVE LAYOUTS */
-@include media-layouts();
+
+@if variable-exists(breakpoints) {
+    /* RESPONSIVE LAYOUTS */
+    @include media-layouts();
+}
