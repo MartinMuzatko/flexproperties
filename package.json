@@ -22,10 +22,9 @@
   },
   "homepage": "https://github.com/MartinMuzatko/flexproperties#readme",
   "devDependencies": {
+    "autoprefixer": "^6.3.6",
     "node-sass": "^3.7.0",
-    "postcss-loader": "^0.9.1",
+    "postcss": "^5.0.21",
     "sass-loader": "^3.2.0",
-    "webpack": "^1.13.1",
-    "webpack-init": "0.0.4"
   }
 }
