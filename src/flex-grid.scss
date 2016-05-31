@@ -353,7 +353,7 @@ $flex-steps: (100 / $flex-step);
     @each $label, $value in $breakpoints {
         $first: nth($breakpoints, 1);
         $index: index($breakpoints, ($label, $value));
-        /* #{$label} */
+        /* BREAKPOINT #{$label} - #{$value} */
 
         @if $label == nth($first, 1) {
             @media (max-width: $value - 1) {
