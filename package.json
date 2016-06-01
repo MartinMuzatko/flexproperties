@@ -4,7 +4,7 @@
   "description": "Reviving the once pouplar angular material grid property system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nodejs index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,6 @@
     "autoprefixer": "^6.3.6",
     "node-sass": "^3.7.0",
     "postcss": "^5.0.21",
-    "sass-loader": "^3.2.0",
+    "sass-loader": "^3.2.0"
   }
 }
