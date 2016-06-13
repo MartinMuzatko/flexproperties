@@ -99,6 +99,7 @@ $flex-steps: (100 / $flex-step);
 
     [layout#{$name}] {
         display: flex;
+        flex-wrap: wrap;
     }
     [layout#{$name}] > * {
         box-sizing: border-box;
@@ -147,13 +148,11 @@ $flex-steps: (100 / $flex-step);
     [layout="row"] > [#{$flexName}],
     [layout#{$name}="row"] > [#{$flexName}], {
         max-height: 100%;
-        flex-wrap: wrap;
     }
 
     [layout#{$name}="column"] > [#{$flexName}],
     [layout="column"] > [#{$flexName}] {
         max-width: 100%;
-        flex-wrap: wrap;
     }
 
     @for $i from 1 through 20 {
