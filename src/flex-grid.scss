@@ -333,8 +333,6 @@ $flex-steps: (100 / $flex-step);
 }
 
 @mixin layouts-for-breakpoint($name:null) {
-    // flex-offset="50"
-    @include offset-for-name($name);
     // flex-order="2"
     @include order-for-name($name);
     // layout="row"
@@ -368,12 +366,13 @@ $flex-steps: (100 / $flex-step);
     }
 }
 
-@include layout-padding-margin-wrap();
-
 /* GENERIC LAYOUTS */
 @include layouts-for-breakpoint();
+@include offset-for-name(null);
 
 @if variable-exists(breakpoints) {
     /* RESPONSIVE LAYOUTS */
     @include media-layouts();
 }
+
+@include layout-padding-margin-wrap();
