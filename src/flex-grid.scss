@@ -343,6 +343,15 @@ $flex-steps: (100 / $flex-step);
     }
 }
 
+@mixin visibility-for-name($name: null) {
+    @if $name == null { $name : '';          }
+    @if $name != ''   { $name : '-#{$name}'; }
+
+    [hide#{$name}] {
+        display: none;
+    }
+}
+
 @mixin layouts-for-breakpoint($name:null) {
     // flex-order="2"
     @include order-for-name($name);
@@ -352,6 +361,8 @@ $flex-steps: (100 / $flex-step);
     @include layout-align-for-name($name);
     // flex="50"
     @include flex-for-name($name);
+    // hide / show
+    @include visibility-for-name($name);
 }
 
 @mixin media-layouts() {
@@ -378,8 +389,8 @@ $flex-steps: (100 / $flex-step);
 }
 
 /* GENERIC LAYOUTS */
+@include offset-for-name();
 @include layouts-for-breakpoint();
-@include offset-for-name(null);
 
 @if variable-exists(breakpoints) {
     /* RESPONSIVE LAYOUTS */
