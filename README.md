@@ -16,23 +16,29 @@ To continue providing a great flexgrid that can be used in any project but still
 ## Current Flaws - What has been fixed so far
 
  * [x] No configurable breakpoints (amount, less breakpoints -> less code)
- * [x] Too much code output - smarter way to arrange layout-aligns 
+ * [x] Too much code output - smarter way to arrange layout-aligns
  * [x] VendorPrefixes in the source code - this should be handled via build system (autoprefixer)
  * [x] No configurable amount of flex steps ( 5-100 is the default, including 66 and 33)
  * [x] No configurable orders (-20 to 20 is the current default)
- * [ ] No build setup - we want to generate css that can be prefixed and minimized
- * [ ] mixin `layout-padding-margin` uses properties that do not exist ([flex-lt-md] e.g.)
- * [ ] hide/show for breakpoints is manually written
+ * [x] No build setup - we want to generate css that can be prefixed and minimized
+ * [x] mixin `layout-padding-margin` uses properties that do not exist ([flex-lt-md] e.g.)
+ * [x] hide/show for breakpoints is manually written
  * [x] Too much output - Many CSS rules can be reduced or merged
 
 I'll fix these issues. For now, you can grab the cleaned up [flex-grid.sass file here](https://github.com/MartinMuzatko/flexproperties/blob/master/src/flex-grid.sass).
 
+### Whats next?
+
+I'm [creating an online build tool](https://martinmuzatko.github.io/flexmaid/), that lets you interactively choose features you want for your own breakpoints. Flexgrid outputs a lot of rules (see comparison below). Sometimes, you won't need `flex-offset` for every breakpoint. While the SASS file is already very powerful to do that, a tool has to be created for that.
+
+https://martinmuzatko.github.io/flexmaid/
+
 ## Performance - Comparison
 
-Looking at the original framework, I saw that many rules can be merged or reduced. 
+Looking at the original framework, I saw that many rules can be merged or reduced.
 
 **Comparison Rules**
-The comparison is made with 
+The comparison is made with
 * 3 breakpoints
 * Same amount of offsets (20), flex steps (20) etc.
 * No vendor prefixes
@@ -50,3 +56,5 @@ Comparing the CSS output of the cleaned standalone version of angular material a
 ## Disclaimer
 
 The original Source Code belongs to [Angular](https://github.com/angular) licensed as [MIT](https://github.com/angular/bower-material/blob/master/LICENSE)
+
+Since forking from Angular, I heavily optimized and adapted flex-grid to serve as general purpose layout framework.
