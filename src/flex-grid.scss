@@ -2,14 +2,14 @@ $breakpoints: (
     (sm, 600px)
     (md, 960px)
     (lg, 1200px)
-);
+) !default;
 
-$ie: false;
+$ie: false !default;
 
-$layout-gutter-width: 1em;
+$layout-gutter-width: 1em !default;
 
-$flex-step: 5;
-$flex-steps: (100 / $flex-step);
+$flex-step: 5 !default;
+$flex-steps: (100 / $flex-step) !default;
 
 //  Responsive attributes
 //
