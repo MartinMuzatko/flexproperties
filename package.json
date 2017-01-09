@@ -20,7 +20,8 @@
   "bugs": {
     "url": "https://github.com/MartinMuzatko/flexproperties/issues"
   },
-  "homepage": "https://github.com/MartinMuzatko/flexproperties#readme",
+  "readme": "README.md",
+  "homepage": "https://github.com/MartinMuzatko/flexproperties",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "node-sass": "^3.7.0",
