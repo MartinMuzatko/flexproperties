@@ -1,6 +1,6 @@
 {
   "name": "flexproperties",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reviving the once pouplar angular material grid property system",
   "main": "index.js",
   "scripts": {
