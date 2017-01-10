@@ -20,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/MartinMuzatko/flexproperties/issues"
   },
-  "readme": "README.md",
   "homepage": "https://github.com/MartinMuzatko/flexproperties",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
