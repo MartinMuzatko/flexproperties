@@ -1,0 +1,14 @@
+$breakpoints: (
+    (sm, 40em)
+    (md, 60em)
+    (lg, 80em)
+);
+
+$ie: false;
+
+$layout-gutter-width: 1em;
+
+$flex-step: 5;
+$flex-steps: (100 / $flex-step);
+
+@import '~flexproperties/src/flex-grid.scss'
