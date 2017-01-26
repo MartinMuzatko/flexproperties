@@ -1,30 +1,37 @@
 {
   "name": "flexproperties",
-  "version": "1.0.2",
-  "description": "Reviving the once pouplar angular material grid property system",
+  "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "build": "nodejs index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MartinMuzatko/flexproperties.git"
-  },
-  "keywords": [
-    "flex",
-    "grid",
-    "css"
-  ],
-  "author": "MartinMuzatko",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MartinMuzatko/flexproperties/issues"
-  },
-  "homepage": "https://github.com/MartinMuzatko/flexproperties",
-  "devDependencies": {
-    "autoprefixer": "^6.3.6",
-    "node-sass": "^3.7.0",
-    "postcss": "^5.0.21",
-    "sass-loader": "^3.2.0"
+  "repository": "git@github.com:MartinMuzatko/flexproperties.git",
+  "author": "Martin Muzatko <martin@happy-css.com>",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.7.0",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015-riot": "^1.1.0",
+    "browser-sync": "^2.18.6",
+    "browser-sync-webpack-plugin": "^1.1.3",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.14.1",
+    "eslint-loader": "^1.6.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "flexproperties": "^1.0.1",
+    "html-loader": "^0.4.4",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "markdown-loader": "^0.1.7",
+    "node-sass": "^4.3.0",
+    "postcss-loader": "^1.2.2",
+    "prismjs": "^1.6.0",
+    "raw-loader": "^0.5.1",
+    "riot": "^3.0.7",
+    "riotjs-loader": "^4.0.0",
+    "sass-loader": "^4.1.1",
+    "source-map-loader": "^0.1.6",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }
