@@ -1,0 +1,57 @@
+/* ========================================
+LAYOUT
+* The Layout contains a set of configurations
+* Other than assigning classes to your markup, you assign your style to your html.
+* should contain very basic theming
+======================================== */
+
+* {
+    box-sizing: border-box;
+    transition: opacity color height width @duration-action ease;
+}
+
+.github-corner {
+	top: 0;
+	right: 0;
+	position: absolute;
+	z-index: 100;
+	@media screen and (min-width:@breakpoint-sm) {
+		position: fixed;
+	}
+}
+
+
+footer {
+	.stripe(large, 30*16, @color-dark);
+	color: @color-light;
+}
+
+nav {
+    a {
+        display: block;
+    }
+}
+
+main > section {
+    .stripe();
+}
+
+@hue: 280;
+
+header {
+	padding: 1em 2em;
+	background: hsl(@hue, 30%, 40%);
+    color: @color-light;
+	a {
+		color: white;
+		border: 1px solid white;
+		padding: .25em;
+		margin-right: .5em;
+		border-radius: .25em;
+		transition: .2s all ease;
+		&:hover {
+			background: white;
+			color: hsl(@hue, 30%, 40%);
+		}
+	}
+}

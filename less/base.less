@@ -1,0 +1,218 @@
+/* ========================================
+BASE
+* Contains HTML default elements (b,i,u,table...)
+* Does not contain classes, ids
+* Can implement mixins
+======================================== */
+
+*
+{
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: @color-light-shadow;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: @color-dark-shadow;
+}
+
+/*  ========================================
+BLOCK ELEMENTS
+======================================== */
+
+body {
+    font-family: @font-body;
+    color: hsl(@hue, 10%, 5%);
+    line-height: 1.55;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+    margin: 1em 0;
+    line-height: 1.25em;
+    text-transform: none;
+    font-family: @font-heading;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul ul {
+    margin-left: 2em;
+}
+
+ul {
+    margin: 1em 0;
+    list-style: none;
+    padding: 0;
+    li {
+        margin: .5em 0;
+        &:before {
+            padding-right: .5em;
+            content: "❯";
+            color: hsl(@hue, 50%, 50%);
+        }
+    }
+}
+
+figure {
+    margin: 0;
+    img {
+        display: block;
+    }
+    figcaption {
+        margin: 0;
+        padding: .5em;
+        background: hsl(@hue, 40%, 30%);
+        color: hsl(@hue, 5%, 95%);
+        font-size: .85em;
+        font-family: Merriweather;
+    }
+}
+
+a {
+    color: hsl(@hue, 50%, 50%);
+    text-decoration: none;
+}
+
+pre {
+    padding: .5em;
+    margin: 0;
+    background: hsl(@hue, 30%, 10%);
+
+    code {
+        display: block;
+        width: 100%;
+    }
+}
+
+body, html
+{
+    background-color: @color-light;
+    min-width: 320px;
+    font-family: @font-body;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5em; // 24px / 150%
+    color: @color-dark;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    margin: 1em 0 2em 0;
+    border-spacing: 0;
+    width: 100%;
+
+    thead {
+        background: darken(@color-light, 5%);
+    }
+
+    th {
+        font-family: @font-body, sans-serif;
+        font-weight: normal;
+        text-align: left;
+        background: darken(@color-light, 5%);
+        vertical-align: top;
+    }
+
+    tr {
+        th,
+        td {
+            vertical-align: top;
+            padding: .75em .75em .25em .5em;
+            border-bottom: 1px solid darken(@color-light, 10%);
+        }
+    }
+}
+
+
+/*  ========================================
+TEXTUAL/CONTENT ELEMENTS
+======================================== */
+
+hr
+{
+    margin: 1em 0;
+    border: none;
+    width: 100%;
+    height: .1rem;
+    background-color: lighten(@color-dark, 50%);
+}
+
+p
+{
+    padding: 0;
+    margin: 1em 0;
+    line-height: 1.5em;
+    word-wrap: break-word;
+}
+
+ul
+{
+    list-style: square;
+}
+
+ul,ol
+{
+    padding: 0 0 0 1em;
+    margin-bottom: 0;
+}
+
+ol
+{
+    list-style-type: decimal;
+    ol {
+        list-style-type: lower-alpha;
+    }
+}
+
+b, strong {
+    font-weight: normal;
+    font-family: @font-body, sans-serif;
+}
+
+/*  ========================================
+FORM ELEMENTS
+======================================== */
+
+fieldset
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}

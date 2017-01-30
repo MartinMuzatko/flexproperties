@@ -1,0 +1,127 @@
+/* ========================================
+STRIPE COMPONENT
+* Defines a full-width colorful container
+*
+* @padding: small|medium|large|custom(e.g.:5%)
+* @width: small|medium|large|custom(e.g.:300)
+* this value is substracted from the current breakpoint
+* @color: color
+======================================== */
+
+.stripe(@padding: medium, @width: medium, @color: @color-light) {
+    padding: 2em 0;
+    background-color: @color;
+    width: 100%;
+    border-bottom: .25em solid fadeout(@color-dark-shadow, 30%);
+    .padding-vertical(@padding);
+    & when (@padding = small) {
+        .padding-vertical(1em);
+    }
+    & when (@padding = medium) {
+        .padding-vertical(2em);
+    }
+    & when (@padding = large) {
+        .padding-vertical(4em);
+    }
+    & when
+        (@width = small),
+        (@width = medium),
+        (@width = large),
+        (isnumber(@width)) {
+        // width
+        > * {
+            margin: 0 auto;
+            //width: 60em;
+            @media screen and (max-width: @breakpoint-sm) {
+                .padding-horizontal(5%);
+            }
+        }
+    }
+    // Breakpoint - @var
+    @width-small: 40;
+    @width-medium: 20;
+    @width-large: 10;
+    & when (@width = small) {
+        > * {
+            @media screen and (min-width: @breakpoint-sm) {
+                width: @breakpoint-sm - @width-small / 3;
+            }
+            @media screen and (min-width: @breakpoint-md) {
+                width: @breakpoint-md - @width-small / 2;
+            }
+            @media screen and (min-width: @breakpoint-lg) {
+                width: @breakpoint-lg - @width-small;
+            }
+        }
+    }
+    & when (@width = medium) {
+        > * {
+            @media screen and (min-width: @breakpoint-sm) {
+                width: @breakpoint-sm - @width-medium / 3;
+            }
+            @media screen and (min-width: @breakpoint-md) {
+                width: @breakpoint-md - @width-medium / 2;
+            }
+            @media screen and (min-width: @breakpoint-lg) {
+                width: @breakpoint-lg - @width-medium;
+            }
+        }
+    }
+    & when (@width = large) {
+        > * {
+            @media screen and (min-width: @breakpoint-sm) {
+                width: @breakpoint-sm - @width-large / 3;
+            }
+            @media screen and (min-width: @breakpoint-md) {
+                width: @breakpoint-md - @width-large / 2;
+            }
+            @media screen and (min-width: @breakpoint-lg) {
+                width: @breakpoint-lg - @width-large;
+            }
+        }
+    }
+    & when (@width = fluid) {
+        width: 100%;
+    }
+    & when (isnumber(@width)) {
+        > * {
+            @media screen and (min-width: @breakpoint-sm) {
+                width: @breakpoint-sm - @width / 3;
+            }
+            @media screen and (min-width: @breakpoint-md) {
+                width: @breakpoint-md - @width / 2;
+            }
+            @media screen and (min-width: @breakpoint-lg) {
+                width: @breakpoint-lg - @width;
+            }
+        }
+    }
+}
+
+.stripe {
+    &.primary {
+        background-color: @color-primary;
+        color: @color-primary-dark;
+    }
+    &.secondary {
+        background-color: @color-secondary;
+        color: @color-secondary-dark;
+    }
+    &.light {
+        background-color: @color-light;
+        color: @color-dark;
+    }
+    &.dark {
+        background-color: @color-dark;
+        color: @color-light;
+    }
+}
+
+.striped() {
+    > *:nth-child(2n1) {
+        background-color: @color-light;
+    }
+    > *:nth-child(2n) {
+        background-color: darken(@color-light, 5%);
+    }
+}
