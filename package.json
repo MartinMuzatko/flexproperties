@@ -6,6 +6,7 @@
   "scripts": {
     "build": "nodejs index.js"
   },
+  "homepage": "https://martinmuzatko.github.io/flexproperties",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MartinMuzatko/flexproperties.git"
@@ -20,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/MartinMuzatko/flexproperties/issues"
   },
-  "homepage": "https://github.com/MartinMuzatko/flexproperties",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "node-sass": "^3.7.0",
