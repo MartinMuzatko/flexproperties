@@ -1,12 +1,1473 @@
 /* ========================================
     VENDOR
    ======================================== */
+/**
+ * atom-dark theme for `prism.js`
+ * Based on Atom's `atom-dark` theme: https://github.com/atom/atom-dark-syntax
+ * @author Joe Gibson (@gibsjose)
+ */
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #c5c8c6;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #1d1f21;
+}
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+}
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #7C7C7C;
+}
+.token.punctuation {
+  color: #c5c8c6;
+}
+.namespace {
+  opacity: .7;
+}
+.token.property,
+.token.keyword,
+.token.tag {
+  color: #96CBFE;
+}
+.token.class-name {
+  color: #FFFFB6;
+  text-decoration: underline;
+}
+.token.boolean,
+.token.constant {
+  color: #99CC99;
+}
+.token.symbol,
+.token.deleted {
+  color: #f92672;
+}
+.token.number {
+  color: #FF73FD;
+}
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #A8FF60;
+}
+.token.variable {
+  color: #C6C5FE;
+}
+.token.operator {
+  color: #EDEDED;
+}
+.token.entity {
+  color: #FFFFB6;
+  /* text-decoration: underline; */
+}
+.token.url {
+  color: #96CBFE;
+}
+.language-css .token.string,
+.style .token.string {
+  color: #87C38A;
+}
+.token.atrule,
+.token.attr-value {
+  color: #F9EE98;
+}
+.token.function {
+  color: #DAD085;
+}
+.token.regex {
+  color: #E9C062;
+}
+.token.important {
+  color: #fd971f;
+}
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+.token.entity {
+  cursor: help;
+}
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* Document
+   ========================================================================== */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+}
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0;
+}
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px;
+}
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit;
+}
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block;
+}
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none;
+}
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block;
+}
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block;
+}
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none;
+}
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none;
+}
+/* BASICS */
+.CodeMirror {
+  /* Set height, width, borders, and global font properties here */
+  font-family: monospace;
+  height: 300px;
+  color: black;
+}
+/* PADDING */
+.CodeMirror-lines {
+  padding: 4px 0;
+  /* Vertical padding around content */
+}
+.CodeMirror pre {
+  padding: 0 4px;
+  /* Horizontal padding of content */
+}
+.CodeMirror-scrollbar-filler,
+.CodeMirror-gutter-filler {
+  background-color: white;
+  /* The little square between H and V scrollbars */
+}
+/* GUTTER */
+.CodeMirror-gutters {
+  border-right: 1px solid #ddd;
+  background-color: #f7f7f7;
+  white-space: nowrap;
+}
+.CodeMirror-linenumber {
+  padding: 0 3px 0 5px;
+  min-width: 20px;
+  text-align: right;
+  color: #999;
+  white-space: nowrap;
+}
+.CodeMirror-guttermarker {
+  color: black;
+}
+.CodeMirror-guttermarker-subtle {
+  color: #999;
+}
+/* CURSOR */
+.CodeMirror-cursor {
+  border-left: 1px solid black;
+  border-right: none;
+  width: 0;
+}
+/* Shown when moving in bi-directional text */
+.CodeMirror div.CodeMirror-secondarycursor {
+  border-left: 1px solid silver;
+}
+.cm-fat-cursor .CodeMirror-cursor {
+  width: auto;
+  border: 0 !important;
+  background: #7e7;
+}
+.cm-fat-cursor div.CodeMirror-cursors {
+  z-index: 1;
+}
+.cm-animate-fat-cursor {
+  width: auto;
+  border: 0;
+  animation: blink 1.06s steps(1) infinite;
+  background-color: #7e7;
+}
+@keyframes blink {
+  50% {
+    background-color: transparent;
+  }
+}
+/* Can style cursor different in overwrite (non-insert) mode */
+.cm-tab {
+  display: inline-block;
+  text-decoration: inherit;
+}
+.CodeMirror-rulers {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -50px;
+  bottom: -20px;
+  overflow: hidden;
+}
+.CodeMirror-ruler {
+  border-left: 1px solid #ccc;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+/* DEFAULT THEME */
+.cm-s-default .cm-header {
+  color: blue;
+}
+.cm-s-default .cm-quote {
+  color: #090;
+}
+.cm-negative {
+  color: #d44;
+}
+.cm-positive {
+  color: #292;
+}
+.cm-header,
+.cm-strong {
+  font-weight: bold;
+}
+.cm-em {
+  font-style: italic;
+}
+.cm-link {
+  text-decoration: underline;
+}
+.cm-strikethrough {
+  text-decoration: line-through;
+}
+.cm-s-default .cm-keyword {
+  color: #708;
+}
+.cm-s-default .cm-atom {
+  color: #219;
+}
+.cm-s-default .cm-number {
+  color: #164;
+}
+.cm-s-default .cm-def {
+  color: #00f;
+}
+.cm-s-default .cm-variable-2 {
+  color: #05a;
+}
+.cm-s-default .cm-variable-3 {
+  color: #085;
+}
+.cm-s-default .cm-comment {
+  color: #a50;
+}
+.cm-s-default .cm-string {
+  color: #a11;
+}
+.cm-s-default .cm-string-2 {
+  color: #f50;
+}
+.cm-s-default .cm-meta {
+  color: #555;
+}
+.cm-s-default .cm-qualifier {
+  color: #555;
+}
+.cm-s-default .cm-builtin {
+  color: #30a;
+}
+.cm-s-default .cm-bracket {
+  color: #997;
+}
+.cm-s-default .cm-tag {
+  color: #170;
+}
+.cm-s-default .cm-attribute {
+  color: #00c;
+}
+.cm-s-default .cm-hr {
+  color: #999;
+}
+.cm-s-default .cm-link {
+  color: #00c;
+}
+.cm-s-default .cm-error {
+  color: #f00;
+}
+.cm-invalidchar {
+  color: #f00;
+}
+.CodeMirror-composing {
+  border-bottom: 2px solid;
+}
+/* Default styles for common addons */
+div.CodeMirror span.CodeMirror-matchingbracket {
+  color: #0f0;
+}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {
+  color: #f22;
+}
+.CodeMirror-matchingtag {
+  background: rgba(255, 150, 0, 0.3);
+}
+.CodeMirror-activeline-background {
+  background: #e8f2ff;
+}
+/* STOP */
+/* The rest of this file contains styles related to the mechanics of
+   the editor. You probably shouldn't touch them. */
+.CodeMirror {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+.CodeMirror-scroll {
+  overflow: scroll !important;
+  /* Things will break if this is overridden */
+  /* 30px is the magic margin used to hide the element's real scrollbars */
+  /* See overflow: hidden in .CodeMirror */
+  margin-bottom: -30px;
+  margin-right: -30px;
+  padding-bottom: 30px;
+  height: 100%;
+  outline: none;
+  /* Prevent dragging from highlighting the element */
+  position: relative;
+}
+.CodeMirror-sizer {
+  position: relative;
+  border-right: 30px solid transparent;
+}
+/* The fake, visible scrollbars. Used to force redraw during scrolling
+   before actual scrolling happens, thus preventing shaking and
+   flickering artifacts. */
+.CodeMirror-vscrollbar,
+.CodeMirror-hscrollbar,
+.CodeMirror-scrollbar-filler,
+.CodeMirror-gutter-filler {
+  position: absolute;
+  z-index: 6;
+  display: none;
+}
+.CodeMirror-vscrollbar {
+  right: 0;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.CodeMirror-hscrollbar {
+  bottom: 0;
+  left: 0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.CodeMirror-scrollbar-filler {
+  right: 0;
+  bottom: 0;
+}
+.CodeMirror-gutter-filler {
+  left: 0;
+  bottom: 0;
+}
+.CodeMirror-gutters {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 100%;
+  z-index: 3;
+}
+.CodeMirror-gutter {
+  white-space: normal;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: -30px;
+}
+.CodeMirror-gutter-wrapper {
+  position: absolute;
+  z-index: 4;
+  background: none !important;
+  border: none !important;
+}
+.CodeMirror-gutter-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 4;
+}
+.CodeMirror-gutter-elt {
+  position: absolute;
+  cursor: default;
+  z-index: 4;
+}
+.CodeMirror-gutter-wrapper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+.CodeMirror-lines {
+  cursor: text;
+  min-height: 1px;
+  /* prevents collapsing before first draw */
+}
+.CodeMirror pre {
+  /* Reset some styles that the rest of the page might have set */
+  border-radius: 0;
+  border-width: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+  line-height: inherit;
+  color: inherit;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
+  -webkit-tap-highlight-color: transparent;
+  font-variant-ligatures: contextual;
+}
+.CodeMirror-wrap pre {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+}
+.CodeMirror-linebackground {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.CodeMirror-linewidget {
+  position: relative;
+  z-index: 2;
+  overflow: auto;
+}
+.CodeMirror-code {
+  outline: none;
+}
+/* Force content-box sizing for the elements where we expect it */
+.CodeMirror-scroll,
+.CodeMirror-sizer,
+.CodeMirror-gutter,
+.CodeMirror-gutters,
+.CodeMirror-linenumber {
+  box-sizing: content-box;
+}
+.CodeMirror-measure {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.CodeMirror-cursor {
+  position: absolute;
+  pointer-events: none;
+}
+.CodeMirror-measure pre {
+  position: static;
+}
+div.CodeMirror-cursors {
+  visibility: hidden;
+  position: relative;
+  z-index: 3;
+}
+div.CodeMirror-dragcursors {
+  visibility: visible;
+}
+.CodeMirror-focused div.CodeMirror-cursors {
+  visibility: visible;
+}
+.CodeMirror-selected {
+  background: #d9d9d9;
+}
+.CodeMirror-focused .CodeMirror-selected {
+  background: #d7d4f0;
+}
+.CodeMirror-crosshair {
+  cursor: crosshair;
+}
+.CodeMirror-line::-moz-selection,
+.CodeMirror-line > span::-moz-selection,
+.CodeMirror-line > span > span::-moz-selection {
+  background: #d7d4f0;
+}
+.CodeMirror-line::selection,
+.CodeMirror-line > span::selection,
+.CodeMirror-line > span > span::selection {
+  background: #d7d4f0;
+}
+.CodeMirror-line::-moz-selection,
+.CodeMirror-line > span::-moz-selection,
+.CodeMirror-line > span > span::-moz-selection {
+  background: #d7d4f0;
+}
+.cm-searching {
+  background: #ffa;
+  background: rgba(255, 255, 0, 0.4);
+}
+/* Used to force a border model for a node */
+.cm-force-border {
+  padding-right: .1px;
+}
+@media print {
+  /* Hide the cursor when printing */
+  .CodeMirror div.CodeMirror-cursors {
+    visibility: hidden;
+  }
+}
+/* See issue #2901 */
+.cm-tab-wrap-hack:after {
+  content: '';
+}
+/* Help users use markselection to safely style text background */
+span.CodeMirror-selectedtext {
+  background: none;
+}
+/* Based on Sublime Text's Monokai theme */
+.cm-s-monokai.CodeMirror {
+  background: #272822;
+  color: #f8f8f2;
+}
+.cm-s-monokai div.CodeMirror-selected {
+  background: #49483E;
+}
+.cm-s-monokai .CodeMirror-line::-moz-selection,
+.cm-s-monokai .CodeMirror-line > span::-moz-selection,
+.cm-s-monokai .CodeMirror-line > span > span::-moz-selection {
+  background: rgba(73, 72, 62, 0.99);
+}
+.cm-s-monokai .CodeMirror-line::selection,
+.cm-s-monokai .CodeMirror-line > span::selection,
+.cm-s-monokai .CodeMirror-line > span > span::selection {
+  background: rgba(73, 72, 62, 0.99);
+}
+.cm-s-monokai .CodeMirror-line::-moz-selection,
+.cm-s-monokai .CodeMirror-line > span::-moz-selection,
+.cm-s-monokai .CodeMirror-line > span > span::-moz-selection {
+  background: rgba(73, 72, 62, 0.99);
+}
+.cm-s-monokai .CodeMirror-gutters {
+  background: #272822;
+  border-right: 0px;
+}
+.cm-s-monokai .CodeMirror-guttermarker {
+  color: white;
+}
+.cm-s-monokai .CodeMirror-guttermarker-subtle {
+  color: #d0d0d0;
+}
+.cm-s-monokai .CodeMirror-linenumber {
+  color: #d0d0d0;
+}
+.cm-s-monokai .CodeMirror-cursor {
+  border-left: 1px solid #f8f8f0;
+}
+.cm-s-monokai span.cm-comment {
+  color: #75715e;
+}
+.cm-s-monokai span.cm-atom {
+  color: #ae81ff;
+}
+.cm-s-monokai span.cm-number {
+  color: #ae81ff;
+}
+.cm-s-monokai span.cm-property,
+.cm-s-monokai span.cm-attribute {
+  color: #a6e22e;
+}
+.cm-s-monokai span.cm-keyword {
+  color: #f92672;
+}
+.cm-s-monokai span.cm-builtin {
+  color: #66d9ef;
+}
+.cm-s-monokai span.cm-string {
+  color: #e6db74;
+}
+.cm-s-monokai span.cm-variable {
+  color: #f8f8f2;
+}
+.cm-s-monokai span.cm-variable-2 {
+  color: #9effff;
+}
+.cm-s-monokai span.cm-variable-3 {
+  color: #66d9ef;
+}
+.cm-s-monokai span.cm-def {
+  color: #fd971f;
+}
+.cm-s-monokai span.cm-bracket {
+  color: #f8f8f2;
+}
+.cm-s-monokai span.cm-tag {
+  color: #f92672;
+}
+.cm-s-monokai span.cm-header {
+  color: #ae81ff;
+}
+.cm-s-monokai span.cm-link {
+  color: #ae81ff;
+}
+.cm-s-monokai span.cm-error {
+  background: #f92672;
+  color: #f8f8f0;
+}
+.cm-s-monokai .CodeMirror-activeline-background {
+  background: #373831;
+}
+.cm-s-monokai .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
 /* ========================================
     CUSTOM
    ======================================== */
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700');
+/*  ========================================
+    COLORS
+    ======================================== */
+/*  ========================================
+    FONTS
+    ======================================== */
+/*  ========================================
+    BREAKPOINTS
+    ======================================== */
+/*  ========================================
+    Z-INDEXES
+    ======================================== */
+/*  ========================================
+    DURATIONS
+    ======================================== */
+/*  ========================================
+    DURATIONS
+    ======================================== */
+/*  ========================================
+    INDENTATIONS
+    ======================================== */
+/* ========================================
+MIXINS
+* General Use Mixins to ease up reoccuring styles
+* No Components!
+======================================== */
+/* ========================================
+BUTTON COMPONENT
+* Defines a full-width colorful container
+*
+* @size: small|medium|large|custom(e.g.:5%)
+* @indent: small|medium|large|custom(e.g.:5%)
+* @color: color
+======================================== */
+.button {
+  display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: auto;
+  margin-top: 1em;
+  border-radius: .1em;
+  font-size: 1em;
+  cursor: pointer;
+  line-height: 1;
+  padding: .5em;
+  text-transform: uppercase;
+  transition: all 0.33s ease;
+  font-family: Overpass;
+  background-color: transparent;
+  color: #fffcfb;
+  border: 1px solid #fffcfb;
+}
+.button:hover {
+  background-color: #fffcfb;
+  color: #eb814c;
+}
+.button.outline {
+  display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: auto;
+  margin-top: 1em;
+  border-radius: .1em;
+  font-size: 1em;
+  cursor: pointer;
+  line-height: 1;
+  padding: .5em;
+  text-transform: uppercase;
+  transition: all 0.33s ease;
+  font-family: Overpass;
+  background-color: transparent;
+  color: #fffcfb;
+  border: 1px solid #fffcfb;
+}
+.button.outline:hover {
+  background-color: #fffcfb;
+  color: #eb814c;
+}
+.button.reverse {
+  display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: auto;
+  margin-top: 1em;
+  border-radius: .1em;
+  font-size: 1em;
+  cursor: pointer;
+  line-height: 1;
+  padding: .5em;
+  text-transform: uppercase;
+  transition: all 0.33s ease;
+  font-family: Overpass;
+  background-color: transparent;
+  color: #eb814c;
+  border: 1px solid #eb814c;
+}
+.button.reverse:hover {
+  color: #fffcfb;
+  background-color: #eb814c;
+}
+/* ========================================
+STRIPE COMPONENT
+* Defines a full-width colorful container
+*
+* @padding: small|medium|large|custom(e.g.:5%)
+* @width: small|medium|large|custom(e.g.:300)
+* this value is substracted from the current breakpoint
+* @color: color
+======================================== */
+.stripe.primary {
+  background-color: #eb814c;
+  color: #bc4d15;
+}
+.stripe.secondary {
+  background-color: #98cd6a;
+  color: #659d34;
+}
+.stripe.light {
+  background-color: #fffcfb;
+  color: #0d0d0d;
+}
+.stripe.dark {
+  background-color: #0d0d0d;
+  color: #fffcfb;
+}
+/* ========================================
+BASE
+* Contains HTML default elements (b,i,u,table...)
+* Does not contain classes, ids
+* Can implement mixins
+======================================== */
+* {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: .5rem;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 252, 251, 0.5);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-track {
+  background: rgba(13, 13, 13, 0.5);
+}
+/*  ========================================
+BLOCK ELEMENTS
+======================================== */
 body {
-  font-family: Montserrat;
+  font-family: Overpass;
+  color: #0d0b0e;
+  line-height: 1.55;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin: 1em 0;
+  line-height: 1.25em;
+  text-transform: none;
+  font-family: Overpass;
+  font-weight: 700;
+}
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+h2 {
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1rem;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul ul {
+  margin-left: 2em;
+}
+ul {
+  margin: 1em 0;
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: .5em 0;
+}
+ul li:before {
+  padding-right: .5em;
+  content: "❯";
+  color: #9540bf;
+}
+figure {
+  margin: 0;
+}
+figure img {
+  display: block;
+}
+figure figcaption {
+  margin: 0;
+  padding: .5em;
+  background: #572e6b;
+  color: #f2f2f3;
+  font-size: .85em;
+  font-family: Merriweather;
+}
+a {
+  color: #9540bf;
+  text-decoration: none;
+}
+pre {
+  padding: .5em;
+  margin: 0;
+  background: #1c1221;
+}
+pre code {
+  display: block;
+  width: 100%;
+}
+body,
+html {
+  background-color: #fffcfb;
+  min-width: 320px;
+  font-family: Overpass;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #0d0d0d;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+table {
+  margin: 1em 0 2em 0;
+  border-spacing: 0;
+  width: 100%;
+}
+table thead {
+  background: #fcece4;
+}
+table th {
+  font-family: Overpass, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  background: #fcece4;
+  vertical-align: top;
+}
+table tr th,
+table tr td {
+  vertical-align: top;
+  padding: .75em .75em .25em .5em;
+  border-bottom: 1px solid #fadcce;
+}
+/*  ========================================
+TEXTUAL/CONTENT ELEMENTS
+======================================== */
+hr {
+  margin: 1em 0;
+  border: none;
+  width: 100%;
+  height: .1rem;
+  background-color: #8c8c8c;
+}
+p {
+  padding: 0;
+  margin: 1em 0;
+  line-height: 1.5em;
+  word-wrap: break-word;
+}
+ul {
+  list-style: square;
+}
+ul,
+ol {
+  padding: 0 0 0 1em;
+  margin-bottom: 0;
+}
+ol {
+  list-style-type: decimal;
+}
+ol ol {
+  list-style-type: lower-alpha;
+}
+b,
+strong {
+  font-weight: normal;
+  font-family: Overpass, sans-serif;
+}
+/*  ========================================
+FORM ELEMENTS
+======================================== */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* ========================================
+LAYOUT
+* The Layout contains a set of configurations
+* Other than assigning classes to your markup, you assign your style to your html.
+* should contain very basic theming
+======================================== */
+* {
+  box-sizing: border-box;
+  transition: opacity color height width 0.33s ease;
+}
+.github-corner {
+  top: 0;
+  right: 0;
+  position: absolute;
+  z-index: 100;
+}
+@media screen and (min-width: 40em) {
+  .github-corner {
+    position: fixed;
+  }
+}
+footer {
+  padding: 2em 0;
+  background-color: #0d0d0d;
+  width: 100%;
+  border-bottom: 0.25em solid rgba(13, 13, 13, 0.2);
+  padding-top: large;
+  padding-bottom: large;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  color: #fffcfb;
+}
+footer > * {
+  margin: 0 auto;
+}
+@media screen and (max-width: 40em) {
+  footer > * {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (min-width: 40em) {
+  footer > * {
+    width: -120em;
+  }
+}
+@media screen and (min-width: 60em) {
+  footer > * {
+    width: -180em;
+  }
+}
+@media screen and (min-width: 80em) {
+  footer > * {
+    width: -400em;
+  }
+}
+nav a {
+  display: block;
+}
+main > section {
+  padding: 2em 0;
+  background-color: #fffcfb;
+  width: 100%;
+  border-bottom: 0.25em solid rgba(13, 13, 13, 0.2);
+  padding-top: medium;
+  padding-bottom: medium;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+main > section > * {
+  margin: 0 auto;
+}
+@media screen and (max-width: 40em) {
+  main > section > * {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (min-width: 40em) {
+  main > section > * {
+    width: 33.33333333em;
+  }
+}
+@media screen and (min-width: 60em) {
+  main > section > * {
+    width: 50em;
+  }
+}
+@media screen and (min-width: 80em) {
+  main > section > * {
+    width: 60em;
+  }
+}
+main > section.primary {
+  background-color: #eb814c;
+  color: #bc4d15;
+}
+main > section.secondary {
+  background-color: #98cd6a;
+  color: #659d34;
+}
+main > section.light {
+  background-color: #fffcfb;
+  color: #0d0d0d;
+}
+main > section.dark {
+  background-color: #0d0d0d;
+  color: #fffcfb;
+}
+header {
+  padding: 1em 2em;
+  background: #704785;
+  color: #fffcfb;
+}
+header a {
+  color: white;
+  border: 1px solid white;
+  padding: .25em;
+  margin-right: .5em;
+  border-radius: .25em;
+  transition: .2s all ease;
+}
+header a:hover {
+  background: white;
+  color: #704785;
+}
+input[type="text"] {
+  padding: .5em;
+  line-height: 1.5;
+  font-size: inherit;
 }
 /* GENERIC LAYOUTS */
 [flex-offset="0"] {
