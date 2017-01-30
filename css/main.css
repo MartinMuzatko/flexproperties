@@ -1307,9 +1307,12 @@ hr {
 }
 p {
   padding: 0;
-  margin: 1em 0;
+  margin: 0;
   line-height: 1.5em;
   word-wrap: break-word;
+}
+p + p {
+  margin-top: 1em;
 }
 ul {
   list-style: square;
@@ -1363,7 +1366,7 @@ footer {
   padding: 2em 0;
   background-color: #0d0d0d;
   width: 100%;
-  border-bottom: 0.25em solid rgba(13, 13, 13, 0.2);
+  box-shadow: 0 0.2em 0.2em rgba(13, 13, 13, 0.5);
   padding-top: large;
   padding-bottom: large;
   padding-top: 4em;
@@ -1401,7 +1404,7 @@ main > section {
   padding: 2em 0;
   background-color: #fffcfb;
   width: 100%;
-  border-bottom: 0.25em solid rgba(13, 13, 13, 0.2);
+  box-shadow: 0 0.2em 0.2em rgba(13, 13, 13, 0.5);
   padding-top: medium;
   padding-bottom: medium;
   padding-top: 2em;
@@ -1452,7 +1455,7 @@ header {
   background: #704785;
   color: #fffcfb;
 }
-header a {
+nav a {
   color: white;
   border: 1px solid white;
   padding: .25em;
@@ -1460,9 +1463,16 @@ header a {
   border-radius: .25em;
   transition: .2s all ease;
 }
-header a:hover {
+nav a:hover {
   background: white;
   color: #704785;
+}
+.benefits > * {
+  padding: 1em;
+}
+.benefits img {
+  box-shadow: 0 0.1em 0.2em rgba(13, 13, 13, 0.5);
+  border-radius: .1em;
 }
 input[type="text"] {
   padding: .5em;
