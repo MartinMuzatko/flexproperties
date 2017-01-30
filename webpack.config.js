@@ -1,5 +1,5 @@
 var webpack = require('webpack')
-var prism = require('prismjs')
+var prism = require('./js/prism')
 var autoprefixer = require('autoprefixer')
 
 var BrowserSyncPlugin = require('browser-sync-webpack-plugin')
@@ -8,7 +8,10 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin")
 var marked = require('marked')
 var renderer = new marked.Renderer()
 renderer.code = (code, language) => {
-    var html = prism.highlight(code, prism.languages.javascript)
+    if (!prism.languages.hasOwnProperty(language)) {
+        language = 'js'
+    }
+    var html = prism.highlight(code, prism.languages[language])
     return `<pre class="language-${language}"><code class="language-${language}">${html}</code></pre>`
 }
 
@@ -45,16 +48,6 @@ module.exports = {
         new webpack.ProvidePlugin({
             riot: 'riot'
         }),
-        new BrowserSyncPlugin(
-            {
-                host: 'localhost',
-                port: 8081,
-                proxy: 'http://localhost:8080/'
-            },
-            {
-                reload: true
-            }
-        ),
         //new webpack.optimize.UglifyJsPlugin({warnings: false}),
         new ExtractTextPlugin("css/[name].css")
     ],
