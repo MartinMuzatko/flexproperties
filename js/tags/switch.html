@@ -1,0 +1,63 @@
+<switch>
+    <div class="container {off: !state}" onclick={switchState}>
+        <div class="switch">
+        </div>
+        <div class="label left">
+
+        </div>
+        <div class="label right">
+
+        </div>
+    </div>
+    <script>
+        this.state = opts.state || true
+
+        switchState(e) {
+            this.state = !this.state
+            this.trigger('switch', this)
+        }
+    </script>
+    <style scoped>
+        .container {
+            position: relative;
+            width: 5em;
+            height: 1.5em;
+            border: thin solid #2ecc71;
+            cursor: pointer;
+            border-radius: .25em;
+        }
+
+        .switch {
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            background-color: #2ecc71;
+            transition: all 0.15s ease;
+            left: 0;
+            z-index: 1;
+        }
+
+        .container.off {
+
+            border: thin solid #e74c3c;
+        }
+
+        .container.off .switch {
+            left: 50%;
+            background-color: #e74c3c;
+        }
+
+
+        .label {
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .label.right {
+            left: 50%;
+        }
+    </style>
+</switch>

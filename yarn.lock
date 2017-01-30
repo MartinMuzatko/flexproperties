@@ -1673,7 +1673,7 @@ express@^4.13.3:
     utils-merge "1.0.0"
     vary "~1.1.0"
 
-extend@~3.0.0:
+extend@^3.0.0, extend@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.0.tgz#5a474353b9f3353ddd8176dfd37b91c83a46f1d4"
 
@@ -1787,9 +1787,9 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
-flexproperties@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/flexproperties/-/flexproperties-1.0.1.tgz#d2adae9d8ad433163eae52942102de27f5dccb12"
+flexproperties@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/flexproperties/-/flexproperties-1.0.2.tgz#4fe94ac15062a9b087c542ad070b49a3f8eab421"
 
 for-in@^0.1.5:
   version "0.1.6"
@@ -3846,6 +3846,12 @@ riot-compiler@^3.0.0, riot-compiler@^3.1.1:
 riot-observable@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/riot-observable/-/riot-observable-3.0.0.tgz#8bbd2daf72a2141bb043082df4023dc504bad2eb"
+
+riot-route@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/riot-route/-/riot-route-3.1.0.tgz#dfec3a336888719042028991d335abb6890db11f"
+  dependencies:
+    riot-observable "^3.0.0"
 
 riot-tmpl@^3.0.1:
   version "3.0.1"

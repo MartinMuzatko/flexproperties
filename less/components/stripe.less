@@ -12,7 +12,8 @@ STRIPE COMPONENT
     padding: 2em 0;
     background-color: @color;
     width: 100%;
-    border-bottom: .25em solid fadeout(@color-dark-shadow, 30%);
+    box-shadow: 0 .2em .2em @color-dark-shadow;
+    //border-bottom: .25em solid fadeout(@color-dark-shadow, 30%);
     .padding-vertical(@padding);
     & when (@padding = small) {
         .padding-vertical(1em);

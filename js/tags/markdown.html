@@ -9,7 +9,11 @@
         })
 
         this.setMarkdown = () => {
-            this.root.innerHTML = require(`../../docs/${opts.file}.md`)
+            if (opts.file) {
+                this.root.innerHTML = require(`../../docs/${opts.file}.md`)
+            } else if (opts.content) {
+                this.root.innerHTML = opts.content
+            }
         }
     </script>
 </markdown>

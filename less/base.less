@@ -165,8 +165,7 @@ table {
 TEXTUAL/CONTENT ELEMENTS
 ======================================== */
 
-hr
-{
+hr {
     margin: 1em 0;
     border: none;
     width: 100%;
@@ -174,21 +173,21 @@ hr
     background-color: lighten(@color-dark, 50%);
 }
 
-p
-{
+p {
     padding: 0;
-    margin: 1em 0;
+    margin: 0;
     line-height: 1.5em;
     word-wrap: break-word;
+    + p {
+        margin-top: 1em;
+    }
 }
 
-ul
-{
+ul {
     list-style: square;
 }
 
-ul,ol
-{
+ul,ol {
     padding: 0 0 0 1em;
     margin-bottom: 0;
 }

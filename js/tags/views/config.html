@@ -1,0 +1,110 @@
+<config>
+    <section class="stripe secondary">
+        <article>
+            <markdown file=config></markdown>
+        </article>
+    </section>
+    <section each={item, key in configItems}>
+        <article>
+            <h2>{item.title}</h2>
+            <div layout="row" layout-align="space-between start">
+                <raw flex="75" content={item.description}></raw>
+                <switch flex="25" ref={key}></switch>
+            </div>
+        </article>
+    </section>
+    <section class="stripe primary">
+        <article>
+            <div layout="row" layout-align="space-between center">
+                <h2>Summary</h2>
+            </div>
+            <editor language="sass" code={configuration}></editor>
+
+        </article>
+    </section>
+    <script>
+        import '../raw.html'
+        import '../switch.html'
+        import '../markdown.html'
+        this.configuration = `
+        $breakpoints: (
+            (sm, 40em)
+            (md, 60em)
+            (lg, 80em)
+        );
+        $ie: false;
+        $flex-step: 5;
+        `
+        this.configItems = {
+            'breakpoints' : {
+                title: 'Breakpoints',
+                description: '<p>With this, you can set up the amount of breakpoints</p>',
+                lines: 10,
+                config: {
+                    type: 'range',
+                    data: {
+                        sm: 640,
+                        md: 960,
+                        lg: 1280,
+                    }
+                }
+            },
+            'steps' : {
+                title: 'Steps',
+                description: '',
+                lines: 10,
+                config: {
+                    type: 'range',
+                }
+            },
+            'feature-layout' : {
+                title: 'feature-layout',
+                description: '',
+                lines: 10,
+                config: {
+                    type: 'switch',
+                }
+            },
+            'feature-layout-align' : {
+                title: 'feature-layout-align',
+                description: '',
+                lines: 10,
+                config: {
+                    type: 'switch',
+                }
+            },
+            'feature-flex' : {
+                title: 'feature-flex',
+                description: '',
+                lines: 10,
+                config: {
+                    type: 'switch',
+                }
+            },
+            'feature-visibility' : {
+                title: 'feature-visibility',
+                description: '',
+                lines: 10,
+                config: {
+                    type: 'switch',
+                }
+            },
+            'feature-order' : {
+                title: 'feature-order',
+                description: '',
+                lines: 10,
+                config: {
+                    type: 'switch',
+                }
+            },
+            'feature-offset' : {
+                title: 'feature-offset',
+                description: '',
+                lines: 10,
+                config: {
+                    type: 'switch',
+                }
+            },
+        }
+    </script>
+</config>
