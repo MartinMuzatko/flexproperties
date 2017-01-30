@@ -1,0 +1,20 @@
+<editor>
+    <script>
+        this.language = opts.language || 'javascript'
+        require(`codemirror/mode/${this.language}/${this.language}.js`)
+        import codemirror from 'codemirror'
+        this.editor = codemirror(this.root, {
+            value: opts.code || '',
+            theme: 'monokai',
+            mode: this.language,
+            indentUnit: 4,
+        })
+        this.editor.setOption('lineNumbers', true)
+    </script>
+    <style>
+        :scope {
+            display: block;
+            width: 100%;
+        }
+    </style>
+</editor>

@@ -1,0 +1,15 @@
+<markdown>
+    <script>
+        this.on('updated', () => {
+            this.setMarkdown()
+        })
+
+        this.on('mount', () => {
+            this.setMarkdown()
+        })
+
+        this.setMarkdown = () => {
+            this.root.innerHTML = require(`../../docs/${opts.file}.md`)
+        }
+    </script>
+</markdown>

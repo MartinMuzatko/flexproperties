@@ -1,0 +1,9 @@
+<code-highlight>
+    <script>
+        import Prism from '../prism'
+        if (Prism.languages.hasOwnProperty(opts.language)) {
+            var html = Prism.highlight(code, Prism.languages.javascript)
+            this.root.innerHTML = `<pre class="language-${opts.language}"><code class="language-${opts.language}">${html}</code></pre>`
+        }
+    </script>
+</code-highlight>
