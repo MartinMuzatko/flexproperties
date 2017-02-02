@@ -11,8 +11,20 @@ renderer.code = (code, language) => {
     if (!prism.languages.hasOwnProperty(language)) {
         language = 'js'
     }
-    var html = prism.highlight(code, prism.languages[language])
-    return `<pre class="language-${language}"><code class="language-${language}">${html}</code></pre>`
+    let highlightedCode = prism.highlight(code, prism.languages[language])
+    if (language == 'html') {
+        html = `
+            <div layout="row" class="code">
+                <pre flex="100" flex-gt-md="50" class="code-example language-${language}"><code class="language-${language}">${highlightedCode}</code></pre>
+                <div flex="100" flex-gt-md="50" class="code-preview">
+                    ${code}
+                </div>
+            </div>
+        `
+    } else {
+        html = `<pre class="code-example language-${language}"><code class="language-${language}">${highlightedCode}</code></pre>`
+    }
+    return html
 }
 
 
