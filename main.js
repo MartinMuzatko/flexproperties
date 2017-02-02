@@ -46,17 +46,17 @@
 
 	'use strict';
 	
-	__webpack_require__(13);
-	
-	__webpack_require__(14);
-	
-	var _riot = __webpack_require__(15);
-	
-	var _riot2 = _interopRequireDefault(_riot);
+	__webpack_require__(15);
 	
 	__webpack_require__(16);
 	
-	__webpack_require__(17);
+	var _riot = __webpack_require__(17);
+	
+	var _riot2 = _interopRequireDefault(_riot);
+	
+	__webpack_require__(18);
+	
+	__webpack_require__(19);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -76,19 +76,21 @@
 /* 10 */,
 /* 11 */,
 /* 12 */,
-/* 13 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 14 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
+/* 13 */,
+/* 14 */,
 /* 15 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 16 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
@@ -2914,10 +2916,10 @@
 	
 	  Object.defineProperty(exports, '__esModule', { value: true });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
 
 /***/ },
-/* 16 */
+/* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;"use strict";
@@ -3219,30 +3221,30 @@
 	});
 
 /***/ },
-/* 17 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
 	
-	var _riotRoute = __webpack_require__(18);
+	var _riotRoute = __webpack_require__(20);
 	
 	var _riotRoute2 = _interopRequireDefault(_riotRoute);
 	
-	var _extend = __webpack_require__(20);
+	var _extend = __webpack_require__(22);
 	
 	var _extend2 = _interopRequireDefault(_extend);
 	
-	__webpack_require__(21);
+	__webpack_require__(23);
 	
-	__webpack_require__(149);
+	__webpack_require__(151);
 	
-	var _flex = __webpack_require__(156);
+	var _flex = __webpack_require__(158);
 	
 	var _flex2 = _interopRequireDefault(_flex);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	riot.tag2('app', '<a href="https://github.com/MartinMuzatko/flexproperties" class="github-corner"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a> <header layout="row" layout-align="space-between center"> <h1>FlexProperties</h1> <nav layout="row"> <a href="#play">Play</a> <a href="#usage">Usage</a> <a href="#config">Config</a> <a href="#setup">Setup</a> </nav> </header> <main ref="mountpoint"></main> <footer id="credits"> <div> <p> Created with <span style="color: red">♥</span> by <a href="https://twitter.com/martinmuzatko">@MartinMuzatko</a> with Riot {builtwith} </p> <p> Learn how to use Flexbox in the real world. Visit <a href="http://happy-css.com">happy-css.com</a> </p> </div> </footer>', 'app .github-corner:hover .octo-arm,[data-is="app"] .github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{ 0%,100%{transform:rotate(0)} 20%,60%{transform:rotate(-25deg)} 40%,80%{transform:rotate(10deg)}}@media (max-width:500px){ app .github-corner:hover .octo-arm,[data-is="app"] .github-corner:hover .octo-arm{animation:none} app .github-corner .octo-arm,[data-is="app"] .github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}', '', function (opts) {
+	riot.tag2('app', '<a href="https://github.com/MartinMuzatko/flexproperties" class="github-corner"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a> <header layout="row" layout-align="space-between center"> <h1><a href="#home">FlexProperties</a></h1> <nav layout="row"> <a href="#play">Play</a> <a href="#usage">Usage</a> <a href="#config">Config</a> <a href="#install">Install</a> </nav> </header> <main ref="mountpoint"></main> <footer id="credits"> <div> <p> Created with <span style="color: red">♥</span> by <a href="https://twitter.com/martinmuzatko">@MartinMuzatko</a> with Riot {builtwith} </p> <p> Learn how to use Flexbox in the real world. Visit <a href="http://happy-css.com">happy-css.com</a> </p> </div> </footer>', 'app .github-corner:hover .octo-arm,[data-is="app"] .github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{ 0%,100%{transform:rotate(0)} 20%,60%{transform:rotate(-25deg)} 40%,80%{transform:rotate(10deg)}}@media (max-width:500px){ app .github-corner:hover .octo-arm,[data-is="app"] .github-corner:hover .octo-arm{animation:none} app .github-corner .octo-arm,[data-is="app"] .github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}', '', function (opts) {
 	    var _this = this;
 	
 	    riot.route = _riotRoute2.default;
@@ -3253,18 +3255,19 @@
 	        home: { title: 'Home' },
 	        play: { title: 'Play' },
 	        config: { title: 'Config' },
-	        setup: { title: 'Setup' },
+	        install: { title: 'Install' },
 	        usage: { title: 'Usage' }
 	    };
 	
 	    this.view = 'home';
+	    this.view = 'usage';
 	
 	    riot.route('/*', function (item) {
 	
 	        if (!!~Object.keys(_this.views).indexOf(item)) {
 	
 	            try {
-	                __webpack_require__(157)("./" + item + '.html');
+	                __webpack_require__(159)("./" + item + '.html');
 	                _this.view = item;
 	                var view = riot.mount(_this.refs.mountpoint, item, _this.views[item])[0];
 	                (0, _extend2.default)(view.opts, { views: _this.views });
@@ -3280,10 +3283,10 @@
 	        riot.route('/' + _this.view);
 	    });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
 
 /***/ },
-/* 18 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3294,7 +3297,7 @@
 	  return ex && (typeof ex === 'undefined' ? 'undefined' : _typeof(ex)) === 'object' && 'default' in ex ? ex['default'] : ex;
 	}
 	
-	var observable = _interopDefault(__webpack_require__(19));
+	var observable = _interopDefault(__webpack_require__(21));
 	
 	/**
 	 * Simple client-side router
@@ -3660,7 +3663,7 @@
 	module.exports = route;
 
 /***/ },
-/* 19 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;'use strict';
@@ -3795,7 +3798,7 @@
 	})(typeof window != 'undefined' ? window : undefined);
 
 /***/ },
-/* 20 */
+/* 22 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -3892,12 +3895,12 @@
 	};
 
 /***/ },
-/* 21 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
 	
-	var _codemirror = __webpack_require__(22);
+	var _codemirror = __webpack_require__(24);
 	
 	var _codemirror2 = _interopRequireDefault(_codemirror);
 	
@@ -3905,7 +3908,7 @@
 	
 	riot.tag2('editor', '', 'editor,[data-is="editor"]{ display: block; width: 100%; }', '', function (opts) {
 	    this.language = opts.language || 'javascript';
-	    __webpack_require__(23)("./" + this.language + '/' + this.language + '.js');
+	    __webpack_require__(25)("./" + this.language + '/' + this.language + '.js');
 	    this.editor = (0, _codemirror2.default)(this.root, {
 	        value: opts.code || '',
 	        theme: 'monokai',
@@ -3914,10 +3917,10 @@
 	    });
 	    this.editor.setOption('lineNumbers', true);
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
 
 /***/ },
-/* 22 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;'use strict';
@@ -15577,131 +15580,131 @@
 	});
 
 /***/ },
-/* 23 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./apl/apl.js": 24,
-		"./asciiarmor/asciiarmor.js": 26,
-		"./asn.1/asn.1.js": 27,
-		"./asterisk/asterisk.js": 28,
-		"./brainfuck/brainfuck.js": 29,
-		"./clike/clike.js": 30,
-		"./clojure/clojure.js": 31,
-		"./cmake/cmake.js": 32,
-		"./cobol/cobol.js": 33,
-		"./coffeescript/coffeescript.js": 34,
-		"./commonlisp/commonlisp.js": 35,
-		"./crystal/crystal.js": 36,
-		"./css/css.js": 37,
-		"./cypher/cypher.js": 38,
-		"./d/d.js": 39,
-		"./dart/dart.js": 40,
-		"./diff/diff.js": 41,
-		"./django/django.js": 42,
-		"./dockerfile/dockerfile.js": 47,
-		"./dtd/dtd.js": 49,
-		"./dylan/dylan.js": 50,
-		"./ebnf/ebnf.js": 51,
-		"./ecl/ecl.js": 52,
-		"./eiffel/eiffel.js": 53,
-		"./elm/elm.js": 54,
-		"./erlang/erlang.js": 55,
-		"./factor/factor.js": 56,
-		"./fcl/fcl.js": 57,
-		"./forth/forth.js": 58,
-		"./fortran/fortran.js": 59,
-		"./gas/gas.js": 60,
-		"./gfm/gfm.js": 61,
-		"./gherkin/gherkin.js": 64,
-		"./go/go.js": 65,
-		"./groovy/groovy.js": 66,
-		"./haml/haml.js": 67,
-		"./handlebars/handlebars.js": 69,
-		"./haskell-literate/haskell-literate.js": 71,
-		"./haskell/haskell.js": 72,
-		"./haxe/haxe.js": 73,
-		"./htmlembedded/htmlembedded.js": 74,
-		"./htmlmixed/htmlmixed.js": 43,
-		"./http/http.js": 75,
-		"./idl/idl.js": 76,
-		"./javascript/javascript.js": 45,
-		"./jinja2/jinja2.js": 77,
-		"./jsx/jsx.js": 78,
-		"./julia/julia.js": 79,
-		"./livescript/livescript.js": 80,
-		"./lua/lua.js": 81,
-		"./markdown/markdown.js": 62,
-		"./mathematica/mathematica.js": 82,
-		"./mbox/mbox.js": 83,
-		"./meta.js": 63,
-		"./mirc/mirc.js": 84,
-		"./mllike/mllike.js": 85,
-		"./modelica/modelica.js": 86,
-		"./mscgen/mscgen.js": 87,
-		"./mumps/mumps.js": 88,
-		"./nginx/nginx.js": 89,
-		"./nsis/nsis.js": 90,
-		"./ntriples/ntriples.js": 91,
-		"./octave/octave.js": 92,
-		"./oz/oz.js": 93,
-		"./pascal/pascal.js": 94,
-		"./pegjs/pegjs.js": 95,
-		"./perl/perl.js": 96,
-		"./php/php.js": 97,
-		"./pig/pig.js": 98,
-		"./powershell/powershell.js": 99,
-		"./properties/properties.js": 100,
-		"./protobuf/protobuf.js": 101,
-		"./pug/pug.js": 102,
-		"./puppet/puppet.js": 103,
-		"./python/python.js": 104,
-		"./q/q.js": 105,
-		"./r/r.js": 106,
-		"./rpm/rpm.js": 107,
-		"./rst/rst.js": 108,
-		"./ruby/ruby.js": 68,
-		"./rust/rust.js": 110,
-		"./sas/sas.js": 111,
-		"./sass/sass.js": 112,
-		"./scheme/scheme.js": 113,
-		"./shell/shell.js": 114,
-		"./sieve/sieve.js": 115,
-		"./slim/slim.js": 116,
-		"./smalltalk/smalltalk.js": 117,
-		"./smarty/smarty.js": 118,
-		"./solr/solr.js": 119,
-		"./soy/soy.js": 120,
-		"./sparql/sparql.js": 121,
-		"./spreadsheet/spreadsheet.js": 122,
-		"./sql/sql.js": 123,
-		"./stex/stex.js": 109,
-		"./stylus/stylus.js": 124,
-		"./swift/swift.js": 125,
-		"./tcl/tcl.js": 126,
-		"./textile/textile.js": 127,
-		"./tiddlywiki/tiddlywiki.js": 128,
-		"./tiki/tiki.js": 129,
-		"./toml/toml.js": 130,
-		"./tornado/tornado.js": 131,
-		"./troff/troff.js": 132,
-		"./ttcn-cfg/ttcn-cfg.js": 133,
-		"./ttcn/ttcn.js": 134,
-		"./turtle/turtle.js": 135,
-		"./twig/twig.js": 136,
-		"./vb/vb.js": 137,
-		"./vbscript/vbscript.js": 138,
-		"./velocity/velocity.js": 139,
-		"./verilog/verilog.js": 140,
-		"./vhdl/vhdl.js": 141,
-		"./vue/vue.js": 142,
-		"./webidl/webidl.js": 143,
-		"./xml/xml.js": 44,
-		"./xquery/xquery.js": 144,
-		"./yacas/yacas.js": 145,
-		"./yaml-frontmatter/yaml-frontmatter.js": 146,
-		"./yaml/yaml.js": 147,
-		"./z80/z80.js": 148
+		"./apl/apl.js": 26,
+		"./asciiarmor/asciiarmor.js": 28,
+		"./asn.1/asn.1.js": 29,
+		"./asterisk/asterisk.js": 30,
+		"./brainfuck/brainfuck.js": 31,
+		"./clike/clike.js": 32,
+		"./clojure/clojure.js": 33,
+		"./cmake/cmake.js": 34,
+		"./cobol/cobol.js": 35,
+		"./coffeescript/coffeescript.js": 36,
+		"./commonlisp/commonlisp.js": 37,
+		"./crystal/crystal.js": 38,
+		"./css/css.js": 39,
+		"./cypher/cypher.js": 40,
+		"./d/d.js": 41,
+		"./dart/dart.js": 42,
+		"./diff/diff.js": 43,
+		"./django/django.js": 44,
+		"./dockerfile/dockerfile.js": 49,
+		"./dtd/dtd.js": 51,
+		"./dylan/dylan.js": 52,
+		"./ebnf/ebnf.js": 53,
+		"./ecl/ecl.js": 54,
+		"./eiffel/eiffel.js": 55,
+		"./elm/elm.js": 56,
+		"./erlang/erlang.js": 57,
+		"./factor/factor.js": 58,
+		"./fcl/fcl.js": 59,
+		"./forth/forth.js": 60,
+		"./fortran/fortran.js": 61,
+		"./gas/gas.js": 62,
+		"./gfm/gfm.js": 63,
+		"./gherkin/gherkin.js": 66,
+		"./go/go.js": 67,
+		"./groovy/groovy.js": 68,
+		"./haml/haml.js": 69,
+		"./handlebars/handlebars.js": 71,
+		"./haskell-literate/haskell-literate.js": 73,
+		"./haskell/haskell.js": 74,
+		"./haxe/haxe.js": 75,
+		"./htmlembedded/htmlembedded.js": 76,
+		"./htmlmixed/htmlmixed.js": 45,
+		"./http/http.js": 77,
+		"./idl/idl.js": 78,
+		"./javascript/javascript.js": 47,
+		"./jinja2/jinja2.js": 79,
+		"./jsx/jsx.js": 80,
+		"./julia/julia.js": 81,
+		"./livescript/livescript.js": 82,
+		"./lua/lua.js": 83,
+		"./markdown/markdown.js": 64,
+		"./mathematica/mathematica.js": 84,
+		"./mbox/mbox.js": 85,
+		"./meta.js": 65,
+		"./mirc/mirc.js": 86,
+		"./mllike/mllike.js": 87,
+		"./modelica/modelica.js": 88,
+		"./mscgen/mscgen.js": 89,
+		"./mumps/mumps.js": 90,
+		"./nginx/nginx.js": 91,
+		"./nsis/nsis.js": 92,
+		"./ntriples/ntriples.js": 93,
+		"./octave/octave.js": 94,
+		"./oz/oz.js": 95,
+		"./pascal/pascal.js": 96,
+		"./pegjs/pegjs.js": 97,
+		"./perl/perl.js": 98,
+		"./php/php.js": 99,
+		"./pig/pig.js": 100,
+		"./powershell/powershell.js": 101,
+		"./properties/properties.js": 102,
+		"./protobuf/protobuf.js": 103,
+		"./pug/pug.js": 104,
+		"./puppet/puppet.js": 105,
+		"./python/python.js": 106,
+		"./q/q.js": 107,
+		"./r/r.js": 108,
+		"./rpm/rpm.js": 109,
+		"./rst/rst.js": 110,
+		"./ruby/ruby.js": 70,
+		"./rust/rust.js": 112,
+		"./sas/sas.js": 113,
+		"./sass/sass.js": 114,
+		"./scheme/scheme.js": 115,
+		"./shell/shell.js": 116,
+		"./sieve/sieve.js": 117,
+		"./slim/slim.js": 118,
+		"./smalltalk/smalltalk.js": 119,
+		"./smarty/smarty.js": 120,
+		"./solr/solr.js": 121,
+		"./soy/soy.js": 122,
+		"./sparql/sparql.js": 123,
+		"./spreadsheet/spreadsheet.js": 124,
+		"./sql/sql.js": 125,
+		"./stex/stex.js": 111,
+		"./stylus/stylus.js": 126,
+		"./swift/swift.js": 127,
+		"./tcl/tcl.js": 128,
+		"./textile/textile.js": 129,
+		"./tiddlywiki/tiddlywiki.js": 130,
+		"./tiki/tiki.js": 131,
+		"./toml/toml.js": 132,
+		"./tornado/tornado.js": 133,
+		"./troff/troff.js": 134,
+		"./ttcn-cfg/ttcn-cfg.js": 135,
+		"./ttcn/ttcn.js": 136,
+		"./turtle/turtle.js": 137,
+		"./twig/twig.js": 138,
+		"./vb/vb.js": 139,
+		"./vbscript/vbscript.js": 140,
+		"./velocity/velocity.js": 141,
+		"./verilog/verilog.js": 142,
+		"./vhdl/vhdl.js": 143,
+		"./vue/vue.js": 144,
+		"./webidl/webidl.js": 145,
+		"./xml/xml.js": 46,
+		"./xquery/xquery.js": 146,
+		"./yacas/yacas.js": 147,
+		"./yaml-frontmatter/yaml-frontmatter.js": 148,
+		"./yaml/yaml.js": 149,
+		"./z80/z80.js": 150
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -15714,11 +15717,11 @@
 	};
 	webpackContext.resolve = webpackContextResolve;
 	module.exports = webpackContext;
-	webpackContext.id = 23;
+	webpackContext.id = 25;
 
 
 /***/ },
-/* 24 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -15730,8 +15733,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -15896,10 +15899,10 @@
 	
 	  CodeMirror.defineMIME("text/apl", "apl");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 25 */
+/* 27 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -15916,7 +15919,7 @@
 	};
 
 /***/ },
-/* 26 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -15928,8 +15931,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -15994,10 +15997,10 @@
 	  CodeMirror.defineMIME("application/pgp-keys", "asciiarmor");
 	  CodeMirror.defineMIME("application/pgp-signature", "asciiarmor");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 27 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -16009,8 +16012,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -16175,10 +16178,10 @@
 	    multiLineStrings: true
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 28 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -16206,8 +16209,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -16349,10 +16352,10 @@
 	
 	  CodeMirror.defineMIME("text/x-asterisk", "asterisk");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 29 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -16365,7 +16368,7 @@
 	// Brainfuck mode created by Michael Kaminsky https://github.com/mkaminsky11
 	
 	(function (mod) {
-	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") mod(__webpack_require__(22));else if (true) !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else mod(CodeMirror);
+	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") mod(__webpack_require__(24));else if (true) !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
 	
@@ -16433,10 +16436,10 @@
 	  });
 	  CodeMirror.defineMIME("text/x-brainfuck", "brainfuck");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 30 */
+/* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -16448,8 +16451,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -17114,10 +17117,10 @@
 	    }
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 31 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -17134,8 +17137,8 @@
 	
 	(function (mod) {
 	    if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	        mod(__webpack_require__(22));else if (true) // AMD
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	        mod(__webpack_require__(24));else if (true) // AMD
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	        mod(CodeMirror);
 	})(function (CodeMirror) {
 	    "use strict";
@@ -17386,10 +17389,10 @@
 	    CodeMirror.defineMIME("text/x-clojurescript", "clojure");
 	    CodeMirror.defineMIME("application/edn", "clojure");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 32 */
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -17400,7 +17403,7 @@
 	// Distributed under an MIT license: http://codemirror.net/LICENSE
 	
 	(function (mod) {
-	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") mod(__webpack_require__(22));else if (true) !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else mod(CodeMirror);
+	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") mod(__webpack_require__(24));else if (true) !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
 	
@@ -17489,10 +17492,10 @@
 	
 	  CodeMirror.defineMIME("text/x-cmake", "cmake");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 33 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -17508,8 +17511,8 @@
 	 */
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -17652,10 +17655,10 @@
 	
 	  CodeMirror.defineMIME("text/x-cobol", "cobol");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 34 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -17671,8 +17674,8 @@
 	 */
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -18003,10 +18006,10 @@
 	  CodeMirror.defineMIME("text/x-coffeescript", "coffeescript");
 	  CodeMirror.defineMIME("text/coffeescript", "coffeescript");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 35 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -18018,8 +18021,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -18141,10 +18144,10 @@
 	
 	  CodeMirror.defineMIME("text/x-common-lisp", "commonlisp");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 36 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -18156,8 +18159,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -18522,10 +18525,10 @@
 	
 	  CodeMirror.defineMIME("text/x-crystal", "crystal");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 37 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -18537,8 +18540,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -19086,10 +19089,10 @@
 	    helperType: "gss"
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 38 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -19104,8 +19107,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -19244,10 +19247,10 @@
 	
 	  CodeMirror.defineMIME("application/x-cypher-query", "cypher");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 39 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -19259,8 +19262,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -19462,10 +19465,10 @@
 	    }
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 40 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -19477,8 +19480,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(30));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(30)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(32));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(32)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -19623,10 +19626,10 @@
 	    return CodeMirror.getMode(conf, "application/dart");
 	  }, "clike");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 41 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -19638,8 +19641,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -19676,10 +19679,10 @@
 	
 	  CodeMirror.defineMIME("text/x-diff", "diff");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 42 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -19691,8 +19694,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(43), __webpack_require__(46));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(43), __webpack_require__(46)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(45), __webpack_require__(48));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(45), __webpack_require__(48)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -20018,10 +20021,10 @@
 	
 	  CodeMirror.defineMIME("text/x-django", "django");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 43 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -20033,8 +20036,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(44), __webpack_require__(45), __webpack_require__(37));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(44), __webpack_require__(45), __webpack_require__(37)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(46), __webpack_require__(47), __webpack_require__(39));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(46), __webpack_require__(47), __webpack_require__(39)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -20166,10 +20169,10 @@
 	
 	  CodeMirror.defineMIME("text/html", "htmlmixed");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 44 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -20181,8 +20184,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -20552,10 +20555,10 @@
 	  CodeMirror.defineMIME("application/xml", "xml");
 	  if (!CodeMirror.mimeModes.hasOwnProperty("text/html")) CodeMirror.defineMIME("text/html", { name: "xml", htmlMode: true });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 45 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -20567,8 +20570,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -21378,10 +21381,10 @@
 	  CodeMirror.defineMIME("text/typescript", { name: "javascript", typescript: true });
 	  CodeMirror.defineMIME("application/typescript", { name: "javascript", typescript: true });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 46 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -21402,8 +21405,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -21469,10 +21472,10 @@
 	    };
 	  };
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 47 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -21484,8 +21487,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(48));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(48)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(50));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(50)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -21548,10 +21551,10 @@
 	
 	  CodeMirror.defineMIME("text/x-dockerfile", "dockerfile");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 48 */
+/* 50 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -21563,8 +21566,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -21771,10 +21774,10 @@
 	    };
 	  }
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 49 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -21793,8 +21796,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -21907,10 +21910,10 @@
 	
 	  CodeMirror.defineMIME("application/xml-dtd", "dtd");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 50 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -21922,8 +21925,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -22220,10 +22223,10 @@
 	
 	  CodeMirror.defineMIME("text/x-dylan", "dylan");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 51 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -22235,8 +22238,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -22423,10 +22426,10 @@
 	
 	  CodeMirror.defineMIME("text/x-ebnf", "ebnf");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 52 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -22438,8 +22441,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -22636,10 +22639,10 @@
 	
 	  CodeMirror.defineMIME("text/x-ecl", "ecl");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 53 */
+/* 55 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -22651,8 +22654,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -22732,10 +22735,10 @@
 	
 	  CodeMirror.defineMIME("text/x-eiffel", "eiffel");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 54 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -22747,8 +22750,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -22933,10 +22936,10 @@
 	
 	  CodeMirror.defineMIME("text/x-elm", "elm");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 55 */
+/* 57 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -22962,8 +22965,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -23555,10 +23558,10 @@
 	    };
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 56 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -23574,8 +23577,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(48));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(48)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(50));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(50)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -23627,10 +23630,10 @@
 	
 	  CodeMirror.defineMIME("text/x-factor", "factor");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 57 */
+/* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -23642,8 +23645,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -23803,10 +23806,10 @@
 	
 	  CodeMirror.defineMIME("text/x-fcl", "fcl");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 58 */
+/* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -23820,8 +23823,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -23998,10 +24001,10 @@
 	  });
 	  CodeMirror.defineMIME("text/x-forth", "forth");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 59 */
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -24013,8 +24016,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -24108,10 +24111,10 @@
 	
 	  CodeMirror.defineMIME("text/x-fortran", "fortran");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 60 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -24123,8 +24126,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -24465,10 +24468,10 @@
 	    };
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 61 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -24480,8 +24483,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(62), __webpack_require__(46));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(62), __webpack_require__(46)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(64), __webpack_require__(48));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(64), __webpack_require__(48)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -24601,10 +24604,10 @@
 	
 	  CodeMirror.defineMIME("text/x-gfm", "gfm");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 62 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -24616,8 +24619,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(44), __webpack_require__(63));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(44), __webpack_require__(63)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(46), __webpack_require__(65));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(46), __webpack_require__(65)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -25449,10 +25452,10 @@
 	
 	  CodeMirror.defineMIME("text/x-markdown", "markdown");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 63 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -25464,8 +25467,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -25521,10 +25524,10 @@
 	    }
 	  };
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 64 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -25551,8 +25554,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -25705,10 +25708,10 @@
 	
 	  CodeMirror.defineMIME("text/x-feature", "gherkin");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 65 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -25720,8 +25723,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -25896,10 +25899,10 @@
 	
 	  CodeMirror.defineMIME("text/x-go", "go");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 66 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -25911,8 +25914,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -26135,10 +26138,10 @@
 	
 	  CodeMirror.defineMIME("text/x-groovy", "groovy");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 67 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -26150,8 +26153,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(43), __webpack_require__(68));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(43), __webpack_require__(68)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(45), __webpack_require__(70));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(45), __webpack_require__(70)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -26303,10 +26306,10 @@
 	
 	  CodeMirror.defineMIME("text/x-haml", "haml");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 68 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -26318,8 +26321,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -26569,10 +26572,10 @@
 	
 	  CodeMirror.defineMIME("text/x-ruby", "ruby");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 69 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -26584,8 +26587,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(48), __webpack_require__(70));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(48), __webpack_require__(70)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(50), __webpack_require__(72));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(50), __webpack_require__(72)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -26623,10 +26626,10 @@
 	
 	  CodeMirror.defineMIME("text/x-handlebars-template", "handlebars");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 70 */
+/* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -26638,8 +26641,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -26753,10 +26756,10 @@
 	    };
 	  };
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 71 */
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -26768,8 +26771,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(72));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(72)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(74));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(74)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -26803,10 +26806,10 @@
 	
 	  CodeMirror.defineMIME("text/x-literate-haskell", "haskell-literate");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 72 */
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -26818,8 +26821,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -27036,10 +27039,10 @@
 	
 	  CodeMirror.defineMIME("text/x-haskell", "haskell");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 73 */
+/* 75 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -27051,8 +27054,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -27562,10 +27565,10 @@
 	
 	  CodeMirror.defineMIME("text/x-hxml", "hxml");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 74 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -27577,8 +27580,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(43), __webpack_require__(70));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(43), __webpack_require__(70)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(45), __webpack_require__(72));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(45), __webpack_require__(72)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -27596,10 +27599,10 @@
 	  CodeMirror.defineMIME("application/x-jsp", { name: "htmlembedded", scriptingModeSpec: "text/x-java" });
 	  CodeMirror.defineMIME("application/x-erb", { name: "htmlembedded", scriptingModeSpec: "ruby" });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 75 */
+/* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -27611,8 +27614,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -27716,10 +27719,10 @@
 	
 	  CodeMirror.defineMIME("message/http", "http");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 76 */
+/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -27731,8 +27734,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -27809,10 +27812,10 @@
 	
 	  CodeMirror.defineMIME('text/x-idl', 'idl');
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 77 */
+/* 79 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -27824,8 +27827,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -27946,10 +27949,10 @@
 	    };
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 78 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -27961,8 +27964,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(44), __webpack_require__(45));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(44), __webpack_require__(45)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(46), __webpack_require__(47));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(46), __webpack_require__(47)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -28098,10 +28101,10 @@
 	  CodeMirror.defineMIME("text/jsx", "jsx");
 	  CodeMirror.defineMIME("text/typescript-jsx", { name: "jsx", base: { name: "javascript", typescript: true } });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 79 */
+/* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -28113,8 +28116,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -28530,10 +28533,10 @@
 	
 	  CodeMirror.defineMIME("text/x-julia", "julia");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 80 */
+/* 82 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -28550,8 +28553,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -28797,10 +28800,10 @@
 	
 	  CodeMirror.defineMIME('text/x-livescript', 'livescript');
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 81 */
+/* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -28816,8 +28819,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -28928,10 +28931,10 @@
 	
 	  CodeMirror.defineMIME("text/x-lua", "lua");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 82 */
+/* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -28947,8 +28950,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -29115,10 +29118,10 @@
 	    name: 'mathematica'
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 83 */
+/* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -29130,8 +29133,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -29245,10 +29248,10 @@
 	
 	  CodeMirror.defineMIME("application/mbox", "mbox");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 84 */
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -29262,8 +29265,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -29374,10 +29377,10 @@
 	    };
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 85 */
+/* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -29389,8 +29392,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -29593,10 +29596,10 @@
 	    slashComments: true
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 86 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -29610,8 +29613,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -29834,10 +29837,10 @@
 	    atoms: words(modelicaAtoms)
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 87 */
+/* 89 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -29857,8 +29860,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -30004,10 +30007,10 @@
 	    };
 	  }
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 88 */
+/* 90 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -30023,8 +30026,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -30149,10 +30152,10 @@
 	
 	  CodeMirror.defineMIME("text/x-mumps", "mumps");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 89 */
+/* 91 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -30164,8 +30167,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -30317,10 +30320,10 @@
 	
 	  CodeMirror.defineMIME("text/x-nginx-conf", "nginx");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 90 */
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -30334,8 +30337,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(48));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(48)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(50));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(50)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -30409,10 +30412,10 @@
 	
 	  CodeMirror.defineMIME("text/x-nsis", "nsis");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 91 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -30452,8 +30455,8 @@
 	
 	(function (mod) {
 	    if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	        mod(__webpack_require__(22));else if (true) // AMD
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	        mod(__webpack_require__(24));else if (true) // AMD
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	        mod(CodeMirror);
 	})(function (CodeMirror) {
 	    "use strict";
@@ -30604,10 +30607,10 @@
 	
 	    CodeMirror.defineMIME("text/n-triples", "ntriples");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 92 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -30619,8 +30622,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -30750,10 +30753,10 @@
 	
 	  CodeMirror.defineMIME("text/x-octave", "octave");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 93 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -30765,8 +30768,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -30990,10 +30993,10 @@
 	
 	  CodeMirror.defineMIME("text/x-oz", "oz");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 94 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -31005,8 +31008,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -31111,10 +31114,10 @@
 	
 	  CodeMirror.defineMIME("text/x-pascal", "pascal");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 95 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -31126,8 +31129,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(45));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(45)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(47));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(47)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -31232,10 +31235,10 @@
 	    };
 	  }, "javascript");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 96 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -31250,8 +31253,8 @@
 	
 	(function (mod) {
 	        if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	                mod(__webpack_require__(22));else if (true) // AMD
-	                !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	                mod(__webpack_require__(24));else if (true) // AMD
+	                !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	                mod(CodeMirror);
 	})(function (CodeMirror) {
 	        "use strict";
@@ -32088,10 +32091,10 @@
 	                if (x <= 0) stream.pos = 0;else if (x >= (y = stream.string.length - 1)) stream.pos = y;else stream.pos = x;
 	        }
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 97 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -32103,8 +32106,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(43), __webpack_require__(30));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(43), __webpack_require__(30)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(45), __webpack_require__(32));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(45), __webpack_require__(32)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -32321,10 +32324,10 @@
 	  CodeMirror.defineMIME("application/x-httpd-php-open", { name: "php", startOpen: true });
 	  CodeMirror.defineMIME("text/x-php", phpConfig);
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 98 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -32342,8 +32345,8 @@
 	 */
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -32487,10 +32490,10 @@
 	    CodeMirror.registerHelper("hintWords", "pig", (pBuiltins + pTypes + pKeywords).split(" "));
 	  })();
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 99 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {'use strict';
@@ -32504,8 +32507,8 @@
 	  'use strict';
 	
 	  if (( false ? 'undefined' : _typeof(exports)) == 'object' && ( false ? 'undefined' : _typeof(module)) == 'object') // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(window.CodeMirror);
 	})(function (CodeMirror) {
 	  'use strict';
@@ -32792,10 +32795,10 @@
 	
 	  CodeMirror.defineMIME('application/x-powershell', 'powershell');
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 100 */
+/* 102 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -32807,8 +32810,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -32878,10 +32881,10 @@
 	  CodeMirror.defineMIME("text/x-properties", "properties");
 	  CodeMirror.defineMIME("text/x-ini", "properties");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 101 */
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -32893,8 +32896,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -32954,10 +32957,10 @@
 	
 	  CodeMirror.defineMIME("text/x-protobuf", "protobuf");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 102 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -32969,8 +32972,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(45), __webpack_require__(37), __webpack_require__(43));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(45), __webpack_require__(37), __webpack_require__(43)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(47), __webpack_require__(39), __webpack_require__(45));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(47), __webpack_require__(39), __webpack_require__(45)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -33511,10 +33514,10 @@
 	  CodeMirror.defineMIME('text/x-pug', 'pug');
 	  CodeMirror.defineMIME('text/x-jade', 'pug');
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 103 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -33526,8 +33529,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -33731,10 +33734,10 @@
 	
 	  CodeMirror.defineMIME("text/x-puppet", "puppet");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 104 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -33746,8 +33749,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -34039,10 +34042,10 @@
 	    extra_keywords: words("by cdef cimport cpdef ctypedef enum except" + "extern gil include nogil property public" + "readonly struct union DEF IF ELIF ELSE")
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 105 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -34054,8 +34057,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -34161,10 +34164,10 @@
 	  });
 	  CodeMirror.defineMIME("text/x-q", "q");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 106 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -34176,8 +34179,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -34330,10 +34333,10 @@
 	
 	  CodeMirror.defineMIME("text/x-rsrc", "r");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 107 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -34345,8 +34348,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -34478,10 +34481,10 @@
 	
 	  CodeMirror.defineMIME("text/x-rpm-spec", "rpm-spec");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 108 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -34493,8 +34496,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(104), __webpack_require__(109), __webpack_require__(46));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(104), __webpack_require__(109), __webpack_require__(46)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(106), __webpack_require__(111), __webpack_require__(48));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(106), __webpack_require__(111), __webpack_require__(48)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -35000,10 +35003,10 @@
 	  ///////////////////////////////////////////////////////////////////////////////
 	  ///////////////////////////////////////////////////////////////////////////////
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 109 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -35020,8 +35023,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -35267,10 +35270,10 @@
 	  CodeMirror.defineMIME("text/x-stex", "stex");
 	  CodeMirror.defineMIME("text/x-latex", "stex");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 110 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -35282,8 +35285,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(48));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(48)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(50));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(50)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -35316,10 +35319,10 @@
 	
 	  CodeMirror.defineMIME("text/x-rustsrc", "rust");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 111 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -35351,8 +35354,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -35625,10 +35628,10 @@
 	
 	  CodeMirror.defineMIME("text/x-sas", "sas");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 112 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -35640,8 +35643,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -36038,10 +36041,10 @@
 	
 	  CodeMirror.defineMIME("text/x-sass", "sass");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 113 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -36057,8 +36060,8 @@
 	
 	(function (mod) {
 	    if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	        mod(__webpack_require__(22));else if (true) // AMD
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	        mod(__webpack_require__(24));else if (true) // AMD
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	        mod(CodeMirror);
 	})(function (CodeMirror) {
 	    "use strict";
@@ -36315,10 +36318,10 @@
 	
 	    CodeMirror.defineMIME("text/x-scheme", "scheme");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 114 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -36330,8 +36333,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -36462,10 +36465,10 @@
 	
 	  CodeMirror.defineMIME('text/x-sh', 'shell');
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 115 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -36477,8 +36480,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -36653,10 +36656,10 @@
 	
 	  CodeMirror.defineMIME("application/sieve", "sieve");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 116 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -36670,8 +36673,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(43), __webpack_require__(68));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(43), __webpack_require__(68)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(45), __webpack_require__(70));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(45), __webpack_require__(70)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -37240,10 +37243,10 @@
 	  CodeMirror.defineMIME("text/x-slim", "slim");
 	  CodeMirror.defineMIME("application/x-slim", "slim");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 117 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -37255,8 +37258,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -37401,10 +37404,10 @@
 	
 	  CodeMirror.defineMIME('text/x-stsrc', { name: 'smalltalk' });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 118 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -37420,8 +37423,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -37629,10 +37632,10 @@
 	
 	  CodeMirror.defineMIME("text/x-smarty", "smarty");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 119 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -37644,8 +37647,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -37720,10 +37723,10 @@
 	
 	  CodeMirror.defineMIME("text/x-solr", "solr");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 120 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -37735,8 +37738,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(43));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(43)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(45));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(45)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -38026,10 +38029,10 @@
 	
 	  CodeMirror.defineMIME("text/x-soy", "soy");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 121 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -38041,8 +38044,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -38174,10 +38177,10 @@
 	
 	  CodeMirror.defineMIME("application/sparql-query", "sparql");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 122 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -38189,8 +38192,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -38292,10 +38295,10 @@
 	
 	  CodeMirror.defineMIME("text/x-spreadsheet", "spreadsheet");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 123 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -38307,8 +38310,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -38699,10 +38702,10 @@
 	  dateSQL:
 	    Used for date/time SQL standard syntax, because not all DBMS's support same temporal types.
 	*/
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 124 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -38716,8 +38719,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -39417,10 +39420,10 @@
 	  CodeMirror.registerHelper("hintWords", "stylus", hintWords);
 	  CodeMirror.defineMIME("text/x-styl", "stylus");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 125 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -39433,7 +39436,7 @@
 	// Swift mode created by Michael Kaminsky https://github.com/mkaminsky11
 	
 	(function (mod) {
-	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") mod(__webpack_require__(22));else if (true) !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else mod(CodeMirror);
+	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") mod(__webpack_require__(24));else if (true) !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
 	
@@ -39623,10 +39626,10 @@
 	
 	  CodeMirror.defineMIME("text/x-swift", "swift");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 126 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -39640,8 +39643,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -39756,10 +39759,10 @@
 	  });
 	  CodeMirror.defineMIME("text/x-tcl", "tcl");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 127 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -39772,10 +39775,10 @@
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") {
 	    // CommonJS
-	    mod(__webpack_require__(22));
+	    mod(__webpack_require__(24));
 	  } else if (true) {
 	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	  } else {
 	    // Plain browser env
 	    mod(CodeMirror);
@@ -40177,10 +40180,10 @@
 	
 	  CodeMirror.defineMIME("text/x-textile", "textile");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 128 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -40208,8 +40211,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -40502,10 +40505,10 @@
 	
 	  CodeMirror.defineMIME("text/x-tiddlywiki", "tiddlywiki");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 129 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -40517,8 +40520,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -40827,10 +40830,10 @@
 	
 	  CodeMirror.defineMIME("text/tiki", "tiki");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 130 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -40842,8 +40845,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -40924,10 +40927,10 @@
 	
 	  CodeMirror.defineMIME('text/x-toml', 'toml');
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 131 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -40939,8 +40942,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(43), __webpack_require__(46));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(43), __webpack_require__(46)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(45), __webpack_require__(48));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(45), __webpack_require__(48)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -40993,10 +40996,10 @@
 	
 	  CodeMirror.defineMIME("text/x-tornado", "tornado");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 132 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -41007,7 +41010,7 @@
 	// Distributed under an MIT license: http://codemirror.net/LICENSE
 	
 	(function (mod) {
-	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") mod(__webpack_require__(22));else if (true) !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else mod(CodeMirror);
+	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") mod(__webpack_require__(24));else if (true) !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
 	
@@ -41081,10 +41084,10 @@
 	  CodeMirror.defineMIME('text/x-troff', 'troff');
 	  CodeMirror.defineMIME('application/x-troff', 'troff');
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 133 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -41096,8 +41099,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -41248,10 +41251,10 @@
 	    multiLineStrings: true
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 134 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -41263,8 +41266,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -41512,10 +41515,10 @@
 	    multiLineStrings: true
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 135 */
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -41527,8 +41530,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -41658,10 +41661,10 @@
 	
 	  CodeMirror.defineMIME("text/turtle", "turtle");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 136 */
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -41673,8 +41676,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(70));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(70)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(72));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(72)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -41804,10 +41807,10 @@
 	  });
 	  CodeMirror.defineMIME("text/x-twig", "twig");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 137 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -41819,8 +41822,8 @@
 	
 	(function (mod) {
 	    if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	        mod(__webpack_require__(22));else if (true) // AMD
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	        mod(__webpack_require__(24));else if (true) // AMD
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	        mod(CodeMirror);
 	})(function (CodeMirror) {
 	    "use strict";
@@ -42083,10 +42086,10 @@
 	
 	    CodeMirror.defineMIME("text/x-vb", "vb");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 138 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -42109,8 +42112,8 @@
 	
 	(function (mod) {
 	    if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	        mod(__webpack_require__(22));else if (true) // AMD
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	        mod(__webpack_require__(24));else if (true) // AMD
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	        mod(CodeMirror);
 	})(function (CodeMirror) {
 	    "use strict";
@@ -42424,10 +42427,10 @@
 	
 	    CodeMirror.defineMIME("text/vbscript", "vbscript");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 139 */
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -42439,8 +42442,8 @@
 	
 	(function (mod) {
 	    if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	        mod(__webpack_require__(22));else if (true) // AMD
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	        mod(__webpack_require__(24));else if (true) // AMD
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	        mod(CodeMirror);
 	})(function (CodeMirror) {
 	    "use strict";
@@ -42623,10 +42626,10 @@
 	
 	    CodeMirror.defineMIME("text/velocity", "velocity");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 140 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -42638,8 +42641,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -43276,10 +43279,10 @@
 	    }
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 141 */
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -43292,8 +43295,8 @@
 	// Originally written by Alf Nielsen, re-written by Michael Zhou
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -43468,10 +43471,10 @@
 	
 	  CodeMirror.defineMIME("text/x-vhdl", "vhdl");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 142 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -43486,10 +43489,10 @@
 	
 	  if (( false ? "undefined" : _typeof(exports)) === "object" && ( false ? "undefined" : _typeof(module)) === "object") {
 	    // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(46), __webpack_require__(44), __webpack_require__(45), __webpack_require__(34), __webpack_require__(37), __webpack_require__(112), __webpack_require__(124), __webpack_require__(102), __webpack_require__(69));
+	    mod(__webpack_require__(24), __webpack_require__(48), __webpack_require__(46), __webpack_require__(47), __webpack_require__(36), __webpack_require__(39), __webpack_require__(114), __webpack_require__(126), __webpack_require__(104), __webpack_require__(71));
 	  } else if (true) {
 	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(46), __webpack_require__(44), __webpack_require__(45), __webpack_require__(34), __webpack_require__(37), __webpack_require__(112), __webpack_require__(124), __webpack_require__(102), __webpack_require__(69)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(48), __webpack_require__(46), __webpack_require__(47), __webpack_require__(36), __webpack_require__(39), __webpack_require__(114), __webpack_require__(126), __webpack_require__(104), __webpack_require__(71)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	  } else {
 	    // Plain browser env
 	    mod(CodeMirror);
@@ -43519,10 +43522,10 @@
 	  CodeMirror.defineMIME("script/x-vue", "vue");
 	  CodeMirror.defineMIME("text/x-vue", "vue");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 143 */
+/* 145 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -43534,8 +43537,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -43688,10 +43691,10 @@
 	
 	  CodeMirror.defineMIME("text/x-webidl", "webidl");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 144 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -43703,8 +43706,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -44118,10 +44121,10 @@
 	
 	  CodeMirror.defineMIME("application/xquery", "xquery");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 145 */
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -44136,8 +44139,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -44317,10 +44320,10 @@
 	    name: 'yacas'
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 146 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -44332,8 +44335,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22), __webpack_require__(147));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22), __webpack_require__(147)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24), __webpack_require__(149));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24), __webpack_require__(149)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	
@@ -44395,10 +44398,10 @@
 	    };
 	  });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 147 */
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -44410,8 +44413,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -44532,10 +44535,10 @@
 	  CodeMirror.defineMIME("text/x-yaml", "yaml");
 	  CodeMirror.defineMIME("text/yaml", "yaml");
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 148 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -44547,8 +44550,8 @@
 	
 	(function (mod) {
 	  if (( false ? "undefined" : _typeof(exports)) == "object" && ( false ? "undefined" : _typeof(module)) == "object") // CommonJS
-	    mod(__webpack_require__(22));else if (true) // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
+	    mod(__webpack_require__(24));else if (true) // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(24)], __WEBPACK_AMD_DEFINE_FACTORY__ = (mod), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else // Plain browser env
 	    mod(CodeMirror);
 	})(function (CodeMirror) {
 	  "use strict";
@@ -44646,10 +44649,10 @@
 	  CodeMirror.defineMIME("text/x-z80", "z80");
 	  CodeMirror.defineMIME("text/x-ez80", { name: "z80", ez80: true });
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(27)(module)))
 
 /***/ },
-/* 149 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
@@ -44667,24 +44670,24 @@
 	
 	    this.setMarkdown = function () {
 	        if (opts.file) {
-	            _this.root.innerHTML = __webpack_require__(150)("./" + opts.file + '.md');
+	            _this.root.innerHTML = __webpack_require__(152)("./" + opts.file + '.md');
 	        } else if (opts.content) {
 	            _this.root.innerHTML = opts.content;
 	        }
 	    };
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
 
 /***/ },
-/* 150 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./config.md": 151,
-		"./index.md": 152,
-		"./install.md": 153,
-		"./test.md": 154,
-		"./usage.md": 155
+		"./config.md": 153,
+		"./index.md": 154,
+		"./install.md": 155,
+		"./test.md": 156,
+		"./usage.md": 157
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -44697,54 +44700,55 @@
 	};
 	webpackContext.resolve = webpackContextResolve;
 	module.exports = webpackContext;
-	webpackContext.id = 150;
+	webpackContext.id = 152;
 
-
-/***/ },
-/* 151 */
-/***/ function(module, exports) {
-
-	module.exports = "<h2 id=\"build-your-own-config\">Build your own config</h2>\n<p>Each of these settings depict which items will be available. You can save a lot of source-code by using just the features you need.</p>\n<p>need help building flex-properties?</p>\n<p><a href=\"https://flexmaid.com\" class=\"button\">Use flexmaid</a></p>\n";
-
-/***/ },
-/* 152 */
-/***/ function(module, exports) {
-
-	module.exports = "<p>Testing!</p>\n<pre class=\"language-js\"><code class=\"language-js\"><span class=\"token keyword\">if</span> <span class=\"token punctuation\">(</span>code <span class=\"token operator\">==</span> <span class=\"token string\">'awesome!'</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token keyword\">return</span> <span class=\"token boolean\">true</span>\n<span class=\"token punctuation\">}</span>\n\n<span class=\"token keyword\">try</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">obtainWorldDomination</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span>\n<span class=\"token punctuation\">}</span> <span class=\"token keyword\">catch</span> <span class=\"token punctuation\">(</span><span class=\"token class-name\">e</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n    console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token string\">`this won't work out`</span></span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span> <span class=\"token keyword\">finally</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">tryAgain</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span>\n<span class=\"token punctuation\">}</span></code></pre>";
 
 /***/ },
 /* 153 */
 /***/ function(module, exports) {
 
-	module.exports = "<h3 id=\"download-via-package-manager\">Download via Package Manager</h3>\n<pre class=\"language-js\"><code class=\"language-js\">npm install flexproperties</code></pre><h3 id=\"download-source\">Download Source</h3>\n<p>See github</p>\n";
+	module.exports = "<h2 id=\"build-your-own-config\">Build your own config</h2>\n<p>Each of these settings depict which items will be available. You can save a lot of source-code by using just the features you need.</p>\n<p>need help building flex-properties?</p>\n<p><a href=\"https://flexmaid.com\" class=\"button\">Use flexmaid</a></p>\n";
 
 /***/ },
 /* 154 */
 /***/ function(module, exports) {
 
-	module.exports = "<p>I am a test file</p>\n";
+	module.exports = "<p>Testing!</p>\n<pre class=\"code-example language-js\"><code class=\"language-js\"><span class=\"token keyword\">if</span> <span class=\"token punctuation\">(</span>code <span class=\"token operator\">==</span> <span class=\"token string\">'awesome!'</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token keyword\">return</span> <span class=\"token boolean\">true</span>\n<span class=\"token punctuation\">}</span>\n\n<span class=\"token keyword\">try</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">obtainWorldDomination</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span>\n<span class=\"token punctuation\">}</span> <span class=\"token keyword\">catch</span> <span class=\"token punctuation\">(</span><span class=\"token class-name\">e</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n    console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token string\">`this won't work out`</span></span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span> <span class=\"token keyword\">finally</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">tryAgain</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span>\n<span class=\"token punctuation\">}</span></code></pre>";
 
 /***/ },
 /* 155 */
 /***/ function(module, exports) {
 
-	module.exports = "<pre class=\"language-js\"><code class=\"language-js\">@<span class=\"token keyword\">import</span> <span class=\"token string\">'~flexproperties/src/flex-grid.scss'</span></code></pre><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token keyword\">function</span> <span class=\"token function\">findSequence</span><span class=\"token punctuation\">(</span>goal<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token keyword\">function</span> <span class=\"token function\">find</span><span class=\"token punctuation\">(</span>start<span class=\"token punctuation\">,</span> history<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token keyword\">if</span> <span class=\"token punctuation\">(</span>start <span class=\"token operator\">==</span> goal<span class=\"token punctuation\">)</span>\n      <span class=\"token keyword\">return</span> history<span class=\"token punctuation\">;</span>\n    <span class=\"token keyword\">else</span> <span class=\"token keyword\">if</span> <span class=\"token punctuation\">(</span>start <span class=\"token operator\">></span> goal<span class=\"token punctuation\">)</span>\n      <span class=\"token keyword\">return</span> <span class=\"token keyword\">null</span><span class=\"token punctuation\">;</span>\n    <span class=\"token keyword\">else</span>\n      <span class=\"token keyword\">return</span> <span class=\"token function\">find</span><span class=\"token punctuation\">(</span>start <span class=\"token operator\">+</span> <span class=\"token number\">5</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"(\"</span> <span class=\"token operator\">+</span> history <span class=\"token operator\">+</span> <span class=\"token string\">\" + 5)\"</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">||</span>\n             <span class=\"token function\">find</span><span class=\"token punctuation\">(</span>start <span class=\"token operator\">*</span> <span class=\"token number\">3</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"(\"</span> <span class=\"token operator\">+</span> history <span class=\"token operator\">+</span> <span class=\"token string\">\" * 3)\"</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n  <span class=\"token punctuation\">}</span>\n  <span class=\"token keyword\">return</span> <span class=\"token function\">find</span><span class=\"token punctuation\">(</span><span class=\"token number\">1</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"1\"</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span></code></pre>";
+	module.exports = "<h2 id=\"download-via-package-manager\">Download via Package Manager</h2>\n<pre class=\"code-example language-js\"><code class=\"language-js\">npm install flexproperties</code></pre><h2 id=\"download-source\">Download Source</h2>\n<p>See github</p>\n<h2 id=\"download-pre-built\">Download pre-built</h2>\n<p>See github</p>\n";
 
 /***/ },
 /* 156 */
 /***/ function(module, exports) {
 
-	module.exports = "$breakpoints: (\n    (sm, 40em)\n    (md, 60em)\n    (lg, 80em)\n);\n\n$ie: false;\n\n$layout-gutter-width: 1em;\n\n$flex-step: 5;\n$flex-steps: (100 / $flex-step);\n\n@import '~flexproperties/src/flex-grid.scss'\n"
+	module.exports = "<p>I am a test file</p>\n";
 
 /***/ },
 /* 157 */
+/***/ function(module, exports) {
+
+	module.exports = "<h2 id=\"layout\">layout</h2>\n<p>with the attribute <code>layout</code> you can set the <code>flex-direction</code> of a container.</p>\n<p>This will also define how <code>layout-align</code> and <code>flex</code> values are used.</p>\n<p><strong>possible values:</strong> <code>row</code> and <code>column</code></p>\n<p><strong>tip:</strong> <code>column</code> will swap main and cross axis.</p>\n\n            <div layout=\"row\" class=\"code\">\n                <pre flex=\"100\" flex-gt-md=\"50\" class=\"code-example language-html\"><code class=\"language-html\"><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ul</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>breadcrumbs<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">layout</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>row<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>Documentation<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>Layout<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>Contribute<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ul</span><span class=\"token punctuation\">></span></span></code></pre>\n                <div flex=\"100\" flex-gt-md=\"50\" class=\"code-preview\">\n                    <ul class=\"breadcrumbs\" layout=\"row\">\n    <li>Documentation</li>\n    <li>Layout</li>\n    <li>Contribute</li>\n</ul>\n                </div>\n            </div>\n        <h2 id=\"layout-align\">layout-align</h2>\n<p><strong>requirement:</strong> There has to be a <code>layout</code> assigned in order for this to take effect. Depending on the layout, this will se</p>\n<p>This property defines the flow of direct children elements.</p>\n<p>The first value sets the alignment of the items on the main-axis, the second for the cross-axis.</p>\n<p><strong>possible values:</strong> <code>start</code>, <code>end</code>, <code>center</code>, <code>space-between</code> and <code>space-around</code></p>\n<p>If there is no value provided, it will stretch the items for the axis.</p>\n\n            <div layout=\"row\" class=\"code\">\n                <pre flex=\"100\" flex-gt-md=\"50\" class=\"code-example language-html\"><code class=\"language-html\"><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>section</span> <span class=\"token attr-name\">layout</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>row<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">nowrap</span> <span class=\"token attr-name\">layout-align</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>space-around center<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>article</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>card<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>h2</span><span class=\"token punctuation\">></span></span>Hobby<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>h2</span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ul</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>one free domain<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>10GB space<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ul</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>article</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>article</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>card<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>h2</span><span class=\"token punctuation\">></span></span>Starter<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>h2</span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ul</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>all from Hobby<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>10 free domains<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>100GB space<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>1 year of support<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>analytics tools<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ul</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>article</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>article</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>card<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>h2</span><span class=\"token punctuation\">></span></span>Enterprise<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>h2</span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ul</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>all from Starter<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>∞ space<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>∞ domains<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span><span class=\"token punctuation\">></span></span>build tools<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ul</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>article</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>section</span><span class=\"token punctuation\">></span></span></code></pre>\n                <div flex=\"100\" flex-gt-md=\"50\" class=\"code-preview\">\n                    <section layout=\"row\" nowrap layout-align=\"space-around center\">\n    <article class=\"card\">\n        <h2>Hobby</h2>\n        <ul>\n            <li>one free domain</li>\n            <li>10GB space</li>\n        </ul>\n    </article>\n    <article class=\"card\">\n        <h2>Starter</h2>\n        <ul>\n            <li>all from Hobby</li>\n            <li>10 free domains</li>\n            <li>100GB space</li>\n            <li>1 year of support</li>\n            <li>analytics tools</li>\n        </ul>\n    </article>\n    <article class=\"card\">\n        <h2>Enterprise</h2>\n        <ul>\n            <li>all from Starter</li>\n            <li>∞ space</li>\n            <li>∞ domains</li>\n            <li>build tools</li>\n        </ul>\n    </article>\n</section>\n                </div>\n            </div>\n        ";
+
+/***/ },
+/* 158 */
+/***/ function(module, exports) {
+
+	module.exports = "$breakpoints: (\n    (sm, 40em)\n    (md, 60em)\n    (lg, 80em)\n);\n\n$ie: false;\n\n$layout-gutter-width: 1em;\n\n$flex-step: 5;\n$flex-steps: (100 / $flex-step);\n\n@import '~flexproperties/src/flex-grid.scss'\n"
+
+/***/ },
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./config.html": 158,
-		"./home.html": 161,
-		"./play.html": 162,
-		"./usage.html": 163
+		"./config.html": 160,
+		"./home.html": 164,
+		"./install.html": 165,
+		"./play.html": 166,
+		"./usage.html": 167
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -44757,31 +44761,120 @@
 	};
 	webpackContext.resolve = webpackContextResolve;
 	module.exports = webpackContext;
-	webpackContext.id = 157;
+	webpackContext.id = 159;
 
 
 /***/ },
-/* 158 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
 	
-	__webpack_require__(159);
+	__webpack_require__(161);
 	
-	__webpack_require__(160);
+	__webpack_require__(162);
 	
-	__webpack_require__(149);
+	__webpack_require__(151);
 	
-	riot.tag2('config', '<section class="stripe secondary"> <article> <markdown file="config"></markdown> </article> </section> <section each="{item, key in configItems}"> <article> <h2>{item.title}</h2> <div layout="row" layout-align="space-between start"> <raw flex="75" content="{item.description}"></raw> <switch flex="25" ref="{key}"></switch> </div> </article> </section> <section class="stripe primary"> <article> <div layout="row" layout-align="space-between center"> <h2>Summary</h2> </div> <editor language="sass" code="{configuration}"></editor> </article> </section>', '', '', function (opts) {
+	var _nouislider = __webpack_require__(163);
+	
+	var _nouislider2 = _interopRequireDefault(_nouislider);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	riot.tag2('config', '<section class="stripe secondary"> <article> <markdown file="config"></markdown> </article> </section> <section each="{item, key in configItems}"> <article ref="{key}"> <h2>{item.title}</h2> <div layout="row" layout-align="space-between start"> <raw flex="75" content="{item.description}"></raw> <switch if="{item.config.type == \'switch\'}" state="{item.data.switch.enabled}" ref="{key}"></switch> </div> <div if="{item.config.type == \'ranges\'}"> <div class="slider" layout="row" layout-align="space-between center" each="{range, rangeKey in item.data.ranges}"> <input data-target="{parent.key}" size="8" class="slider-label" type="text" onkeyup="{renameRange}" riot-value="{rangeKey}"> <div flex-auto class="slider-handle" ref="{parent.key}-range-{rangeKey}"></div> <a data-target="{parent.key}" onclick="{removeRange}" class="button round">&times;</a> </div> <a class="slider-add button round" onclick="{addRange}">+</a> </div> </article> </section> <section class="stripe primary"> <article> <div layout="row" layout-align="space-between center"> <h2>Summary</h2> </div> <editor language="sass" code="{configuration}"></editor> </article> </section>', '', '', function (opts) {
+	    var _this = this;
+	
 	    this.configuration = '\n        $breakpoints: (\n            (sm, 40em)\n            (md, 60em)\n            (lg, 80em)\n        );\n        $ie: false;\n        $flex-step: 5;\n        ';
+	
+	    this.addRange = function (e) {
+	        var data = e.item.item.data.ranges;
+	        var rangeConfig = e.item.item.config.range;
+	        if (!data.hasOwnProperty('new')) {
+	            data.new = (rangeConfig.max - rangeConfig.min) / 2;
+	            this.update();
+	            this.initSlider(e.item.item, 'new');
+	        }
+	    }.bind(this);
+	
+	    this.removeRange = function (e) {
+	        if (this.configItems.hasOwnProperty(e.target.dataset.target)) {
+	            delete this.configItems[e.target.dataset.target].data.ranges[e.item.rangeKey];
+	        }
+	    }.bind(this);
+	
+	    this.renameRange = function (e) {
+	        if (this.configItems.hasOwnProperty(e.target.dataset.target)) {
+	            if (e.target.value.length) {
+	                var rangeKey = e.item.rangeKey;
+	                var data = this.configItems[e.target.dataset.target].data.ranges;
+	                delete data[rangeKey];
+	                data[e.target.value] = e.item.range;
+	            }
+	        }
+	        console.log(this.configItems['breakpoints'].data.ranges);
+	    }.bind(this);
+	
+	    this.initSlider = function (configItem, key) {
+	        var range = configItem.data.ranges[key];
+	        var config = configItem.config;
+	        _nouislider2.default.create(_this.refs[configItem.name + '-range-' + key], {
+	            start: range,
+	            pips: {
+	                mode: config.range.pips.mode,
+	                values: config.range.pips.values,
+	                density: config.range.pips.density
+	            },
+	            step: config.range.step,
+	            tooltips: [true],
+	            range: {
+	                min: config.range.min,
+	                max: config.range.max
+	            }
+	        });
+	    };
+	
+	    this.on('mount', function () {
+	        var configItems = Object.keys(_this.configItems).map(function (item) {
+	            _this.configItems[item].name = item;
+	            return _this.configItems[item];
+	        });
+	
+	        var rangeConfigItems = configItems.filter(function (item) {
+	            return item.config.type == 'ranges';
+	        });
+	        for (var configItem in rangeConfigItems) {
+	            configItem = rangeConfigItems[configItem];
+	            console.log(configItem);
+	            for (var key in configItem.data.ranges) {
+	                _this.initSlider(configItem, key);
+	            }
+	        }
+	    });
+	
 	    this.configItems = {
 	        'breakpoints': {
 	            title: 'Breakpoints',
 	            description: '<p>With this, you can set up the amount of breakpoints</p>',
-	            lines: 10,
+	            lines: {
+	                global: 10,
+	                breakpoint: 10
+	            },
 	            config: {
-	                type: 'range',
-	                data: {
+	                type: 'ranges',
+	                range: {
+	                    min: 320,
+	                    max: 1920,
+	                    step: 32,
+	                    pips: {
+	                        mode: 'count',
+	                        values: 6,
+	                        density: 2
+	                    }
+	                }
+	            },
+	            data: {
+	                ranges: {
 	                    sm: 640,
 	                    md: 960,
 	                    lg: 1280
@@ -44790,90 +44883,120 @@
 	        },
 	        'steps': {
 	            title: 'Steps',
-	            description: '',
-	            lines: 10,
+	            description: '<p>Sets the amount of steps. So for example all 5%, we create a property: flex="5", flex="10"</p>',
+	            lines: {
+	                global: 10,
+	                breakpoint: 10
+	            },
 	            config: {
-	                type: 'range'
+	                type: 'range',
+	                range: {
+	                    values: [1, 2, 4, 5, 10, 20, 25, 50]
+	                }
+	            },
+	            data: {
+	                range: { value: 5 }
 	            }
 	        },
 	        'feature-layout': {
 	            title: 'feature-layout',
 	            description: '',
-	            lines: 10,
+	            lines: {
+	                global: 10,
+	                breakpoint: 10
+	            },
 	            config: {
 	                type: 'switch'
+	            },
+	            data: {
+	                switch: {
+	                    enabled: true
+	                }
 	            }
 	        },
 	        'feature-layout-align': {
 	            title: 'feature-layout-align',
 	            description: '',
-	            lines: 10,
+	            lines: {
+	                global: 10,
+	                breakpoint: 10
+	            },
 	            config: {
 	                type: 'switch'
+	            },
+	            data: {
+	                switch: {
+	                    enabled: false
+	                }
 	            }
 	        },
 	        'feature-flex': {
 	            title: 'feature-flex',
 	            description: '',
-	            lines: 10,
+	            lines: {
+	                global: 10,
+	                breakpoint: 10
+	            },
 	            config: {
 	                type: 'switch'
+	            },
+	            data: {
+	                switch: {
+	                    enabled: true
+	                }
 	            }
 	        },
 	        'feature-visibility': {
 	            title: 'feature-visibility',
 	            description: '',
-	            lines: 10,
+	            lines: {
+	                global: 10,
+	                breakpoint: 10
+	            },
 	            config: {
 	                type: 'switch'
+	            },
+	            data: {
+	                switch: {
+	                    enabled: true
+	                }
 	            }
 	        },
 	        'feature-order': {
 	            title: 'feature-order',
 	            description: '',
-	            lines: 10,
+	            lines: {
+	                global: 10,
+	                breakpoint: 10
+	            },
 	            config: {
 	                type: 'switch'
+	            },
+	            data: {
+	                switch: {
+	                    enabled: true
+	                }
 	            }
 	        },
 	        'feature-offset': {
 	            title: 'feature-offset',
 	            description: '',
-	            lines: 10,
+	            lines: {
+	                global: 10,
+	                breakpoint: 10
+	            },
 	            config: {
 	                type: 'switch'
+	            },
+	            data: {
+	                switch: {
+	                    enabled: true
+	                }
 	            }
 	        }
 	    };
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
-
-/***/ },
-/* 159 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
-	
-	riot.tag2('raw', '', '', '', function (opts) {
-	        this.root.innerHTML = opts.content || '';
-	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
-
-/***/ },
-/* 160 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
-	
-	riot.tag2('switch', '<div class="container {off: !state}" onclick="{switchState}"> <div class="switch"> </div> <div class="label left"> </div> <div class="label right"> </div> </div>', 'switch .container,[data-is="switch"] .container{ position: relative; width: 5em; height: 1.5em; border: thin solid #2ecc71; cursor: pointer; border-radius: .25em; } switch .switch,[data-is="switch"] .switch{ position: absolute; width: 50%; height: 100%; background-color: #2ecc71; transition: all 0.15s ease; left: 0; z-index: 1; } switch .container.off,[data-is="switch"] .container.off{ border: thin solid #e74c3c; } switch .container.off .switch,[data-is="switch"] .container.off .switch{ left: 50%; background-color: #e74c3c; } switch .label,[data-is="switch"] .label{ position: absolute; width: 50%; height: 100%; text-align: center; padding-top: 5px; } switch .label.right,[data-is="switch"] .label.right{ left: 50%; }', '', function (opts) {
-	    this.state = opts.state || true;
-	
-	    this.switchState = function (e) {
-	        this.state = !this.state;
-	        this.trigger('switch', this);
-	    }.bind(this);
-	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
 
 /***/ },
 /* 161 */
@@ -44881,8 +45004,10 @@
 
 	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
 	
-	riot.tag2('home', '<section class="stripe primary"> <article> <markdown file="install"></markdown> <markdown file="usage"></markdown> <editor language="sass" code="{setup}"></editor> </article> </section> <section class="stripe light"> <article> <h2>Benefits</h2> <div layout="row" class="benefits" layout-align="center center"> <div flex="25"> <img src="http://placekitten.com/350/350"> <h3>Just the layout</h3> <p>works everywhere! some extra text here benefits of having layout in the markup is awesome.</p> </div> <div flex="25"> <img src="http://placekitten.com/350/350"> <h3>Layout belongs to the HTML</h3> <p>works everywhere is awesome.</p> </div> <div flex="25"> <img src="http://placekitten.com/350/350"> <h3>Responsive</h3> <p>or just a few lines benefits of having layout in the markup is awesome.</p> </div> <div flex="25"> <img src="http://placekitten.com/350/350"> <h3>Quick Sketching</h3> <p>works everywhere! benefits of having layout in the markup is awesome. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p> </div> </div> </article> </section>', '', '', function (opts) {});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
+	riot.tag2('raw', '', '', '', function (opts) {
+	        this.root.innerHTML = opts.content || '';
+	});
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
 
 /***/ },
 /* 162 */
@@ -44890,17 +45015,2169 @@
 
 	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
 	
-	riot.tag2('play', '<section class="stripe secondary"> <article> <markdown file="install"></markdown> <markdown file="usage"></markdown> <editor language="sass" code="{setup}"></editor> </article> </section>', '', '', function (opts) {});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
+	riot.tag2('switch', '<div class="container {off: !state}" onclick="{switchState}"> <div class="switch"> </div> <div class="label left"> </div> <div class="label right"> </div> </div>', 'switch .container,[data-is="switch"] .container{ position: relative; width: 5em; height: 1.5em; border: thin solid #2ecc71; cursor: pointer; border-radius: .25em; } switch .switch,[data-is="switch"] .switch{ position: absolute; width: 50%; height: 100%; background-color: #2ecc71; transition: all 0.15s ease; left: 0; z-index: 1; } switch .container.off,[data-is="switch"] .container.off{ border: thin solid #e74c3c; } switch .container.off .switch,[data-is="switch"] .container.off .switch{ left: 50%; background-color: #e74c3c; } switch .label,[data-is="switch"] .label{ position: absolute; width: 50%; height: 100%; text-align: center; padding-top: 5px; } switch .label.right,[data-is="switch"] .label.right{ left: 50%; }', '', function (opts) {
+	    if (opts.state == 'false' || !opts.state) {
+	        this.state = false;
+	    } else {
+	        this.state = true;
+	    }
+	
+	    this.switchState = function (e) {
+	        this.state = !this.state;
+	        this.trigger('switch', this);
+	    }.bind(this);
+	});
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
 
 /***/ },
 /* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;'use strict';
+	
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+	
+	/*! nouislider - 9.2.0 - 2017-01-11 10:35:34 */
+	
+	(function (factory) {
+	
+		if (true) {
+	
+			// AMD. Register as an anonymous module.
+			!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		} else if ((typeof exports === 'undefined' ? 'undefined' : _typeof(exports)) === 'object') {
+	
+			// Node/CommonJS
+			module.exports = factory();
+		} else {
+	
+			// Browser globals
+			window.noUiSlider = factory();
+		}
+	})(function () {
+	
+		'use strict';
+	
+		var VERSION = '9.2.0';
+	
+		// Creates a node, adds it to target, returns the new node.
+		function addNodeTo(target, className) {
+			var div = document.createElement('div');
+			addClass(div, className);
+			target.appendChild(div);
+			return div;
+		}
+	
+		// Removes duplicates from an array.
+		function unique(array) {
+			return array.filter(function (a) {
+				return !this[a] ? this[a] = true : false;
+			}, {});
+		}
+	
+		// Round a value to the closest 'to'.
+		function closest(value, to) {
+			return Math.round(value / to) * to;
+		}
+	
+		// Current position of an element relative to the document.
+		function offset(elem, orientation) {
+	
+			var rect = elem.getBoundingClientRect(),
+			    doc = elem.ownerDocument,
+			    docElem = doc.documentElement,
+			    pageOffset = getPageOffset();
+	
+			// getBoundingClientRect contains left scroll in Chrome on Android.
+			// I haven't found a feature detection that proves this. Worst case
+			// scenario on mis-match: the 'tap' feature on horizontal sliders breaks.
+			if (/webkit.*Chrome.*Mobile/i.test(navigator.userAgent)) {
+				pageOffset.x = 0;
+			}
+	
+			return orientation ? rect.top + pageOffset.y - docElem.clientTop : rect.left + pageOffset.x - docElem.clientLeft;
+		}
+	
+		// Checks whether a value is numerical.
+		function isNumeric(a) {
+			return typeof a === 'number' && !isNaN(a) && isFinite(a);
+		}
+	
+		// Sets a class and removes it after [duration] ms.
+		function addClassFor(element, className, duration) {
+			if (duration > 0) {
+				addClass(element, className);
+				setTimeout(function () {
+					removeClass(element, className);
+				}, duration);
+			}
+		}
+	
+		// Limits a value to 0 - 100
+		function limit(a) {
+			return Math.max(Math.min(a, 100), 0);
+		}
+	
+		// Wraps a variable as an array, if it isn't one yet.
+		// Note that an input array is returned by reference!
+		function asArray(a) {
+			return Array.isArray(a) ? a : [a];
+		}
+	
+		// Counts decimals
+		function countDecimals(numStr) {
+			numStr = String(numStr);
+			var pieces = numStr.split(".");
+			return pieces.length > 1 ? pieces[1].length : 0;
+		}
+	
+		// http://youmightnotneedjquery.com/#add_class
+		function addClass(el, className) {
+			if (el.classList) {
+				el.classList.add(className);
+			} else {
+				el.className += ' ' + className;
+			}
+		}
+	
+		// http://youmightnotneedjquery.com/#remove_class
+		function removeClass(el, className) {
+			if (el.classList) {
+				el.classList.remove(className);
+			} else {
+				el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+			}
+		}
+	
+		// https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/
+		function hasClass(el, className) {
+			return el.classList ? el.classList.contains(className) : new RegExp('\\b' + className + '\\b').test(el.className);
+		}
+	
+		// https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY#Notes
+		function getPageOffset() {
+	
+			var supportPageOffset = window.pageXOffset !== undefined,
+			    isCSS1Compat = (document.compatMode || "") === "CSS1Compat",
+			    x = supportPageOffset ? window.pageXOffset : isCSS1Compat ? document.documentElement.scrollLeft : document.body.scrollLeft,
+			    y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+	
+			return {
+				x: x,
+				y: y
+			};
+		}
+	
+		// we provide a function to compute constants instead
+		// of accessing window.* as soon as the module needs it
+		// so that we do not compute anything if not needed
+		function getActions() {
+	
+			// Determine the events to bind. IE11 implements pointerEvents without
+			// a prefix, which breaks compatibility with the IE10 implementation.
+			return window.navigator.pointerEnabled ? {
+				start: 'pointerdown',
+				move: 'pointermove',
+				end: 'pointerup'
+			} : window.navigator.msPointerEnabled ? {
+				start: 'MSPointerDown',
+				move: 'MSPointerMove',
+				end: 'MSPointerUp'
+			} : {
+				start: 'mousedown touchstart',
+				move: 'mousemove touchmove',
+				end: 'mouseup touchend'
+			};
+		}
+	
+		// Value calculation
+	
+		// Determine the size of a sub-range in relation to a full range.
+		function subRangeRatio(pa, pb) {
+			return 100 / (pb - pa);
+		}
+	
+		// (percentage) How many percent is this value of this range?
+		function fromPercentage(range, value) {
+			return value * 100 / (range[1] - range[0]);
+		}
+	
+		// (percentage) Where is this value on this range?
+		function toPercentage(range, value) {
+			return fromPercentage(range, range[0] < 0 ? value + Math.abs(range[0]) : value - range[0]);
+		}
+	
+		// (value) How much is this percentage on this range?
+		function isPercentage(range, value) {
+			return value * (range[1] - range[0]) / 100 + range[0];
+		}
+	
+		// Range conversion
+	
+		function getJ(value, arr) {
+	
+			var j = 1;
+	
+			while (value >= arr[j]) {
+				j += 1;
+			}
+	
+			return j;
+		}
+	
+		// (percentage) Input a value, find where, on a scale of 0-100, it applies.
+		function toStepping(xVal, xPct, value) {
+	
+			if (value >= xVal.slice(-1)[0]) {
+				return 100;
+			}
+	
+			var j = getJ(value, xVal),
+			    va,
+			    vb,
+			    pa,
+			    pb;
+	
+			va = xVal[j - 1];
+			vb = xVal[j];
+			pa = xPct[j - 1];
+			pb = xPct[j];
+	
+			return pa + toPercentage([va, vb], value) / subRangeRatio(pa, pb);
+		}
+	
+		// (value) Input a percentage, find where it is on the specified range.
+		function fromStepping(xVal, xPct, value) {
+	
+			// There is no range group that fits 100
+			if (value >= 100) {
+				return xVal.slice(-1)[0];
+			}
+	
+			var j = getJ(value, xPct),
+			    va,
+			    vb,
+			    pa,
+			    pb;
+	
+			va = xVal[j - 1];
+			vb = xVal[j];
+			pa = xPct[j - 1];
+			pb = xPct[j];
+	
+			return isPercentage([va, vb], (value - pa) * subRangeRatio(pa, pb));
+		}
+	
+		// (percentage) Get the step that applies at a certain value.
+		function getStep(xPct, xSteps, snap, value) {
+	
+			if (value === 100) {
+				return value;
+			}
+	
+			var j = getJ(value, xPct),
+			    a,
+			    b;
+	
+			// If 'snap' is set, steps are used as fixed points on the slider.
+			if (snap) {
+	
+				a = xPct[j - 1];
+				b = xPct[j];
+	
+				// Find the closest position, a or b.
+				if (value - a > (b - a) / 2) {
+					return b;
+				}
+	
+				return a;
+			}
+	
+			if (!xSteps[j - 1]) {
+				return value;
+			}
+	
+			return xPct[j - 1] + closest(value - xPct[j - 1], xSteps[j - 1]);
+		}
+	
+		// Entry parsing
+	
+		function handleEntryPoint(index, value, that) {
+	
+			var percentage;
+	
+			// Wrap numerical input in an array.
+			if (typeof value === "number") {
+				value = [value];
+			}
+	
+			// Reject any invalid input, by testing whether value is an array.
+			if (Object.prototype.toString.call(value) !== '[object Array]') {
+				throw new Error("noUiSlider (" + VERSION + "): 'range' contains invalid value.");
+			}
+	
+			// Covert min/max syntax to 0 and 100.
+			if (index === 'min') {
+				percentage = 0;
+			} else if (index === 'max') {
+				percentage = 100;
+			} else {
+				percentage = parseFloat(index);
+			}
+	
+			// Check for correct input.
+			if (!isNumeric(percentage) || !isNumeric(value[0])) {
+				throw new Error("noUiSlider (" + VERSION + "): 'range' value isn't numeric.");
+			}
+	
+			// Store values.
+			that.xPct.push(percentage);
+			that.xVal.push(value[0]);
+	
+			// NaN will evaluate to false too, but to keep
+			// logging clear, set step explicitly. Make sure
+			// not to override the 'step' setting with false.
+			if (!percentage) {
+				if (!isNaN(value[1])) {
+					that.xSteps[0] = value[1];
+				}
+			} else {
+				that.xSteps.push(isNaN(value[1]) ? false : value[1]);
+			}
+	
+			that.xHighestCompleteStep.push(0);
+		}
+	
+		function handleStepPoint(i, n, that) {
+	
+			// Ignore 'false' stepping.
+			if (!n) {
+				return true;
+			}
+	
+			// Factor to range ratio
+			that.xSteps[i] = fromPercentage([that.xVal[i], that.xVal[i + 1]], n) / subRangeRatio(that.xPct[i], that.xPct[i + 1]);
+	
+			var totalSteps = (that.xVal[i + 1] - that.xVal[i]) / that.xNumSteps[i];
+			var highestStep = Math.ceil(Number(totalSteps.toFixed(3)) - 1);
+			var step = that.xVal[i] + that.xNumSteps[i] * highestStep;
+	
+			that.xHighestCompleteStep[i] = step;
+		}
+	
+		// Interface
+	
+		// The interface to Spectrum handles all direction-based
+		// conversions, so the above values are unaware.
+	
+		function Spectrum(entry, snap, direction, singleStep) {
+	
+			this.xPct = [];
+			this.xVal = [];
+			this.xSteps = [singleStep || false];
+			this.xNumSteps = [false];
+			this.xHighestCompleteStep = [];
+	
+			this.snap = snap;
+			this.direction = direction;
+	
+			var index,
+			    ordered = [/* [0, 'min'], [1, '50%'], [2, 'max'] */];
+	
+			// Map the object keys to an array.
+			for (index in entry) {
+				if (entry.hasOwnProperty(index)) {
+					ordered.push([entry[index], index]);
+				}
+			}
+	
+			// Sort all entries by value (numeric sort).
+			if (ordered.length && _typeof(ordered[0][0]) === "object") {
+				ordered.sort(function (a, b) {
+					return a[0][0] - b[0][0];
+				});
+			} else {
+				ordered.sort(function (a, b) {
+					return a[0] - b[0];
+				});
+			}
+	
+			// Convert all entries to subranges.
+			for (index = 0; index < ordered.length; index++) {
+				handleEntryPoint(ordered[index][1], ordered[index][0], this);
+			}
+	
+			// Store the actual step values.
+			// xSteps is sorted in the same order as xPct and xVal.
+			this.xNumSteps = this.xSteps.slice(0);
+	
+			// Convert all numeric steps to the percentage of the subrange they represent.
+			for (index = 0; index < this.xNumSteps.length; index++) {
+				handleStepPoint(index, this.xNumSteps[index], this);
+			}
+		}
+	
+		Spectrum.prototype.getMargin = function (value) {
+	
+			var step = this.xNumSteps[0];
+	
+			if (step && value / step % 1 !== 0) {
+				throw new Error("noUiSlider (" + VERSION + "): 'limit', 'margin' and 'padding' must be divisible by step.");
+			}
+	
+			return this.xPct.length === 2 ? fromPercentage(this.xVal, value) : false;
+		};
+	
+		Spectrum.prototype.toStepping = function (value) {
+	
+			value = toStepping(this.xVal, this.xPct, value);
+	
+			return value;
+		};
+	
+		Spectrum.prototype.fromStepping = function (value) {
+	
+			return fromStepping(this.xVal, this.xPct, value);
+		};
+	
+		Spectrum.prototype.getStep = function (value) {
+	
+			value = getStep(this.xPct, this.xSteps, this.snap, value);
+	
+			return value;
+		};
+	
+		Spectrum.prototype.getNearbySteps = function (value) {
+	
+			var j = getJ(value, this.xPct);
+	
+			return {
+				stepBefore: { startValue: this.xVal[j - 2], step: this.xNumSteps[j - 2], highestStep: this.xHighestCompleteStep[j - 2] },
+				thisStep: { startValue: this.xVal[j - 1], step: this.xNumSteps[j - 1], highestStep: this.xHighestCompleteStep[j - 1] },
+				stepAfter: { startValue: this.xVal[j - 0], step: this.xNumSteps[j - 0], highestStep: this.xHighestCompleteStep[j - 0] }
+			};
+		};
+	
+		Spectrum.prototype.countStepDecimals = function () {
+			var stepDecimals = this.xNumSteps.map(countDecimals);
+			return Math.max.apply(null, stepDecimals);
+		};
+	
+		// Outside testing
+		Spectrum.prototype.convert = function (value) {
+			return this.getStep(this.toStepping(value));
+		};
+	
+		/*	Every input option is tested and parsed. This'll prevent
+	 	endless validation in internal methods. These tests are
+	 	structured with an item for every option available. An
+	 	option can be marked as required by setting the 'r' flag.
+	 	The testing function is provided with three arguments:
+	 		- The provided value for the option;
+	 		- A reference to the options object;
+	 		- The name for the option;
+	 
+	 	The testing function returns false when an error is detected,
+	 	or true when everything is OK. It can also modify the option
+	 	object, to make sure all values can be correctly looped elsewhere. */
+	
+		var defaultFormatter = { 'to': function to(value) {
+				return value !== undefined && value.toFixed(2);
+			}, 'from': Number };
+	
+		function testStep(parsed, entry) {
+	
+			if (!isNumeric(entry)) {
+				throw new Error("noUiSlider (" + VERSION + "): 'step' is not numeric.");
+			}
+	
+			// The step option can still be used to set stepping
+			// for linear sliders. Overwritten if set in 'range'.
+			parsed.singleStep = entry;
+		}
+	
+		function testRange(parsed, entry) {
+	
+			// Filter incorrect input.
+			if ((typeof entry === 'undefined' ? 'undefined' : _typeof(entry)) !== 'object' || Array.isArray(entry)) {
+				throw new Error("noUiSlider (" + VERSION + "): 'range' is not an object.");
+			}
+	
+			// Catch missing start or end.
+			if (entry.min === undefined || entry.max === undefined) {
+				throw new Error("noUiSlider (" + VERSION + "): Missing 'min' or 'max' in 'range'.");
+			}
+	
+			// Catch equal start or end.
+			if (entry.min === entry.max) {
+				throw new Error("noUiSlider (" + VERSION + "): 'range' 'min' and 'max' cannot be equal.");
+			}
+	
+			parsed.spectrum = new Spectrum(entry, parsed.snap, parsed.dir, parsed.singleStep);
+		}
+	
+		function testStart(parsed, entry) {
+	
+			entry = asArray(entry);
+	
+			// Validate input. Values aren't tested, as the public .val method
+			// will always provide a valid location.
+			if (!Array.isArray(entry) || !entry.length) {
+				throw new Error("noUiSlider (" + VERSION + "): 'start' option is incorrect.");
+			}
+	
+			// Store the number of handles.
+			parsed.handles = entry.length;
+	
+			// When the slider is initialized, the .val method will
+			// be called with the start options.
+			parsed.start = entry;
+		}
+	
+		function testSnap(parsed, entry) {
+	
+			// Enforce 100% stepping within subranges.
+			parsed.snap = entry;
+	
+			if (typeof entry !== 'boolean') {
+				throw new Error("noUiSlider (" + VERSION + "): 'snap' option must be a boolean.");
+			}
+		}
+	
+		function testAnimate(parsed, entry) {
+	
+			// Enforce 100% stepping within subranges.
+			parsed.animate = entry;
+	
+			if (typeof entry !== 'boolean') {
+				throw new Error("noUiSlider (" + VERSION + "): 'animate' option must be a boolean.");
+			}
+		}
+	
+		function testAnimationDuration(parsed, entry) {
+	
+			parsed.animationDuration = entry;
+	
+			if (typeof entry !== 'number') {
+				throw new Error("noUiSlider (" + VERSION + "): 'animationDuration' option must be a number.");
+			}
+		}
+	
+		function testConnect(parsed, entry) {
+	
+			var connect = [false];
+			var i;
+	
+			// Map legacy options
+			if (entry === 'lower') {
+				entry = [true, false];
+			} else if (entry === 'upper') {
+				entry = [false, true];
+			}
+	
+			// Handle boolean options
+			if (entry === true || entry === false) {
+	
+				for (i = 1; i < parsed.handles; i++) {
+					connect.push(entry);
+				}
+	
+				connect.push(false);
+			}
+	
+			// Reject invalid input
+			else if (!Array.isArray(entry) || !entry.length || entry.length !== parsed.handles + 1) {
+					throw new Error("noUiSlider (" + VERSION + "): 'connect' option doesn't match handle count.");
+				} else {
+					connect = entry;
+				}
+	
+			parsed.connect = connect;
+		}
+	
+		function testOrientation(parsed, entry) {
+	
+			// Set orientation to an a numerical value for easy
+			// array selection.
+			switch (entry) {
+				case 'horizontal':
+					parsed.ort = 0;
+					break;
+				case 'vertical':
+					parsed.ort = 1;
+					break;
+				default:
+					throw new Error("noUiSlider (" + VERSION + "): 'orientation' option is invalid.");
+			}
+		}
+	
+		function testMargin(parsed, entry) {
+	
+			if (!isNumeric(entry)) {
+				throw new Error("noUiSlider (" + VERSION + "): 'margin' option must be numeric.");
+			}
+	
+			// Issue #582
+			if (entry === 0) {
+				return;
+			}
+	
+			parsed.margin = parsed.spectrum.getMargin(entry);
+	
+			if (!parsed.margin) {
+				throw new Error("noUiSlider (" + VERSION + "): 'margin' option is only supported on linear sliders.");
+			}
+		}
+	
+		function testLimit(parsed, entry) {
+	
+			if (!isNumeric(entry)) {
+				throw new Error("noUiSlider (" + VERSION + "): 'limit' option must be numeric.");
+			}
+	
+			parsed.limit = parsed.spectrum.getMargin(entry);
+	
+			if (!parsed.limit || parsed.handles < 2) {
+				throw new Error("noUiSlider (" + VERSION + "): 'limit' option is only supported on linear sliders with 2 or more handles.");
+			}
+		}
+	
+		function testPadding(parsed, entry) {
+	
+			if (!isNumeric(entry)) {
+				throw new Error("noUiSlider (" + VERSION + "): 'padding' option must be numeric.");
+			}
+	
+			if (entry === 0) {
+				return;
+			}
+	
+			parsed.padding = parsed.spectrum.getMargin(entry);
+	
+			if (!parsed.padding) {
+				throw new Error("noUiSlider (" + VERSION + "): 'padding' option is only supported on linear sliders.");
+			}
+	
+			if (parsed.padding < 0) {
+				throw new Error("noUiSlider (" + VERSION + "): 'padding' option must be a positive number.");
+			}
+	
+			if (parsed.padding >= 50) {
+				throw new Error("noUiSlider (" + VERSION + "): 'padding' option must be less than half the range.");
+			}
+		}
+	
+		function testDirection(parsed, entry) {
+	
+			// Set direction as a numerical value for easy parsing.
+			// Invert connection for RTL sliders, so that the proper
+			// handles get the connect/background classes.
+			switch (entry) {
+				case 'ltr':
+					parsed.dir = 0;
+					break;
+				case 'rtl':
+					parsed.dir = 1;
+					break;
+				default:
+					throw new Error("noUiSlider (" + VERSION + "): 'direction' option was not recognized.");
+			}
+		}
+	
+		function testBehaviour(parsed, entry) {
+	
+			// Make sure the input is a string.
+			if (typeof entry !== 'string') {
+				throw new Error("noUiSlider (" + VERSION + "): 'behaviour' must be a string containing options.");
+			}
+	
+			// Check if the string contains any keywords.
+			// None are required.
+			var tap = entry.indexOf('tap') >= 0;
+			var drag = entry.indexOf('drag') >= 0;
+			var fixed = entry.indexOf('fixed') >= 0;
+			var snap = entry.indexOf('snap') >= 0;
+			var hover = entry.indexOf('hover') >= 0;
+	
+			if (fixed) {
+	
+				if (parsed.handles !== 2) {
+					throw new Error("noUiSlider (" + VERSION + "): 'fixed' behaviour must be used with 2 handles");
+				}
+	
+				// Use margin to enforce fixed state
+				testMargin(parsed, parsed.start[1] - parsed.start[0]);
+			}
+	
+			parsed.events = {
+				tap: tap || snap,
+				drag: drag,
+				fixed: fixed,
+				snap: snap,
+				hover: hover
+			};
+		}
+	
+		function testTooltips(parsed, entry) {
+	
+			if (entry === false) {
+				return;
+			} else if (entry === true) {
+	
+				parsed.tooltips = [];
+	
+				for (var i = 0; i < parsed.handles; i++) {
+					parsed.tooltips.push(true);
+				}
+			} else {
+	
+				parsed.tooltips = asArray(entry);
+	
+				if (parsed.tooltips.length !== parsed.handles) {
+					throw new Error("noUiSlider (" + VERSION + "): must pass a formatter for all handles.");
+				}
+	
+				parsed.tooltips.forEach(function (formatter) {
+					if (typeof formatter !== 'boolean' && ((typeof formatter === 'undefined' ? 'undefined' : _typeof(formatter)) !== 'object' || typeof formatter.to !== 'function')) {
+						throw new Error("noUiSlider (" + VERSION + "): 'tooltips' must be passed a formatter or 'false'.");
+					}
+				});
+			}
+		}
+	
+		function testFormat(parsed, entry) {
+	
+			parsed.format = entry;
+	
+			// Any object with a to and from method is supported.
+			if (typeof entry.to === 'function' && typeof entry.from === 'function') {
+				return true;
+			}
+	
+			throw new Error("noUiSlider (" + VERSION + "): 'format' requires 'to' and 'from' methods.");
+		}
+	
+		function testCssPrefix(parsed, entry) {
+	
+			if (entry !== undefined && typeof entry !== 'string' && entry !== false) {
+				throw new Error("noUiSlider (" + VERSION + "): 'cssPrefix' must be a string or `false`.");
+			}
+	
+			parsed.cssPrefix = entry;
+		}
+	
+		function testCssClasses(parsed, entry) {
+	
+			if (entry !== undefined && (typeof entry === 'undefined' ? 'undefined' : _typeof(entry)) !== 'object') {
+				throw new Error("noUiSlider (" + VERSION + "): 'cssClasses' must be an object.");
+			}
+	
+			if (typeof parsed.cssPrefix === 'string') {
+				parsed.cssClasses = {};
+	
+				for (var key in entry) {
+					if (!entry.hasOwnProperty(key)) {
+						continue;
+					}
+	
+					parsed.cssClasses[key] = parsed.cssPrefix + entry[key];
+				}
+			} else {
+				parsed.cssClasses = entry;
+			}
+		}
+	
+		function testUseRaf(parsed, entry) {
+			if (entry === true || entry === false) {
+				parsed.useRequestAnimationFrame = entry;
+			} else {
+				throw new Error("noUiSlider (" + VERSION + "): 'useRequestAnimationFrame' option should be true (default) or false.");
+			}
+		}
+	
+		// Test all developer settings and parse to assumption-safe values.
+		function testOptions(options) {
+	
+			// To prove a fix for #537, freeze options here.
+			// If the object is modified, an error will be thrown.
+			// Object.freeze(options);
+	
+			var parsed = {
+				margin: 0,
+				limit: 0,
+				padding: 0,
+				animate: true,
+				animationDuration: 300,
+				format: defaultFormatter
+			};
+	
+			// Tests are executed in the order they are presented here.
+			var tests = {
+				'step': { r: false, t: testStep },
+				'start': { r: true, t: testStart },
+				'connect': { r: true, t: testConnect },
+				'direction': { r: true, t: testDirection },
+				'snap': { r: false, t: testSnap },
+				'animate': { r: false, t: testAnimate },
+				'animationDuration': { r: false, t: testAnimationDuration },
+				'range': { r: true, t: testRange },
+				'orientation': { r: false, t: testOrientation },
+				'margin': { r: false, t: testMargin },
+				'limit': { r: false, t: testLimit },
+				'padding': { r: false, t: testPadding },
+				'behaviour': { r: true, t: testBehaviour },
+				'format': { r: false, t: testFormat },
+				'tooltips': { r: false, t: testTooltips },
+				'cssPrefix': { r: false, t: testCssPrefix },
+				'cssClasses': { r: false, t: testCssClasses },
+				'useRequestAnimationFrame': { r: false, t: testUseRaf }
+			};
+	
+			var defaults = {
+				'connect': false,
+				'direction': 'ltr',
+				'behaviour': 'tap',
+				'orientation': 'horizontal',
+				'cssPrefix': 'noUi-',
+				'cssClasses': {
+					target: 'target',
+					base: 'base',
+					origin: 'origin',
+					handle: 'handle',
+					handleLower: 'handle-lower',
+					handleUpper: 'handle-upper',
+					horizontal: 'horizontal',
+					vertical: 'vertical',
+					background: 'background',
+					connect: 'connect',
+					ltr: 'ltr',
+					rtl: 'rtl',
+					draggable: 'draggable',
+					drag: 'state-drag',
+					tap: 'state-tap',
+					active: 'active',
+					tooltip: 'tooltip',
+					pips: 'pips',
+					pipsHorizontal: 'pips-horizontal',
+					pipsVertical: 'pips-vertical',
+					marker: 'marker',
+					markerHorizontal: 'marker-horizontal',
+					markerVertical: 'marker-vertical',
+					markerNormal: 'marker-normal',
+					markerLarge: 'marker-large',
+					markerSub: 'marker-sub',
+					value: 'value',
+					valueHorizontal: 'value-horizontal',
+					valueVertical: 'value-vertical',
+					valueNormal: 'value-normal',
+					valueLarge: 'value-large',
+					valueSub: 'value-sub'
+				},
+				'useRequestAnimationFrame': true
+			};
+	
+			// Run all options through a testing mechanism to ensure correct
+			// input. It should be noted that options might get modified to
+			// be handled properly. E.g. wrapping integers in arrays.
+			Object.keys(tests).forEach(function (name) {
+	
+				// If the option isn't set, but it is required, throw an error.
+				if (options[name] === undefined && defaults[name] === undefined) {
+	
+					if (tests[name].r) {
+						throw new Error("noUiSlider (" + VERSION + "): '" + name + "' is required.");
+					}
+	
+					return true;
+				}
+	
+				tests[name].t(parsed, options[name] === undefined ? defaults[name] : options[name]);
+			});
+	
+			// Forward pips options
+			parsed.pips = options.pips;
+	
+			var styles = [['left', 'top'], ['right', 'bottom']];
+	
+			// Pre-define the styles.
+			parsed.style = styles[parsed.dir][parsed.ort];
+			parsed.styleOposite = styles[parsed.dir ? 0 : 1][parsed.ort];
+	
+			return parsed;
+		}
+	
+		function closure(target, options, originalOptions) {
+	
+			var actions = getActions();
+	
+			// All variables local to 'closure' are prefixed with 'scope_'
+			var scope_Target = target;
+			var scope_Locations = [];
+			var scope_Base;
+			var scope_Handles;
+			var scope_HandleNumbers = [];
+			var scope_ActiveHandle = false;
+			var scope_Connects;
+			var scope_Spectrum = options.spectrum;
+			var scope_Values = [];
+			var scope_Events = {};
+			var scope_Self;
+	
+			// Append a origin to the base
+			function addOrigin(base, handleNumber) {
+	
+				var origin = addNodeTo(base, options.cssClasses.origin);
+				var handle = addNodeTo(origin, options.cssClasses.handle);
+	
+				handle.setAttribute('data-handle', handleNumber);
+	
+				if (handleNumber === 0) {
+					addClass(handle, options.cssClasses.handleLower);
+				} else if (handleNumber === options.handles - 1) {
+					addClass(handle, options.cssClasses.handleUpper);
+				}
+	
+				return origin;
+			}
+	
+			// Insert nodes for connect elements
+			function addConnect(base, add) {
+	
+				if (!add) {
+					return false;
+				}
+	
+				return addNodeTo(base, options.cssClasses.connect);
+			}
+	
+			// Add handles to the slider base.
+			function addElements(connectOptions, base) {
+	
+				scope_Handles = [];
+				scope_Connects = [];
+	
+				scope_Connects.push(addConnect(base, connectOptions[0]));
+	
+				// [::::O====O====O====]
+				// connectOptions = [0, 1, 1, 1]
+	
+				for (var i = 0; i < options.handles; i++) {
+					// Keep a list of all added handles.
+					scope_Handles.push(addOrigin(base, i));
+					scope_HandleNumbers[i] = i;
+					scope_Connects.push(addConnect(base, connectOptions[i + 1]));
+				}
+			}
+	
+			// Initialize a single slider.
+			function addSlider(target) {
+	
+				// Apply classes and data to the target.
+				addClass(target, options.cssClasses.target);
+	
+				if (options.dir === 0) {
+					addClass(target, options.cssClasses.ltr);
+				} else {
+					addClass(target, options.cssClasses.rtl);
+				}
+	
+				if (options.ort === 0) {
+					addClass(target, options.cssClasses.horizontal);
+				} else {
+					addClass(target, options.cssClasses.vertical);
+				}
+	
+				scope_Base = addNodeTo(target, options.cssClasses.base);
+			}
+	
+			function addTooltip(handle, handleNumber) {
+	
+				if (!options.tooltips[handleNumber]) {
+					return false;
+				}
+	
+				return addNodeTo(handle.firstChild, options.cssClasses.tooltip);
+			}
+	
+			// The tooltips option is a shorthand for using the 'update' event.
+			function tooltips() {
+	
+				// Tooltips are added with options.tooltips in original order.
+				var tips = scope_Handles.map(addTooltip);
+	
+				bindEvent('update', function (values, handleNumber, unencoded) {
+	
+					if (!tips[handleNumber]) {
+						return;
+					}
+	
+					var formattedValue = values[handleNumber];
+	
+					if (options.tooltips[handleNumber] !== true) {
+						formattedValue = options.tooltips[handleNumber].to(unencoded[handleNumber]);
+					}
+	
+					tips[handleNumber].innerHTML = formattedValue;
+				});
+			}
+	
+			function getGroup(mode, values, stepped) {
+	
+				// Use the range.
+				if (mode === 'range' || mode === 'steps') {
+					return scope_Spectrum.xVal;
+				}
+	
+				if (mode === 'count') {
+	
+					if (!values) {
+						throw new Error("noUiSlider (" + VERSION + "): 'values' required for mode 'count'.");
+					}
+	
+					// Divide 0 - 100 in 'count' parts.
+					var spread = 100 / (values - 1);
+					var v;
+					var i = 0;
+	
+					values = [];
+	
+					// List these parts and have them handled as 'positions'.
+					while ((v = i++ * spread) <= 100) {
+						values.push(v);
+					}
+	
+					mode = 'positions';
+				}
+	
+				if (mode === 'positions') {
+	
+					// Map all percentages to on-range values.
+					return values.map(function (value) {
+						return scope_Spectrum.fromStepping(stepped ? scope_Spectrum.getStep(value) : value);
+					});
+				}
+	
+				if (mode === 'values') {
+	
+					// If the value must be stepped, it needs to be converted to a percentage first.
+					if (stepped) {
+	
+						return values.map(function (value) {
+	
+							// Convert to percentage, apply step, return to value.
+							return scope_Spectrum.fromStepping(scope_Spectrum.getStep(scope_Spectrum.toStepping(value)));
+						});
+					}
+	
+					// Otherwise, we can simply use the values.
+					return values;
+				}
+			}
+	
+			function generateSpread(density, mode, group) {
+	
+				function safeIncrement(value, increment) {
+					// Avoid floating point variance by dropping the smallest decimal places.
+					return (value + increment).toFixed(7) / 1;
+				}
+	
+				var indexes = {};
+				var firstInRange = scope_Spectrum.xVal[0];
+				var lastInRange = scope_Spectrum.xVal[scope_Spectrum.xVal.length - 1];
+				var ignoreFirst = false;
+				var ignoreLast = false;
+				var prevPct = 0;
+	
+				// Create a copy of the group, sort it and filter away all duplicates.
+				group = unique(group.slice().sort(function (a, b) {
+					return a - b;
+				}));
+	
+				// Make sure the range starts with the first element.
+				if (group[0] !== firstInRange) {
+					group.unshift(firstInRange);
+					ignoreFirst = true;
+				}
+	
+				// Likewise for the last one.
+				if (group[group.length - 1] !== lastInRange) {
+					group.push(lastInRange);
+					ignoreLast = true;
+				}
+	
+				group.forEach(function (current, index) {
+	
+					// Get the current step and the lower + upper positions.
+					var step;
+					var i;
+					var q;
+					var low = current;
+					var high = group[index + 1];
+					var newPct;
+					var pctDifference;
+					var pctPos;
+					var type;
+					var steps;
+					var realSteps;
+					var stepsize;
+	
+					// When using 'steps' mode, use the provided steps.
+					// Otherwise, we'll step on to the next subrange.
+					if (mode === 'steps') {
+						step = scope_Spectrum.xNumSteps[index];
+					}
+	
+					// Default to a 'full' step.
+					if (!step) {
+						step = high - low;
+					}
+	
+					// Low can be 0, so test for false. If high is undefined,
+					// we are at the last subrange. Index 0 is already handled.
+					if (low === false || high === undefined) {
+						return;
+					}
+	
+					// Make sure step isn't 0, which would cause an infinite loop (#654)
+					step = Math.max(step, 0.0000001);
+	
+					// Find all steps in the subrange.
+					for (i = low; i <= high; i = safeIncrement(i, step)) {
+	
+						// Get the percentage value for the current step,
+						// calculate the size for the subrange.
+						newPct = scope_Spectrum.toStepping(i);
+						pctDifference = newPct - prevPct;
+	
+						steps = pctDifference / density;
+						realSteps = Math.round(steps);
+	
+						// This ratio represents the ammount of percentage-space a point indicates.
+						// For a density 1 the points/percentage = 1. For density 2, that percentage needs to be re-devided.
+						// Round the percentage offset to an even number, then divide by two
+						// to spread the offset on both sides of the range.
+						stepsize = pctDifference / realSteps;
+	
+						// Divide all points evenly, adding the correct number to this subrange.
+						// Run up to <= so that 100% gets a point, event if ignoreLast is set.
+						for (q = 1; q <= realSteps; q += 1) {
+	
+							// The ratio between the rounded value and the actual size might be ~1% off.
+							// Correct the percentage offset by the number of points
+							// per subrange. density = 1 will result in 100 points on the
+							// full range, 2 for 50, 4 for 25, etc.
+							pctPos = prevPct + q * stepsize;
+							indexes[pctPos.toFixed(5)] = ['x', 0];
+						}
+	
+						// Determine the point type.
+						type = group.indexOf(i) > -1 ? 1 : mode === 'steps' ? 2 : 0;
+	
+						// Enforce the 'ignoreFirst' option by overwriting the type for 0.
+						if (!index && ignoreFirst) {
+							type = 0;
+						}
+	
+						if (!(i === high && ignoreLast)) {
+							// Mark the 'type' of this point. 0 = plain, 1 = real value, 2 = step value.
+							indexes[newPct.toFixed(5)] = [i, type];
+						}
+	
+						// Update the percentage count.
+						prevPct = newPct;
+					}
+				});
+	
+				return indexes;
+			}
+	
+			function addMarking(spread, filterFunc, formatter) {
+	
+				var element = document.createElement('div');
+				var out = '';
+				var valueSizeClasses = [options.cssClasses.valueNormal, options.cssClasses.valueLarge, options.cssClasses.valueSub];
+				var markerSizeClasses = [options.cssClasses.markerNormal, options.cssClasses.markerLarge, options.cssClasses.markerSub];
+				var valueOrientationClasses = [options.cssClasses.valueHorizontal, options.cssClasses.valueVertical];
+				var markerOrientationClasses = [options.cssClasses.markerHorizontal, options.cssClasses.markerVertical];
+	
+				addClass(element, options.cssClasses.pips);
+				addClass(element, options.ort === 0 ? options.cssClasses.pipsHorizontal : options.cssClasses.pipsVertical);
+	
+				function getClasses(type, source) {
+					var a = source === options.cssClasses.value;
+					var orientationClasses = a ? valueOrientationClasses : markerOrientationClasses;
+					var sizeClasses = a ? valueSizeClasses : markerSizeClasses;
+	
+					return source + ' ' + orientationClasses[options.ort] + ' ' + sizeClasses[type];
+				}
+	
+				function getTags(offset, source, values) {
+					return 'class="' + getClasses(values[1], source) + '" style="' + options.style + ': ' + offset + '%"';
+				}
+	
+				function addSpread(offset, values) {
+	
+					// Apply the filter function, if it is set.
+					values[1] = values[1] && filterFunc ? filterFunc(values[0], values[1]) : values[1];
+	
+					// Add a marker for every point
+					out += '<div ' + getTags(offset, options.cssClasses.marker, values) + '></div>';
+	
+					// Values are only appended for points marked '1' or '2'.
+					if (values[1]) {
+						out += '<div ' + getTags(offset, options.cssClasses.value, values) + '>' + formatter.to(values[0]) + '</div>';
+					}
+				}
+	
+				// Append all points.
+				Object.keys(spread).forEach(function (a) {
+					addSpread(a, spread[a]);
+				});
+	
+				element.innerHTML = out;
+	
+				return element;
+			}
+	
+			function pips(grid) {
+	
+				var mode = grid.mode;
+				var density = grid.density || 1;
+				var filter = grid.filter || false;
+				var values = grid.values || false;
+				var stepped = grid.stepped || false;
+				var group = getGroup(mode, values, stepped);
+				var spread = generateSpread(density, mode, group);
+				var format = grid.format || {
+					to: Math.round
+				};
+	
+				return scope_Target.appendChild(addMarking(spread, filter, format));
+			}
+	
+			// Shorthand for base dimensions.
+			function baseSize() {
+				var rect = scope_Base.getBoundingClientRect(),
+				    alt = 'offset' + ['Width', 'Height'][options.ort];
+				return options.ort === 0 ? rect.width || scope_Base[alt] : rect.height || scope_Base[alt];
+			}
+	
+			// Handler for attaching events trough a proxy.
+			function attachEvent(events, element, callback, data) {
+	
+				// This function can be used to 'filter' events to the slider.
+				// element is a node, not a nodeList
+	
+				var method = function method(e) {
+	
+					if (scope_Target.hasAttribute('disabled')) {
+						return false;
+					}
+	
+					// Stop if an active 'tap' transition is taking place.
+					if (hasClass(scope_Target, options.cssClasses.tap)) {
+						return false;
+					}
+	
+					e = fixEvent(e, data.pageOffset);
+	
+					// Handle reject of multitouch
+					if (!e) {
+						return false;
+					}
+	
+					// Ignore right or middle clicks on start #454
+					if (events === actions.start && e.buttons !== undefined && e.buttons > 1) {
+						return false;
+					}
+	
+					// Ignore right or middle clicks on start #454
+					if (data.hover && e.buttons) {
+						return false;
+					}
+	
+					e.calcPoint = e.points[options.ort];
+	
+					// Call the event handler with the event [ and additional data ].
+					callback(e, data);
+				};
+	
+				var methods = [];
+	
+				// Bind a closure on the target for every event type.
+				events.split(' ').forEach(function (eventName) {
+					element.addEventListener(eventName, method, false);
+					methods.push([eventName, method]);
+				});
+	
+				return methods;
+			}
+	
+			// Provide a clean event with standardized offset values.
+			function fixEvent(e, pageOffset) {
+	
+				// Prevent scrolling and panning on touch events, while
+				// attempting to slide. The tap event also depends on this.
+				e.preventDefault();
+	
+				// Filter the event to register the type, which can be
+				// touch, mouse or pointer. Offset changes need to be
+				// made on an event specific basis.
+				var touch = e.type.indexOf('touch') === 0;
+				var mouse = e.type.indexOf('mouse') === 0;
+				var pointer = e.type.indexOf('pointer') === 0;
+				var x;
+				var y;
+	
+				// IE10 implemented pointer events with a prefix;
+				if (e.type.indexOf('MSPointer') === 0) {
+					pointer = true;
+				}
+	
+				if (touch) {
+	
+					// Fix bug when user touches with two or more fingers on mobile devices.
+					// It's useful when you have two or more sliders on one page,
+					// that can be touched simultaneously.
+					// #649, #663, #668
+					if (e.touches.length > 1) {
+						return false;
+					}
+	
+					// noUiSlider supports one movement at a time,
+					// so we can select the first 'changedTouch'.
+					x = e.changedTouches[0].pageX;
+					y = e.changedTouches[0].pageY;
+				}
+	
+				pageOffset = pageOffset || getPageOffset();
+	
+				if (mouse || pointer) {
+					x = e.clientX + pageOffset.x;
+					y = e.clientY + pageOffset.y;
+				}
+	
+				e.pageOffset = pageOffset;
+				e.points = [x, y];
+				e.cursor = mouse || pointer; // Fix #435
+	
+				return e;
+			}
+	
+			// Translate a coordinate in the document to a percentage on the slider
+			function calcPointToPercentage(calcPoint) {
+				var location = calcPoint - offset(scope_Base, options.ort);
+				var proposal = location * 100 / baseSize();
+				return options.dir ? 100 - proposal : proposal;
+			}
+	
+			// Find handle closest to a certain percentage on the slider
+			function getClosestHandle(proposal) {
+	
+				var closest = 100;
+				var handleNumber = false;
+	
+				scope_Handles.forEach(function (handle, index) {
+	
+					// Disabled handles are ignored
+					if (handle.hasAttribute('disabled')) {
+						return;
+					}
+	
+					var pos = Math.abs(scope_Locations[index] - proposal);
+	
+					if (pos < closest) {
+						handleNumber = index;
+						closest = pos;
+					}
+				});
+	
+				return handleNumber;
+			}
+	
+			// Moves handle(s) by a percentage
+			// (bool, % to move, [% where handle started, ...], [index in scope_Handles, ...])
+			function moveHandles(upward, proposal, locations, handleNumbers) {
+	
+				var proposals = locations.slice();
+	
+				var b = [!upward, upward];
+				var f = [upward, !upward];
+	
+				// Copy handleNumbers so we don't change the dataset
+				handleNumbers = handleNumbers.slice();
+	
+				// Check to see which handle is 'leading'.
+				// If that one can't move the second can't either.
+				if (upward) {
+					handleNumbers.reverse();
+				}
+	
+				// Step 1: get the maximum percentage that any of the handles can move
+				if (handleNumbers.length > 1) {
+	
+					handleNumbers.forEach(function (handleNumber, o) {
+	
+						var to = checkHandlePosition(proposals, handleNumber, proposals[handleNumber] + proposal, b[o], f[o]);
+	
+						// Stop if one of the handles can't move.
+						if (to === false) {
+							proposal = 0;
+						} else {
+							proposal = to - proposals[handleNumber];
+							proposals[handleNumber] = to;
+						}
+					});
+				}
+	
+				// If using one handle, check backward AND forward
+				else {
+						b = f = [true];
+					}
+	
+				var state = false;
+	
+				// Step 2: Try to set the handles with the found percentage
+				handleNumbers.forEach(function (handleNumber, o) {
+					state = setHandle(handleNumber, locations[handleNumber] + proposal, b[o], f[o]) || state;
+				});
+	
+				// Step 3: If a handle moved, fire events
+				if (state) {
+					handleNumbers.forEach(function (handleNumber) {
+						fireEvent('update', handleNumber);
+						fireEvent('slide', handleNumber);
+					});
+				}
+			}
+	
+			// External event handling
+			function fireEvent(eventName, handleNumber, tap) {
+	
+				Object.keys(scope_Events).forEach(function (targetEvent) {
+	
+					var eventType = targetEvent.split('.')[0];
+	
+					if (eventName === eventType) {
+						scope_Events[targetEvent].forEach(function (callback) {
+	
+							callback.call(
+							// Use the slider public API as the scope ('this')
+							scope_Self,
+							// Return values as array, so arg_1[arg_2] is always valid.
+							scope_Values.map(options.format.to),
+							// Handle index, 0 or 1
+							handleNumber,
+							// Unformatted slider values
+							scope_Values.slice(),
+							// Event is fired by tap, true or false
+							tap || false,
+							// Left offset of the handle, in relation to the slider
+							scope_Locations.slice());
+						});
+					}
+				});
+			}
+	
+			// Fire 'end' when a mouse or pen leaves the document.
+			function documentLeave(event, data) {
+				if (event.type === "mouseout" && event.target.nodeName === "HTML" && event.relatedTarget === null) {
+					eventEnd(event, data);
+				}
+			}
+	
+			// Handle movement on document for handle and range drag.
+			function eventMove(event, data) {
+	
+				// Fix #498
+				// Check value of .buttons in 'start' to work around a bug in IE10 mobile (data.buttonsProperty).
+				// https://connect.microsoft.com/IE/feedback/details/927005/mobile-ie10-windows-phone-buttons-property-of-pointermove-event-always-zero
+				// IE9 has .buttons and .which zero on mousemove.
+				// Firefox breaks the spec MDN defines.
+				if (navigator.appVersion.indexOf("MSIE 9") === -1 && event.buttons === 0 && data.buttonsProperty !== 0) {
+					return eventEnd(event, data);
+				}
+	
+				// Check if we are moving up or down
+				var movement = (options.dir ? -1 : 1) * (event.calcPoint - data.startCalcPoint);
+	
+				// Convert the movement into a percentage of the slider width/height
+				var proposal = movement * 100 / data.baseSize;
+	
+				moveHandles(movement > 0, proposal, data.locations, data.handleNumbers);
+			}
+	
+			// Unbind move events on document, call callbacks.
+			function eventEnd(event, data) {
+	
+				// The handle is no longer active, so remove the class.
+				if (scope_ActiveHandle) {
+					removeClass(scope_ActiveHandle, options.cssClasses.active);
+					scope_ActiveHandle = false;
+				}
+	
+				// Remove cursor styles and text-selection events bound to the body.
+				if (event.cursor) {
+					document.body.style.cursor = '';
+					document.body.removeEventListener('selectstart', document.body.noUiListener);
+				}
+	
+				// Unbind the move and end events, which are added on 'start'.
+				document.documentElement.noUiListeners.forEach(function (c) {
+					document.documentElement.removeEventListener(c[0], c[1]);
+				});
+	
+				// Remove dragging class.
+				removeClass(scope_Target, options.cssClasses.drag);
+	
+				setZindex();
+	
+				data.handleNumbers.forEach(function (handleNumber) {
+					fireEvent('set', handleNumber);
+					fireEvent('change', handleNumber);
+					fireEvent('end', handleNumber);
+				});
+			}
+	
+			// Bind move events on document.
+			function eventStart(event, data) {
+	
+				if (data.handleNumbers.length === 1) {
+	
+					var handle = scope_Handles[data.handleNumbers[0]];
+	
+					// Ignore 'disabled' handles
+					if (handle.hasAttribute('disabled')) {
+						return false;
+					}
+	
+					// Mark the handle as 'active' so it can be styled.
+					scope_ActiveHandle = handle.children[0];
+					addClass(scope_ActiveHandle, options.cssClasses.active);
+				}
+	
+				// Fix #551, where a handle gets selected instead of dragged.
+				event.preventDefault();
+	
+				// A drag should never propagate up to the 'tap' event.
+				event.stopPropagation();
+	
+				// Attach the move and end events.
+				var moveEvent = attachEvent(actions.move, document.documentElement, eventMove, {
+					startCalcPoint: event.calcPoint,
+					baseSize: baseSize(),
+					pageOffset: event.pageOffset,
+					handleNumbers: data.handleNumbers,
+					buttonsProperty: event.buttons,
+					locations: scope_Locations.slice()
+				});
+	
+				var endEvent = attachEvent(actions.end, document.documentElement, eventEnd, {
+					handleNumbers: data.handleNumbers
+				});
+	
+				var outEvent = attachEvent("mouseout", document.documentElement, documentLeave, {
+					handleNumbers: data.handleNumbers
+				});
+	
+				document.documentElement.noUiListeners = moveEvent.concat(endEvent, outEvent);
+	
+				// Text selection isn't an issue on touch devices,
+				// so adding cursor styles can be skipped.
+				if (event.cursor) {
+	
+					// Prevent the 'I' cursor and extend the range-drag cursor.
+					document.body.style.cursor = getComputedStyle(event.target).cursor;
+	
+					// Mark the target with a dragging state.
+					if (scope_Handles.length > 1) {
+						addClass(scope_Target, options.cssClasses.drag);
+					}
+	
+					var f = function f() {
+						return false;
+					};
+	
+					document.body.noUiListener = f;
+	
+					// Prevent text selection when dragging the handles.
+					document.body.addEventListener('selectstart', f, false);
+				}
+	
+				data.handleNumbers.forEach(function (handleNumber) {
+					fireEvent('start', handleNumber);
+				});
+			}
+	
+			// Move closest handle to tapped location.
+			function eventTap(event) {
+	
+				// The tap event shouldn't propagate up
+				event.stopPropagation();
+	
+				var proposal = calcPointToPercentage(event.calcPoint);
+				var handleNumber = getClosestHandle(proposal);
+	
+				// Tackle the case that all handles are 'disabled'.
+				if (handleNumber === false) {
+					return false;
+				}
+	
+				// Flag the slider as it is now in a transitional state.
+				// Transition takes a configurable amount of ms (default 300). Re-enable the slider after that.
+				if (!options.events.snap) {
+					addClassFor(scope_Target, options.cssClasses.tap, options.animationDuration);
+				}
+	
+				setHandle(handleNumber, proposal, true, true);
+	
+				setZindex();
+	
+				fireEvent('slide', handleNumber, true);
+				fireEvent('set', handleNumber, true);
+				fireEvent('change', handleNumber, true);
+				fireEvent('update', handleNumber, true);
+	
+				if (options.events.snap) {
+					eventStart(event, { handleNumbers: [handleNumber] });
+				}
+			}
+	
+			// Fires a 'hover' event for a hovered mouse/pen position.
+			function eventHover(event) {
+	
+				var proposal = calcPointToPercentage(event.calcPoint);
+	
+				var to = scope_Spectrum.getStep(proposal);
+				var value = scope_Spectrum.fromStepping(to);
+	
+				Object.keys(scope_Events).forEach(function (targetEvent) {
+					if ('hover' === targetEvent.split('.')[0]) {
+						scope_Events[targetEvent].forEach(function (callback) {
+							callback.call(scope_Self, value);
+						});
+					}
+				});
+			}
+	
+			// Attach events to several slider parts.
+			function bindSliderEvents(behaviour) {
+	
+				// Attach the standard drag event to the handles.
+				if (!behaviour.fixed) {
+	
+					scope_Handles.forEach(function (handle, index) {
+	
+						// These events are only bound to the visual handle
+						// element, not the 'real' origin element.
+						attachEvent(actions.start, handle.children[0], eventStart, {
+							handleNumbers: [index]
+						});
+					});
+				}
+	
+				// Attach the tap event to the slider base.
+				if (behaviour.tap) {
+					attachEvent(actions.start, scope_Base, eventTap, {});
+				}
+	
+				// Fire hover events
+				if (behaviour.hover) {
+					attachEvent(actions.move, scope_Base, eventHover, { hover: true });
+				}
+	
+				// Make the range draggable.
+				if (behaviour.drag) {
+	
+					scope_Connects.forEach(function (connect, index) {
+	
+						if (connect === false || index === 0 || index === scope_Connects.length - 1) {
+							return;
+						}
+	
+						var handleBefore = scope_Handles[index - 1];
+						var handleAfter = scope_Handles[index];
+						var eventHolders = [connect];
+	
+						addClass(connect, options.cssClasses.draggable);
+	
+						// When the range is fixed, the entire range can
+						// be dragged by the handles. The handle in the first
+						// origin will propagate the start event upward,
+						// but it needs to be bound manually on the other.
+						if (behaviour.fixed) {
+							eventHolders.push(handleBefore.children[0]);
+							eventHolders.push(handleAfter.children[0]);
+						}
+	
+						eventHolders.forEach(function (eventHolder) {
+							attachEvent(actions.start, eventHolder, eventStart, {
+								handles: [handleBefore, handleAfter],
+								handleNumbers: [index - 1, index]
+							});
+						});
+					});
+				}
+			}
+	
+			// Split out the handle positioning logic so the Move event can use it, too
+			function checkHandlePosition(reference, handleNumber, to, lookBackward, lookForward) {
+	
+				// For sliders with multiple handles, limit movement to the other handle.
+				// Apply the margin option by adding it to the handle positions.
+				if (scope_Handles.length > 1) {
+	
+					if (lookBackward && handleNumber > 0) {
+						to = Math.max(to, reference[handleNumber - 1] + options.margin);
+					}
+	
+					if (lookForward && handleNumber < scope_Handles.length - 1) {
+						to = Math.min(to, reference[handleNumber + 1] - options.margin);
+					}
+				}
+	
+				// The limit option has the opposite effect, limiting handles to a
+				// maximum distance from another. Limit must be > 0, as otherwise
+				// handles would be unmoveable.
+				if (scope_Handles.length > 1 && options.limit) {
+	
+					if (lookBackward && handleNumber > 0) {
+						to = Math.min(to, reference[handleNumber - 1] + options.limit);
+					}
+	
+					if (lookForward && handleNumber < scope_Handles.length - 1) {
+						to = Math.max(to, reference[handleNumber + 1] - options.limit);
+					}
+				}
+	
+				// The padding option keeps the handles a certain distance from the
+				// edges of the slider. Padding must be > 0.
+				if (options.padding) {
+	
+					if (handleNumber === 0) {
+						to = Math.max(to, options.padding);
+					}
+	
+					if (handleNumber === scope_Handles.length - 1) {
+						to = Math.min(to, 100 - options.padding);
+					}
+				}
+	
+				to = scope_Spectrum.getStep(to);
+	
+				// Limit percentage to the 0 - 100 range
+				to = limit(to);
+	
+				// Return false if handle can't move
+				if (to === reference[handleNumber]) {
+					return false;
+				}
+	
+				return to;
+			}
+	
+			function toPct(pct) {
+				return pct + '%';
+			}
+	
+			// Updates scope_Locations and scope_Values, updates visual state
+			function updateHandlePosition(handleNumber, to) {
+	
+				// Update locations.
+				scope_Locations[handleNumber] = to;
+	
+				// Convert the value to the slider stepping/range.
+				scope_Values[handleNumber] = scope_Spectrum.fromStepping(to);
+	
+				// Called synchronously or on the next animationFrame
+				var stateUpdate = function stateUpdate() {
+					scope_Handles[handleNumber].style[options.style] = toPct(to);
+					updateConnect(handleNumber);
+					updateConnect(handleNumber + 1);
+				};
+	
+				// Set the handle to the new position.
+				// Use requestAnimationFrame for efficient painting.
+				// No significant effect in Chrome, Edge sees dramatic performace improvements.
+				// Option to disable is useful for unit tests, and single-step debugging.
+				if (window.requestAnimationFrame && options.useRequestAnimationFrame) {
+					window.requestAnimationFrame(stateUpdate);
+				} else {
+					stateUpdate();
+				}
+			}
+	
+			function setZindex() {
+	
+				scope_HandleNumbers.forEach(function (handleNumber) {
+					// Handles before the slider middle are stacked later = higher,
+					// Handles after the middle later is lower
+					// [[7] [8] .......... | .......... [5] [4]
+					var dir = scope_Locations[handleNumber] > 50 ? -1 : 1;
+					var zIndex = 3 + (scope_Handles.length + dir * handleNumber);
+					scope_Handles[handleNumber].childNodes[0].style.zIndex = zIndex;
+				});
+			}
+	
+			// Test suggested values and apply margin, step.
+			function setHandle(handleNumber, to, lookBackward, lookForward) {
+	
+				to = checkHandlePosition(scope_Locations, handleNumber, to, lookBackward, lookForward);
+	
+				if (to === false) {
+					return false;
+				}
+	
+				updateHandlePosition(handleNumber, to);
+	
+				return true;
+			}
+	
+			// Updates style attribute for connect nodes
+			function updateConnect(index) {
+	
+				// Skip connects set to false
+				if (!scope_Connects[index]) {
+					return;
+				}
+	
+				var l = 0;
+				var h = 100;
+	
+				if (index !== 0) {
+					l = scope_Locations[index - 1];
+				}
+	
+				if (index !== scope_Connects.length - 1) {
+					h = scope_Locations[index];
+				}
+	
+				scope_Connects[index].style[options.style] = toPct(l);
+				scope_Connects[index].style[options.styleOposite] = toPct(100 - h);
+			}
+	
+			// ...
+			function setValue(to, handleNumber) {
+	
+				// Setting with null indicates an 'ignore'.
+				// Inputting 'false' is invalid.
+				if (to === null || to === false) {
+					return;
+				}
+	
+				// If a formatted number was passed, attemt to decode it.
+				if (typeof to === 'number') {
+					to = String(to);
+				}
+	
+				to = options.format.from(to);
+	
+				// Request an update for all links if the value was invalid.
+				// Do so too if setting the handle fails.
+				if (to !== false && !isNaN(to)) {
+					setHandle(handleNumber, scope_Spectrum.toStepping(to), false, false);
+				}
+			}
+	
+			// Set the slider value.
+			function valueSet(input, fireSetEvent) {
+	
+				var values = asArray(input);
+				var isInit = scope_Locations[0] === undefined;
+	
+				// Event fires by default
+				fireSetEvent = fireSetEvent === undefined ? true : !!fireSetEvent;
+	
+				values.forEach(setValue);
+	
+				// Animation is optional.
+				// Make sure the initial values were set before using animated placement.
+				if (options.animate && !isInit) {
+					addClassFor(scope_Target, options.cssClasses.tap, options.animationDuration);
+				}
+	
+				// Now that all base values are set, apply constraints
+				scope_HandleNumbers.forEach(function (handleNumber) {
+					setHandle(handleNumber, scope_Locations[handleNumber], true, false);
+				});
+	
+				setZindex();
+	
+				scope_HandleNumbers.forEach(function (handleNumber) {
+	
+					fireEvent('update', handleNumber);
+	
+					// Fire the event only for handles that received a new value, as per #579
+					if (values[handleNumber] !== null && fireSetEvent) {
+						fireEvent('set', handleNumber);
+					}
+				});
+			}
+	
+			// Reset slider to initial values
+			function valueReset(fireSetEvent) {
+				valueSet(options.start, fireSetEvent);
+			}
+	
+			// Get the slider value.
+			function valueGet() {
+	
+				var values = scope_Values.map(options.format.to);
+	
+				// If only one handle is used, return a single value.
+				if (values.length === 1) {
+					return values[0];
+				}
+	
+				return values;
+			}
+	
+			// Removes classes from the root and empties it.
+			function destroy() {
+	
+				for (var key in options.cssClasses) {
+					if (!options.cssClasses.hasOwnProperty(key)) {
+						continue;
+					}
+					removeClass(scope_Target, options.cssClasses[key]);
+				}
+	
+				while (scope_Target.firstChild) {
+					scope_Target.removeChild(scope_Target.firstChild);
+				}
+	
+				delete scope_Target.noUiSlider;
+			}
+	
+			// Get the current step size for the slider.
+			function getCurrentStep() {
+	
+				// Check all locations, map them to their stepping point.
+				// Get the step point, then find it in the input list.
+				return scope_Locations.map(function (location, index) {
+	
+					var nearbySteps = scope_Spectrum.getNearbySteps(location);
+					var value = scope_Values[index];
+					var increment = nearbySteps.thisStep.step;
+					var decrement = null;
+	
+					// If the next value in this step moves into the next step,
+					// the increment is the start of the next step - the current value
+					if (increment !== false) {
+						if (value + increment > nearbySteps.stepAfter.startValue) {
+							increment = nearbySteps.stepAfter.startValue - value;
+						}
+					}
+	
+					// If the value is beyond the starting point
+					if (value > nearbySteps.thisStep.startValue) {
+						decrement = nearbySteps.thisStep.step;
+					} else if (nearbySteps.stepBefore.step === false) {
+						decrement = false;
+					}
+	
+					// If a handle is at the start of a step, it always steps back into the previous step first
+					else {
+							decrement = value - nearbySteps.stepBefore.highestStep;
+						}
+	
+					// Now, if at the slider edges, there is not in/decrement
+					if (location === 100) {
+						increment = null;
+					} else if (location === 0) {
+						decrement = null;
+					}
+	
+					// As per #391, the comparison for the decrement step can have some rounding issues.
+					var stepDecimals = scope_Spectrum.countStepDecimals();
+	
+					// Round per #391
+					if (increment !== null && increment !== false) {
+						increment = Number(increment.toFixed(stepDecimals));
+					}
+	
+					if (decrement !== null && decrement !== false) {
+						decrement = Number(decrement.toFixed(stepDecimals));
+					}
+	
+					return [decrement, increment];
+				});
+			}
+	
+			// Attach an event to this slider, possibly including a namespace
+			function bindEvent(namespacedEvent, callback) {
+				scope_Events[namespacedEvent] = scope_Events[namespacedEvent] || [];
+				scope_Events[namespacedEvent].push(callback);
+	
+				// If the event bound is 'update,' fire it immediately for all handles.
+				if (namespacedEvent.split('.')[0] === 'update') {
+					scope_Handles.forEach(function (a, index) {
+						fireEvent('update', index);
+					});
+				}
+			}
+	
+			// Undo attachment of event
+			function removeEvent(namespacedEvent) {
+	
+				var event = namespacedEvent && namespacedEvent.split('.')[0];
+				var namespace = event && namespacedEvent.substring(event.length);
+	
+				Object.keys(scope_Events).forEach(function (bind) {
+	
+					var tEvent = bind.split('.')[0],
+					    tNamespace = bind.substring(tEvent.length);
+	
+					if ((!event || event === tEvent) && (!namespace || namespace === tNamespace)) {
+						delete scope_Events[bind];
+					}
+				});
+			}
+	
+			// Updateable: margin, limit, padding, step, range, animate, snap
+			function updateOptions(optionsToUpdate, fireSetEvent) {
+	
+				// Spectrum is created using the range, snap, direction and step options.
+				// 'snap' and 'step' can be updated, 'direction' cannot, due to event binding.
+				// If 'snap' and 'step' are not passed, they should remain unchanged.
+				var v = valueGet();
+	
+				var updateAble = ['margin', 'limit', 'padding', 'range', 'animate', 'snap', 'step', 'format'];
+	
+				// Only change options that we're actually passed to update.
+				updateAble.forEach(function (name) {
+					if (optionsToUpdate[name] !== undefined) {
+						originalOptions[name] = optionsToUpdate[name];
+					}
+				});
+	
+				var newOptions = testOptions(originalOptions);
+	
+				// Load new options into the slider state
+				updateAble.forEach(function (name) {
+					if (optionsToUpdate[name] !== undefined) {
+						options[name] = newOptions[name];
+					}
+				});
+	
+				// Save current spectrum direction as testOptions in testRange call
+				// doesn't rely on current direction
+				newOptions.spectrum.direction = scope_Spectrum.direction;
+				scope_Spectrum = newOptions.spectrum;
+	
+				// Limit, margin and padding depend on the spectrum but are stored outside of it. (#677)
+				options.margin = newOptions.margin;
+				options.limit = newOptions.limit;
+				options.padding = newOptions.padding;
+	
+				// Invalidate the current positioning so valueSet forces an update.
+				scope_Locations = [];
+				valueSet(optionsToUpdate.start || v, fireSetEvent);
+			}
+	
+			// Throw an error if the slider was already initialized.
+			if (scope_Target.noUiSlider) {
+				throw new Error("noUiSlider (" + VERSION + "): Slider was already initialized.");
+			}
+	
+			// Create the base element, initialise HTML and set classes.
+			// Add handles and connect elements.
+			addSlider(scope_Target);
+			addElements(options.connect, scope_Base);
+	
+			scope_Self = {
+				destroy: destroy,
+				steps: getCurrentStep,
+				on: bindEvent,
+				off: removeEvent,
+				get: valueGet,
+				set: valueSet,
+				reset: valueReset,
+				// Exposed for unit testing, don't use this in your application.
+				__moveHandles: function __moveHandles(a, b, c) {
+					moveHandles(a, b, scope_Locations, c);
+				},
+				options: originalOptions, // Issue #600, #678
+				updateOptions: updateOptions,
+				target: scope_Target, // Issue #597
+				pips: pips // Issue #594
+			};
+	
+			// Attach user events.
+			bindSliderEvents(options.events);
+	
+			// Use the public value method to set the start values.
+			valueSet(options.start);
+	
+			if (options.pips) {
+				pips(options.pips);
+			}
+	
+			if (options.tooltips) {
+				tooltips();
+			}
+	
+			return scope_Self;
+		}
+	
+		// Run the standard initializer
+		function initialize(target, originalOptions) {
+	
+			if (!target.nodeName) {
+				throw new Error("noUiSlider (" + VERSION + "): create requires a single element.");
+			}
+	
+			// Test the options and create the slider environment;
+			var options = testOptions(originalOptions, target);
+			var api = closure(target, options, originalOptions);
+	
+			target.noUiSlider = api;
+	
+			return api;
+		}
+	
+		// Use an object instead of a function for future expansibility;
+		return {
+			version: VERSION,
+			create: initialize
+		};
+	});
+
+/***/ },
+/* 164 */
+/***/ function(module, exports, __webpack_require__) {
+
 	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
 	
-	riot.tag2('usage', '<section class="stripe secondary"> <article> <markdown file="install"></markdown> <markdown file="usage"></markdown> <editor language="sass" code="{setup}"></editor> </article> </section>', '', '', function (opts) {});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
+	riot.tag2('home', '<section class="stripe primary"> <article> <h2>Philosophy</h2> <p> This page already does showcase FlexProperties in action. Just resize the window. </p> <div layout="row" class="benefits" layout-align="center start"> <div flex="100" flex-gt-sm="50" flex-gt-lg="25"> <img src="http://placekitten.com/650/150"> <h3>Just the layout</h3> <p>There is no theming provided at all. Just install and go.</p> <a href="#install" class="button">Install</a> </div> <div flex="100" flex-gt-sm="50" flex-gt-lg="25"> <img src="http://placekitten.com/650/150"> <h3>Layout belongs to the HTML</h3> <p>The structure of the document does not necesarilly depict how it will be layed out. But it is the fundamental layer where layout finds its place.</p> <a href="#play" class="button">See examples</a> </div> <div flex="100" flex-gt-sm="50" flex-gt-lg="25"> <img src="http://placekitten.com/650/150"> <h3>Responsive</h3> <p>Setting up custom breakpoints is a breeze, with a few sliders and switches, you can quickly pick features you require for your project.</p> <a href="#config" class="button">Set up</a> </div> <div flex="100" flex-gt-sm="50" flex-gt-lg="25"> <img src="http://placekitten.com/650/150"> <h3>Quick Sketching</h3> <p>Using the CSS properties to define layout directly in the HTML allows you to swiftly create entire pages.</p> <a href="#usage" class="button">Search Documentation</a> </div> </div> </article> </section>', '', '', function (opts) {});
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
+
+/***/ },
+/* 165 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
+	
+	riot.tag2('install', '<section class="stripe light"> <article> <markdown file="install"></markdown> </article> </section> <section class="stripe secondary"> <h2>Need help setting up FlexProperties?</h2> <a href="#config" class="button">Check configuration</a> </section>', '', '', function (opts) {});
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
+
+/***/ },
+/* 166 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
+	
+	riot.tag2('play', '<section class="stripe secondary"> <article> <markdown file="install"></markdown> <markdown file="usage"></markdown> <editor language="sass" code="{setup}"></editor> </article> </section>', '', '', function (opts) {});
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
+
+/***/ },
+/* 167 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
+	
+	riot.tag2('usage', '<section class="stripe light"> <article> <markdown file="usage"></markdown> </article> </section>', '', '', function (opts) {});
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
 
 /***/ }
 /******/ ]);
