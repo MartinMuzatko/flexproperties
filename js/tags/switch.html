@@ -10,7 +10,11 @@
         </div>
     </div>
     <script>
-        this.state = opts.state || true
+        if (opts.state == 'false' || !opts.state) {
+            this.state = false
+        } else {
+            this.state = true
+        }
 
         switchState(e) {
             this.state = !this.state

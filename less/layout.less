@@ -20,6 +20,15 @@ LAYOUT
 	}
 }
 
+.slider {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin: 4em 0;
+    padding: .5em;
+}
+
+.slider-handle {
+    margin: 1em 2em 3em;
+}
 
 footer {
 	.stripe(large, 30*16, @color-dark);
@@ -40,8 +49,11 @@ main > section {
 
 header {
 	padding: 1em 2em;
-	background: hsl(@hue, 30%, 40%);
+	background: @color-primary;
     color: @color-light;
+    h1 a {
+        color: @color-light;
+    }
 }
 
 nav a {
@@ -53,7 +65,7 @@ nav a {
     transition: .2s all ease;
     &:hover {
         background: white;
-        color: hsl(@hue, 30%, 40%);
+        color: @color-primary;
     }
 }
 

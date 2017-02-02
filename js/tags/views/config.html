@@ -5,11 +5,19 @@
         </article>
     </section>
     <section each={item, key in configItems}>
-        <article>
+        <article ref={key}>
             <h2>{item.title}</h2>
             <div layout="row" layout-align="space-between start">
                 <raw flex="75" content={item.description}></raw>
-                <switch flex="25" ref={key}></switch>
+                <switch state={item.config.data.enabled} ref={key}></switch>
+            </div>
+            <div if={item.config.type == 'ranges'}>
+                <div class="slider" layout="row" layout-align="space-between center" each={range, rangeKey in item.config.data}>
+                    <input data-target={parent.key} size="8" class="slider-label" type="text" onkeyup={renameRange} value={rangeKey}>
+                    <div flex-auto class="slider-handle" ref="{parent.key}-range-{rangeKey}"></div>
+                    <a data-target={parent.key} onclick={removeRange} class="button round">&times;</a>
+                </div>
+                <a class="slider-add button round" onclick={addRange}>+</a>
             </div>
         </article>
     </section>
@@ -26,6 +34,8 @@
         import '../raw.html'
         import '../switch.html'
         import '../markdown.html'
+        import noUiSlider from 'nouislider'
+
         this.configuration = `
         $breakpoints: (
             (sm, 40em)
@@ -35,13 +45,86 @@
         $ie: false;
         $flex-step: 5;
         `
+
+        addRange(e) {
+            let data = e.item.item.config.data
+            let rangeConfig = e.item.item.config.range
+            if (!e.item.item.config.data.hasOwnProperty('new')) {
+                e.item.item.config.data.new = (rangeConfig.max - rangeConfig.min) / 2
+                this.update()
+                this.initSlider(e.item.item, 'new')
+            }
+        }
+
+        removeRange(e) {
+            if (this.configItems.hasOwnProperty(e.target.dataset.target)) {
+                delete this.configItems[e.target.dataset.target].config.data[e.item.rangeKey]
+            }
+        }
+
+        renameRange(e) {
+            if (this.configItems.hasOwnProperty(e.target.dataset.target)) {
+                if (e.target.value.length) {
+                    let rangeKey = e.item.rangeKey
+                    let data = this.configItems[e.target.dataset.target].config.data
+                    delete data[rangeKey]
+                    data[e.target.value] = e.item.range
+
+                    //this.configItems[e.target.dataset.target].config.data[e.item.rangeKey]
+                }
+            }
+            console.log(this.configItems['breakpoints'].config.data);
+        }
+
+        this.initSlider = (configItem, key) => {
+            let range = configItem.config.data[key]
+            noUiSlider.create(this.refs[`${configItem.name}-range-${key}`], {
+                start: range,
+                pips: {
+                    mode: 'count',
+                    values: 6,
+                    density: 2
+                },
+                step: configItem.config.range.step,
+                tooltips: [true],
+                range: {
+                    min: configItem.config.range.min,
+                    max: configItem.config.range.max
+                }
+            })
+        }
+
+        this.on('mount', ()=>{
+            let configItems = Object.keys(this.configItems).map(item=>{
+                this.configItems[item].name = item
+                return this.configItems[item]
+            })
+
+            let rangeConfigItems = configItems.filter(item=>item.config.type=='ranges')
+            for (let configItem in rangeConfigItems) {
+                configItem = rangeConfigItems[configItem]
+                console.log(configItem);
+                for (let key in configItem.config.data) {
+                    this.initSlider(configItem, key)
+                }
+            }
+        })
+
         this.configItems = {
             'breakpoints' : {
                 title: 'Breakpoints',
                 description: '<p>With this, you can set up the amount of breakpoints</p>',
-                lines: 10,
+                lines: {
+                    global: 10,
+                    breakpoint: 10
+                },
                 config: {
-                    type: 'range',
+                    type: 'ranges',
+                    range: {
+                        min: 320,
+                        max: 1920,
+                        step: 32
+                    },
                     data: {
                         sm: 640,
                         md: 960,
@@ -51,58 +134,87 @@
             },
             'steps' : {
                 title: 'Steps',
-                description: '',
-                lines: 10,
+                description: '<p>Sets the amount of steps. So for example all 5%, we create a property: flex="5", flex="10"</p>',
+                lines: {
+                    global: 10,
+                    breakpoint: 10,
+                },
                 config: {
                     type: 'range',
+                    range: [1,2,4,5,10,20,25,50],
+                    data: 5
                 }
             },
             'feature-layout' : {
                 title: 'feature-layout',
                 description: '',
-                lines: 10,
+                lines: {
+                    global: 10,
+                    breakpoint: 10
+                },
                 config: {
                     type: 'switch',
+                    data: { enabled: true}
                 }
             },
             'feature-layout-align' : {
                 title: 'feature-layout-align',
                 description: '',
-                lines: 10,
+                lines: {
+                    global: 10,
+                    breakpoint: 10
+                },
                 config: {
                     type: 'switch',
+                    data: { enabled: false}
                 }
             },
             'feature-flex' : {
                 title: 'feature-flex',
                 description: '',
-                lines: 10,
+                lines: {
+                    global: 10,
+                    breakpoint: 10
+                },
                 config: {
                     type: 'switch',
+                    data: { enabled: true}
                 }
             },
             'feature-visibility' : {
                 title: 'feature-visibility',
                 description: '',
-                lines: 10,
+                lines: {
+                    global: 10,
+                    breakpoint: 10
+                },
                 config: {
                     type: 'switch',
+                    data: { enabled: true}
                 }
             },
             'feature-order' : {
                 title: 'feature-order',
                 description: '',
-                lines: 10,
+                lines: {
+                    global: 10,
+                    breakpoint: 10
+                },
                 config: {
                     type: 'switch',
+                    data: { enabled: true}
                 }
             },
             'feature-offset' : {
                 title: 'feature-offset',
                 description: '',
-                lines: 10,
+                lines: {
+                    global: 10,
+                    breakpoint: 10
+                },
                 config: {
                     type: 'switch',
+                    data: { enabled: true}
                 }
             },
         }

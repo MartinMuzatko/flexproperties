@@ -7,11 +7,10 @@ BUTTON COMPONENT
 * @color: color
 ======================================== */
 
-.button(@color: @color-primary, @type: outline) {
+.button(@color: @color-primary, @type: full) {
     display: inline-block;
     user-select: none;
     width: auto;
-    margin-top: 1em;
     border-radius: .1em;
     font-size: 1em;
     cursor: pointer;
@@ -53,8 +52,15 @@ BUTTON COMPONENT
     }
 }
 
+p + .button {
+    margin-top: 1em;
+}
+
 .button {
     .button();
+    &.round {
+        border-radius: 100%;
+    }
     &.outline {
         .button(@color-primary, @type: outline);
     }
