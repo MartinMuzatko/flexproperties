@@ -21,9 +21,9 @@ LAYOUT
 }
 
 .slider {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    .card(@color-light);
     margin: 4em 0;
-    padding: .5em;
+    padding: 1em;
 }
 
 .slider-handle {
@@ -77,5 +77,51 @@ nav a {
     img {
         box-shadow: 0 .1em .2em @color-dark-shadow;
         border-radius: .1em;
+    }
+}
+
+.code {
+    margin: 1em 0;
+    .code-example {
+        margin: 0;
+        border-radius: .3em .3em 0 0;
+    }
+    .code-preview {
+        border-radius: 0 0 .3em .3em;
+        padding: .5em;
+        min-height: 100%;
+        border: 1px solid @color-dark;
+        > section, > div, > article, > ul, > ol {
+            height: 100%;
+        }
+    }
+    @media screen and (min-width: @breakpoint-md) {
+        .code-example {
+            border-radius: .3em 0 0 .3em;
+        }
+        .code-preview {
+            border-radius: 0 .3em .3em 0;
+        }
+    }
+}
+
+.code-preview {
+    font-size: .7em;
+    h2,h3,h4 {
+        margin-top: 0;
+    }
+    .breadcrumbs {
+        margin: 0;
+        list-style: none;
+        li {
+            margin: 0;
+            &:after {
+                content: "/";
+                padding-left: 1ex;
+            }
+            &:before {
+                content: "";
+            }
+        }
     }
 }
