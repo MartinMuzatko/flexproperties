@@ -9,10 +9,10 @@
             <h2>{item.title}</h2>
             <div layout="row" layout-align="space-between start">
                 <raw flex="75" content={item.description}></raw>
-                <switch state={item.config.data.enabled} ref={key}></switch>
+                <switch if={item.config.type == 'switch'} state={item.data.switch.enabled} ref={key}></switch>
             </div>
             <div if={item.config.type == 'ranges'}>
-                <div class="slider" layout="row" layout-align="space-between center" each={range, rangeKey in item.config.data}>
+                <div class="slider" layout="row" layout-align="space-between center" each={range, rangeKey in item.data.ranges}>
                     <input data-target={parent.key} size="8" class="slider-label" type="text" onkeyup={renameRange} value={rangeKey}>
                     <div flex-auto class="slider-handle" ref="{parent.key}-range-{rangeKey}"></div>
                     <a data-target={parent.key} onclick={removeRange} class="button round">&times;</a>
@@ -47,10 +47,10 @@
         `
 
         addRange(e) {
-            let data = e.item.item.config.data
+            let data = e.item.item.data.ranges
             let rangeConfig = e.item.item.config.range
-            if (!e.item.item.config.data.hasOwnProperty('new')) {
-                e.item.item.config.data.new = (rangeConfig.max - rangeConfig.min) / 2
+            if (!data.hasOwnProperty('new')) {
+                data.new = (rangeConfig.max - rangeConfig.min) / 2
                 this.update()
                 this.initSlider(e.item.item, 'new')
             }
@@ -58,7 +58,7 @@
 
         removeRange(e) {
             if (this.configItems.hasOwnProperty(e.target.dataset.target)) {
-                delete this.configItems[e.target.dataset.target].config.data[e.item.rangeKey]
+                delete this.configItems[e.target.dataset.target].data.ranges[e.item.rangeKey]
             }
         }
 
@@ -66,30 +66,31 @@
             if (this.configItems.hasOwnProperty(e.target.dataset.target)) {
                 if (e.target.value.length) {
                     let rangeKey = e.item.rangeKey
-                    let data = this.configItems[e.target.dataset.target].config.data
+                    let data = this.configItems[e.target.dataset.target].data.ranges
                     delete data[rangeKey]
                     data[e.target.value] = e.item.range
 
                     //this.configItems[e.target.dataset.target].config.data[e.item.rangeKey]
                 }
             }
-            console.log(this.configItems['breakpoints'].config.data);
+            console.log(this.configItems['breakpoints'].data.ranges);
         }
 
         this.initSlider = (configItem, key) => {
-            let range = configItem.config.data[key]
+            let range = configItem.data.ranges[key]
+            let config = configItem.config
             noUiSlider.create(this.refs[`${configItem.name}-range-${key}`], {
                 start: range,
                 pips: {
-                    mode: 'count',
-                    values: 6,
-                    density: 2
+                    mode: config.range.pips.mode,
+                    values: config.range.pips.values,
+                    density: config.range.pips.density
                 },
-                step: configItem.config.range.step,
+                step: config.range.step,
                 tooltips: [true],
                 range: {
-                    min: configItem.config.range.min,
-                    max: configItem.config.range.max
+                    min: config.range.min,
+                    max: config.range.max
                 }
             })
         }
@@ -104,7 +105,7 @@
             for (let configItem in rangeConfigItems) {
                 configItem = rangeConfigItems[configItem]
                 console.log(configItem);
-                for (let key in configItem.config.data) {
+                for (let key in configItem.data.ranges) {
                     this.initSlider(configItem, key)
                 }
             }
@@ -123,12 +124,19 @@
                     range: {
                         min: 320,
                         max: 1920,
-                        step: 32
+                        step: 32,
+                        pips: {
+                            mode: 'count',
+                            values: 6,
+                            density: 2
+                        }
                     },
-                    data: {
+                },
+                data: {
+                    ranges: {
                         sm: 640,
                         md: 960,
-                        lg: 1280,
+                        lg: 1280
                     }
                 }
             },
@@ -141,8 +149,12 @@
                 },
                 config: {
                     type: 'range',
-                    range: [1,2,4,5,10,20,25,50],
-                    data: 5
+                    range: {
+                        values: [1,2,4,5,10,20,25,50]
+                    },
+                },
+                data: {
+                    range: {value: 5}
                 }
             },
             'feature-layout' : {
@@ -154,7 +166,11 @@
                 },
                 config: {
                     type: 'switch',
-                    data: { enabled: true}
+                },
+                data: {
+                    switch: {
+                        enabled: true
+                    }
                 }
             },
             'feature-layout-align' : {
@@ -166,7 +182,11 @@
                 },
                 config: {
                     type: 'switch',
-                    data: { enabled: false}
+                },
+                data: {
+                    switch: {
+                        enabled:false
+                    }
                 }
             },
             'feature-flex' : {
@@ -178,7 +198,11 @@
                 },
                 config: {
                     type: 'switch',
-                    data: { enabled: true}
+                },
+                data: {
+                    switch: {
+                        enabled: true
+                    }
                 }
             },
             'feature-visibility' : {
@@ -190,7 +214,11 @@
                 },
                 config: {
                     type: 'switch',
-                    data: { enabled: true}
+                },
+                data: {
+                    switch: {
+                        enabled: true
+                    }
                 }
             },
             'feature-order' : {
@@ -202,7 +230,11 @@
                 },
                 config: {
                     type: 'switch',
-                    data: { enabled: true}
+                },
+                data: {
+                    switch: {
+                        enabled: true
+                    }
                 }
             },
             'feature-offset' : {
@@ -214,7 +246,11 @@
                 },
                 config: {
                     type: 'switch',
-                    data: { enabled: true}
+                },
+                data: {
+                    switch: {
+                        enabled: true
+                    }
                 }
             },
         }
