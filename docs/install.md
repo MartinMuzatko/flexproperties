@@ -1,9 +1,13 @@
-### Download via Package Manager
+## Download via Package Manager
 
 ``` shell
 npm install flexproperties
 ```
 
-### Download Source
+## Download Source
+
+See github
+
+## Download pre-built
 
 See github
