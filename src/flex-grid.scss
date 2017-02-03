@@ -4,6 +4,24 @@ $breakpoints: (
     (lg, 1200px)
 ) !default;
 
+$features: (
+  'order'
+  'offset'
+  'layout'
+  'flex'
+  'layout-align'
+  'visibility'
+) !default;
+
+$breakpoint-features: (
+  'order'
+  'offset'
+  'layout'
+  'flex'
+  'layout-align'
+  'visibility'
+) !default;
+
 $ie: false !default;
 
 $layout-gutter-width: 1em !default;
@@ -353,16 +371,30 @@ $flex-steps: (100 / $flex-step) !default;
 }
 
 @mixin layouts-for-breakpoint($name:null) {
+    // flex-offset="10"
+    @if ((index($features, 'offset') and $name == null) or ($name != null and index($breakpoint-features, 'offset'))) {
+      @include offset-for-name($name);
+    }
     // flex-order="2"
-    @include order-for-name($name);
+    @if ((index($features, 'order') and $name == null) or ($name != null and index($breakpoint-features, 'order'))) {
+      @include order-for-name($name);
+    }
     // layout="row"
-    @include layout-for-name($name);
+    @if ((index($features, 'layout') and $name == null) or ($name != null and index($breakpoint-features, 'layout'))) {
+      @include layout-for-name($name);
+    }
     // layout-align="center center"
-    @include layout-align-for-name($name);
+    @if ((index($features, 'layout-align') and $name == null) or ($name != null and index($breakpoint-features, 'layout-align'))) {
+      @include layout-align-for-name($name);
+    }
     // flex="50"
-    @include flex-for-name($name);
+    @if ((index($features, 'flex') and $name == null) or ($name != null and index($breakpoint-features, 'flex'))) {
+      @include flex-for-name($name);
+    }
     // hide / show
-    @include visibility-for-name($name);
+    @if ((index($features, 'visibility') and $name == null) or ($name != null and index($breakpoint-features, 'visibility'))) {
+      @include visibility-for-name($name);
+    }
 }
 
 @mixin media-layouts() {
@@ -389,12 +421,9 @@ $flex-steps: (100 / $flex-step) !default;
 }
 
 /* GENERIC LAYOUTS */
-@include offset-for-name();
 @include layouts-for-breakpoint();
 
 @if variable-exists(breakpoints) {
     /* RESPONSIVE LAYOUTS */
     @include media-layouts();
 }
-
-@include layout-padding-margin-wrap();
