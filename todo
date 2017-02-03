@@ -1,0 +1,60 @@
+content
+    home
+        nav
+        logo
+        project summary
+        Version 1.x.x - summary
+
+        install
+        benefits
+
+
+    benefits/philosophy
+        Just layout! No theming!
+        layout belongs to the Markup/HTML
+        Any breakpoints
+        mobile-first
+        quick sketching
+
+    play
+        with buttons (layout, layout-align, etc)
+        examples
+
+    config
+        breakpoints
+        features
+            layout
+            order
+            offset
+            flex
+            layout-align
+            visibility
+        per breakpoint or only once
+            breakpointFeatures
+            globalFeatures
+        steps
+            5*20 + (33,66)
+        IE
+
+        configuration generator
+            all headings of configs have a switch + expand + (optionally settings).
+            On end of page: collapse all sections and present config.
+            Approx amount of lines
+
+    setup
+        npm install flexproperties
+        webpack
+            import ~
+        download (src/flex-grid.scss)
+        build (flex-maid)
+
+    usage
+        breakpoints
+        layout
+        layout-align
+        flex
+        flex-start
+        flex-end
+
+Title ideas:
+    flex properties (flex with html props)
