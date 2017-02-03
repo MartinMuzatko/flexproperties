@@ -1,30 +1,33 @@
 {
-  "name": "flexproperties",
-  "version": "1.0.2",
-  "description": "Reviving the once pouplar angular material grid property system",
-  "main": "index.js",
-  "scripts": {
-    "build": "nodejs index.js"
-  },
-  "homepage": "https://martinmuzatko.github.io/flexproperties",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MartinMuzatko/flexproperties.git"
-  },
-  "keywords": [
-    "flex",
-    "grid",
-    "css"
-  ],
-  "author": "MartinMuzatko",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MartinMuzatko/flexproperties/issues"
-  },
-  "devDependencies": {
-    "autoprefixer": "^6.3.6",
-    "node-sass": "^3.7.0",
-    "postcss": "^5.0.21",
-    "sass-loader": "^3.2.0"
-  }
+    "name": "flexproperties",
+    "version": "1.0.2",
+    "description": "Reviving the once pouplar angular material grid property system",
+    "main": "src/flex-grid.scss",
+    "scripts": {
+        "build": "nodejs index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MartinMuzatko/flexproperties.git"
+    },
+    "keywords": [
+        "layout",
+        "flex",
+        "flexbox",
+        "grid",
+        "css",
+        "sass"
+    ],
+    "author": "MartinMuzatko",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MartinMuzatko/flexproperties/issues"
+    },
+    "homepage": "https://martinmuzatko.github.io/flexproperties",
+    "devDependencies": {
+        "autoprefixer": "^6.3.6",
+        "node-sass": "^3.7.0",
+        "postcss": "^5.0.21",
+        "sass-loader": "^3.2.0"
+    }
 }
