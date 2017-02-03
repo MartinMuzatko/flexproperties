@@ -1,38 +1,38 @@
 {
-    "name": "flexproperties",
-    "version": "1.1.0",
-    "description": "Configurable & responsive CSS attributes to apply flexbox to your HTML",
-    "main": "src/flex-grid.scss",
-    "scripts": {
-        "build": "nodejs index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/MartinMuzatko/flexproperties.git"
-    },
-    "keywords": [
-        "layout",
-        "flex",
-        "responsive",
-        "flexbox",
-        "grid",
-        "css",
-        "sass"
-    ],
-    "author": {
-        "name" : "Martin Muzatko",
-        "email" : "martin@happy-css.com",
-        "url" : "https://happy-css.com"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/MartinMuzatko/flexproperties/issues"
-    },
-    "homepage": "https://martinmuzatko.github.io/flexproperties",
-    "devDependencies": {
-        "autoprefixer": "^6.3.6",
-        "node-sass": "^3.7.0",
-        "postcss": "^5.0.21",
-        "sass-loader": "^3.2.0"
-    }
+  "name": "flexproperties",
+  "version": "1.1.1",
+  "description": "Configurable & responsive CSS attributes to apply flexbox to your HTML",
+  "main": "src/flex-grid.scss",
+  "scripts": {
+    "build": "nodejs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinMuzatko/flexproperties.git"
+  },
+  "keywords": [
+    "layout",
+    "flex",
+    "responsive",
+    "flexbox",
+    "grid",
+    "css",
+    "sass"
+  ],
+  "author": {
+    "name": "Martin Muzatko",
+    "email": "martin@happy-css.com",
+    "url": "https://happy-css.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinMuzatko/flexproperties/issues"
+  },
+  "homepage": "https://martinmuzatko.github.io/flexproperties",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "node-sass": "^3.7.0",
+    "postcss": "^5.0.21",
+    "sass-loader": "^3.2.0"
+  }
 }
