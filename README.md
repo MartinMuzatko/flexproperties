@@ -1,10 +1,10 @@
 # FlexProperties
 
-![](https://img.shields.io/npm/dt/flexproperties.svg)
-![](https://img.shields.io/npm/v/flexproperties.svg)
-![](https://img.shields.io/npm/l/flexproperties.svg)
-![](https://img.shields.io/github/stars/martinmuzatko/flexproperties.svg?style=social&label=Star)
-![](https://img.shields.io/twitter/url/http/martinmuzatko.github.io/flexproperties.svg?style=social)
+[![Downloads](https://img.shields.io/npm/dt/flexproperties.svg)](https://img.shields.io/npm/dt/flexproperties.svg)
+[![Version](https://img.shields.io/npm/v/flexproperties.svg)](https://img.shields.io/npm/v/flexproperties.svg)
+[![License](https://img.shields.io/npm/l/flexproperties.svg)](https://img.shields.io/npm/l/flexproperties.svg)
+[![Star](https://img.shields.io/github/stars/martinmuzatko/flexproperties.svg?style=social&label=Star)](https://img.shields.io/github/stars/martinmuzatko/flexproperties.svg?style=social&label=Star)
+[![Tweet](https://img.shields.io/twitter/url/http/martinmuzatko.github.io/flexproperties.svg?style=social)](https://img.shields.io/twitter/url/http/martinmuzatko.github.io/flexproperties.svg?style=social)
 
 ## Install
 
