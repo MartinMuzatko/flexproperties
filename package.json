@@ -1,6 +1,6 @@
 {
   "name": "flexproperties",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Configurable & responsive CSS attributes to apply flexbox to your HTML",
   "main": "src/flex-grid.scss",
   "scripts": {
