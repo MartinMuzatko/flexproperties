@@ -15,7 +15,7 @@ Use flexbox in your HTML as part of the layout.
 
 FlexProperties enables you to create layouts as quickly as you can sketch a wireframe.
 
-Check out the [FlexProperties playground](http://run.plnkr.co/lRYMsHtCT3iL65Fg/)
+Check out the [FlexProperties playground](http://codepen.io/MartinMuzatko/full/EZeExR/)
 
 [Open Codepen](http://codepen.io/MartinMuzatko/pen/mRjgqX/)
 ```html
