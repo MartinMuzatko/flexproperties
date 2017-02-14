@@ -161,8 +161,16 @@ $flex-steps: (100 / $flex-step) !default;
         }
     }
 
-    [#{$flexName}-start]       { margin-bottom: auto; }
-    [#{$flexName}-end]         { margin-top: auto; }
+    [layout="column"],
+    [layout#{$name}="column"] {
+        > [#{$flexName}-start]       { margin-bottom: auto; }
+        > [#{$flexName}-end]         { margin-top: auto; }
+    }
+    [layout="row"],
+    [layout#{$name}="row"] {
+        > [#{$flexName}-start]       { margin-right: auto; }
+        > [#{$flexName}-end]         { margin-left: auto; }
+    }
     [#{$flexName}-none]        { flex: 0 0 auto; }
     [#{$flexName}-initial]     { flex: 0 1 auto; }
     [#{$flexName}-noshrink]    { flex: 1 0 auto; }
