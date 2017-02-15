@@ -1,0 +1,141 @@
+<playground>
+
+    <code>&lt;div layout="{selLayout}" layout-align="{selAlign}{space}{selAlign2}"&gt;</code>
+    <section name="cont" class="cont" layout="{selLayout}" layout-align="{selAlign} {selAlign2}">
+        <div flex="{box.flex}" each={box, index in boxes} layout layout-align="center center">
+            Box {index + 1}
+        </div>
+    </section>
+    <code>&lt;/div&gt;</code>
+    <menu>
+
+        <a onclick={addBox}>
+            Add Box
+        </a>
+        <a onclick={removeBox}>
+            Remove Box
+        </a>
+        <h3>Layout</h3>
+            <a class={active: !!~layout.indexOf(selLayout)} onclick={setLayout} each={layout in layouts}>
+                {layout}
+            </a>
+        <h3>Align {axis[0]}</h3>
+            <a class={active: !!~align.indexOf(selAlign)&&selAlign!=''} onclick={setAlign} each={align in aligns}>
+                {align}
+            </a>
+        <h3>Align {axis[1]}</h3>
+            <a class={active: !!~align2.indexOf(selAlign2)&&selAlign2!=''} onclick={setAlign2} each={align2 in aligns2}>
+                {align2}
+            </a>
+    </menu>
+    <script>
+        this.aligns = [
+            'start',
+            'center',
+            'end',
+            'space-around',
+            'space-between',
+        ]
+        this.axis = ['main', 'cross']
+        this.aligns2 = this.aligns.slice(0,3)
+        this.layouts = ['row', 'column']
+        this.space = ' '
+
+        this.selLayout = 'row'
+        this.selAlign = 'space-around'
+        this.selAlign2 = ''
+
+        this.boxes = [
+            {
+                flex: 20,
+            },
+            {
+                flex: 20,
+            },
+            {
+                flex: 20
+            }
+        ]
+
+        addBox(e) {
+            this.boxes.push({flex:20})
+        }
+
+        removeBox(e) {
+            this.boxes.pop()
+        }
+
+
+        setAlign(e) {
+            this.selAlign = e.item.align == this.selAlign ? '' : e.item.align
+        }
+        setAlign2(e) {
+            this.selAlign2 = e.item.align2 == this.selAlign2 ? '' : e.item.align2
+        }
+        setLayout(e) {
+            this.selLayout = e.item.layout
+        }
+        this.on('update', () => {
+            this.space = ' '
+            if (this.selAlign == '' || this.selAlign2 == '') {
+                this.space = ''
+            }
+            this.axis = this.selLayout == 'row' ? ['main', 'cross'] : ['cross', 'main']
+        })
+    </script>
+    <style>
+        :scope div, :scope section
+        {
+          background: hsla(0, 50%, 0%, .5);
+          padding: 1em;
+          color: #d8fafd;
+        }
+
+        :scope code {
+          margin: 0;
+          line-height: 1;
+          position: absolute;
+          background: transparent;
+          padding: .1em;
+          color: hsla(0, 100%, 100%, .75);
+
+        }
+
+        :scope section + code {
+          margin-top: -1em;
+        }
+
+        :scope section {
+          height: 16em;
+        }
+
+        :scope section div {
+            border: 1px solid rgba(255,255,255, .5);
+        }
+
+        :scope * {
+          transition: color opacity background .35s ease;
+        }
+
+        :scope a {
+          border: 1px solid black;
+          margin: .25em;
+          display: inline-block;
+          cursor: pointer;
+          padding: .25em;
+          text-align: center;
+        }
+        :scope a:hover, .active {
+          background: black;
+          color: white;
+        }
+
+        :scope a:hover {
+            background: rgba(0,0,0,.5);
+        }
+
+        :scope a.active:hover {
+            background: black;
+        }
+    </style>
+</playground>

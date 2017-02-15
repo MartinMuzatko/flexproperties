@@ -44748,7 +44748,7 @@
 		"./home.html": 164,
 		"./install.html": 165,
 		"./play.html": 166,
-		"./usage.html": 167
+		"./usage.html": 168
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -47167,11 +47167,67 @@
 
 	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
 	
-	riot.tag2('play', '<section class="stripe secondary"> <article> <markdown file="install"></markdown> <markdown file="usage"></markdown> <editor language="sass" code="{setup}"></editor> </article> </section>', '', '', function (opts) {});
+	__webpack_require__(167);
+	
+	riot.tag2('play', '<section class="stripe dark"> <article> <playground></playground> <editor language="sass" code="{setup}"></editor> </article> </section>', '', '', function (opts) {});
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
 
 /***/ },
 /* 167 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
+	
+	riot.tag2('playground', '<code>&lt;div layout="{selLayout}" layout-align="{selAlign}{space}{selAlign2}"&gt;</code> <section name="cont" class="cont" layout="{selLayout}" layout-align="{selAlign} {selAlign2}"> <div flex="{box.flex}" each="{box, index in boxes}" layout layout-align="center center"> Box {index + 1} </div> </section> <code>&lt;/div&gt;</code> <menu> <a onclick="{addBox}"> Add Box </a> <a onclick="{removeBox}"> Remove Box </a> <h3>Layout</h3> <a class="{active: !!~layout.indexOf(selLayout)}" onclick="{setLayout}" each="{layout in layouts}"> {layout} </a> <h3>Align {axis[0]}</h3> <a class="{active: !!~align.indexOf(selAlign)&&selAlign!=\'\'}" onclick="{setAlign}" each="{align in aligns}"> {align} </a> <h3>Align {axis[1]}</h3> <a class="{active: !!~align2.indexOf(selAlign2)&&selAlign2!=\'\'}" onclick="{setAlign2}" each="{align2 in aligns2}"> {align2} </a> </menu>', 'playground div,[data-is="playground"] div,playground section,[data-is="playground"] section{ background: hsla(0, 50%, 0%, .5); padding: 1em; color: #d8fafd; } playground code,[data-is="playground"] code{ margin: 0; line-height: 1; position: absolute; background: transparent; padding: .1em; color: hsla(0, 100%, 100%, .75); } playground section + code,[data-is="playground"] section + code{ margin-top: -1em; } playground section,[data-is="playground"] section{ height: 16em; } playground section div,[data-is="playground"] section div{ border: 1px solid rgba(255,255,255, .5); } playground *,[data-is="playground"] *{ transition: color opacity background .35s ease; } playground a,[data-is="playground"] a{ border: 1px solid black; margin: .25em; display: inline-block; cursor: pointer; padding: .25em; text-align: center; } playground a:hover,[data-is="playground"] a:hover,playground .active,[data-is="playground"] .active{ background: black; color: white; } playground a:hover,[data-is="playground"] a:hover{ background: rgba(0,0,0,.5); } playground a.active:hover,[data-is="playground"] a.active:hover{ background: black; }', '', function (opts) {
+	    var _this = this;
+	
+	    this.aligns = ['start', 'center', 'end', 'space-around', 'space-between'];
+	    this.axis = ['main', 'cross'];
+	    this.aligns2 = this.aligns.slice(0, 3);
+	    this.layouts = ['row', 'column'];
+	    this.space = ' ';
+	
+	    this.selLayout = 'row';
+	    this.selAlign = 'space-around';
+	    this.selAlign2 = '';
+	
+	    this.boxes = [{
+	        flex: 20
+	    }, {
+	        flex: 20
+	    }, {
+	        flex: 20
+	    }];
+	
+	    this.addBox = function (e) {
+	        this.boxes.push({ flex: 20 });
+	    }.bind(this);
+	
+	    this.removeBox = function (e) {
+	        this.boxes.pop();
+	    }.bind(this);
+	
+	    this.setAlign = function (e) {
+	        this.selAlign = e.item.align == this.selAlign ? '' : e.item.align;
+	    }.bind(this);
+	    this.setAlign2 = function (e) {
+	        this.selAlign2 = e.item.align2 == this.selAlign2 ? '' : e.item.align2;
+	    }.bind(this);
+	    this.setLayout = function (e) {
+	        this.selLayout = e.item.layout;
+	    }.bind(this);
+	    this.on('update', function () {
+	        _this.space = ' ';
+	        if (_this.selAlign == '' || _this.selAlign2 == '') {
+	            _this.space = '';
+	        }
+	        _this.axis = _this.selLayout == 'row' ? ['main', 'cross'] : ['cross', 'main'];
+	    });
+	});
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
+
+/***/ },
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(riot) {'use strict';
